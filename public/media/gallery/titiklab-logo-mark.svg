@@ -1,0 +1,14 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">TitikLab ornamental mark</title>
+  <defs>
+    <linearGradient id="mark" x1="12" y1="76" x2="84" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#810000"/>
+      <stop offset="1" stop-color="#D88722"/>
+    </linearGradient>
+  </defs>
+  <path d="M18 73C31 58 42 47 54 39C64 32 75 28 84 28" stroke="url(#mark)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M25 58C31 42 42 29 58 19C50 31 50 42 61 51C48 50 36 52 25 58Z" fill="url(#mark)" opacity=".92"/>
+  <path d="M55 39C61 34 68 35 72 40C77 47 71 57 61 56C48 55 43 42 52 32C63 20 83 30 79 47" stroke="url(#mark)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M14 69C26 65 34 68 42 78C31 80 21 77 14 69Z" fill="#D88722" opacity=".88"/>
+  <path d="M14 26C25 33 31 42 32 55C21 50 15 40 14 26Z" fill="#810000" opacity=".72"/>
+</svg>
