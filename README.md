@@ -3,7 +3,7 @@
 **Pendigitalan Irama Kulintangan Bajau** — an open, educational platform preserving and
 promoting **Tagungguk**, the traditional Bajau kulintangan music of Semporna, Sabah.
 
-🌐 Live (soon): `titiklab.buildforpublic.com` · A [Build for Public](https://buildforpublic.com) project
+🌐 Live: _domain to be confirmed_ · Community-owned, built in public with the [Build for Public](https://buildforpublic.com) volunteer community
 
 ---
 
@@ -111,4 +111,5 @@ Defined in `app/globals.css` (`@theme`) — the source of truth for the palette:
 ## Credits
 
 Built in public for the public by the TitikLab community, in partnership with **Cikgu Rosley**
-and **Sulimbag Jawtee** (Semporna, Sabah), as part of [Build for Public](https://buildforpublic.com).
+and **Sulimbag Jawtee** (Semporna, Sabah), with support from the
+[Build for Public](https://buildforpublic.com) volunteer community.

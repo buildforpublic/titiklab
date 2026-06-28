@@ -1,13 +1,18 @@
 export const SITE = {
   name: "TitikLab",
   tagline: "Pendigitalan Irama Kulintangan Bajau",
-  domain: "titiklab.buildforpublic.com",
-  url: "https://titiklab.buildforpublic.com",
+  // TODO: Domain not confirmed yet. This is a placeholder used only to resolve
+  // metadata/Open Graph URLs at build time. The site belongs to the NGO/community —
+  // it is NOT a Build for Public subdomain. Replace once the real domain is decided.
+  domain: "titiklab.org",
+  url: "https://titiklab.org",
   description:
     "An educational platform preserving and promoting Tagungguk — the traditional Bajau kulintangan music of Semporna, Sabah. Learn the history, the five titik, the instruments, and the rhythms.",
-  email: "hello@buildforpublic.com", // TODO: update with the project's real contact email
+  email: "hello@titiklab.org", // TODO: update with the project's real contact email
   github: "https://github.com/buildforpublic/titiklab",
-  parent: {
+  // Build for Public supports this project as part of the open-source community —
+  // it does not own the project or its cultural content.
+  community: {
     name: "Build for Public",
     url: "https://buildforpublic.com",
   },

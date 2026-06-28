@@ -31,9 +31,9 @@ export default function AboutPage() {
             <li>Download educational resources such as a learning pamphlet.</li>
           </ul>
           <p>
-            TitikLab is an open-source project built in public as part of{" "}
-            <a href={SITE.parent.url}>{SITE.parent.name}</a>. Anyone can contribute — code,
-            research, photos, recordings, or translations.
+            TitikLab is an open-source project owned by its community and built in public with
+            support from the <a href={SITE.community.url}>{SITE.community.name}</a> volunteer
+            community. Anyone can contribute — code, research, photos, recordings, or translations.
           </p>
         </div>
       </Section>

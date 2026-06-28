@@ -33,8 +33,8 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href={SITE.parent.url} className="hover:text-[var(--color-ocean-deep)]">
-                A {SITE.parent.name} project
+              <a href={SITE.community.url} className="hover:text-[var(--color-ocean-deep)]">
+                Supported by {SITE.community.name}
               </a>
             </li>
           </ul>

@@ -23,7 +23,8 @@ TitikLab is in early development. This roadmap is a living document — propose 
 - [ ] Bahasa Malaysia translation / language toggle
 - [ ] Accessibility pass (keyboard nav, alt text, contrast)
 - [ ] Mobile navigation polish
-- [ ] Connect domain `titiklab.buildforpublic.com` and register in the Build for Public directory
+- [ ] Decide and connect the project's own domain (community-owned, TBD)
+- [ ] If the community wishes, list the project in the Build for Public directory
 
 ## Later ideas
 - [ ] Interactive rhythm player (tap along to a titik)
