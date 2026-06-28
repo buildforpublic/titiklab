@@ -13,9 +13,9 @@ export default function GalleryPage() {
 
   return (
     <Section
-      eyebrow="See & hear"
-      title="Photos & videos"
-      intro="Demonstrations and workshops by Sulimbag Jawtee and the wider Bajau community."
+      eyebrow="Galeri"
+      title="Sekolah dan komuniti yang dicapai"
+      intro="Dokumentasi sekolah, demonstrasi, dan aktiviti komuniti yang berkaitan dengan projek TitikLab."
     >
       <MediaGallery items={items} />
     </Section>

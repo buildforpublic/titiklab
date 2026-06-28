@@ -15,7 +15,7 @@ export default function InstrumentsPage() {
     <Section
       eyebrow="The ensemble"
       title="Instruments of a Tagungguk ensemble"
-      intro="A Tagungguk ensemble brings together gongs, a melodic kulintangan, and a drum. Each instrument has its own role in the rhythm."
+      intro="A Tagungguk ensemble brings together the kulintangan, agung, and tambul. Each instrument has its own role in the rhythm."
     >
       {instruments.length === 0 ? (
         <p className="text-[var(--color-ink-soft)]">

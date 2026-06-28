@@ -1,0 +1,51 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">TitikLab instrument logo</title>
+  <defs>
+    <linearGradient id="maroonOrange" x1="18" y1="106" x2="110" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#810000"/>
+      <stop offset=".55" stop-color="#B73716"/>
+      <stop offset="1" stop-color="#D88722"/>
+    </linearGradient>
+    <radialGradient id="gong" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(47 81) rotate(45) scale(20)">
+      <stop stop-color="#FFE2A3"/>
+      <stop offset=".52" stop-color="#D88722"/>
+      <stop offset="1" stop-color="#805117"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="#3A0000" flood-opacity=".22"/>
+    </filter>
+  </defs>
+
+  <circle cx="64" cy="64" r="54" fill="#FFF7EC"/>
+  <circle cx="64" cy="64" r="52" stroke="url(#maroonOrange)" stroke-width="5"/>
+
+  <g filter="url(#softShadow)">
+    <!-- Agung frame and hanging gong -->
+    <path d="M35 28H82C88 28 93 33 93 39V69" stroke="#810000" stroke-width="6" stroke-linecap="round"/>
+    <path d="M43 34C51 26 67 26 76 34" stroke="#D88722" stroke-width="4" stroke-linecap="round"/>
+    <path d="M61 35V52" stroke="#6B3C13" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="61" cy="64" r="15" fill="url(#gong)" stroke="#6B3C13" stroke-width="3"/>
+    <circle cx="61" cy="64" r="5" fill="#FFE2A3" stroke="#8A540F" stroke-width="2"/>
+
+    <!-- Tambul drum -->
+    <g transform="rotate(14 89 74)">
+      <path d="M80 58H104L110 82H86L80 58Z" fill="#F6D58C" stroke="#810000" stroke-width="4" stroke-linejoin="round"/>
+      <ellipse cx="92" cy="58" rx="13" ry="7" fill="#FFF3D0" stroke="#810000" stroke-width="4"/>
+      <path d="M85 64L107 76M91 64L110 75M98 64L103 83" stroke="#8A540F" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Kulintangan base -->
+    <path d="M20 84C36 78 75 78 103 84V101C78 95 45 95 20 101V84Z" fill="#2B1710" stroke="#810000" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M26 91C45 87 76 87 96 91" stroke="#D88722" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="33" cy="88" r="8" fill="url(#gong)" stroke="#6B3C13" stroke-width="2"/>
+    <circle cx="48" cy="86" r="8" fill="url(#gong)" stroke="#6B3C13" stroke-width="2"/>
+    <circle cx="64" cy="85" r="8" fill="url(#gong)" stroke="#6B3C13" stroke-width="2"/>
+    <circle cx="80" cy="86" r="8" fill="url(#gong)" stroke="#6B3C13" stroke-width="2"/>
+    <circle cx="95" cy="88" r="8" fill="url(#gong)" stroke="#6B3C13" stroke-width="2"/>
+    <circle cx="33" cy="88" r="2.6" fill="#FFF0B9"/>
+    <circle cx="48" cy="86" r="2.6" fill="#FFF0B9"/>
+    <circle cx="64" cy="85" r="2.6" fill="#FFF0B9"/>
+    <circle cx="80" cy="86" r="2.6" fill="#FFF0B9"/>
+    <circle cx="95" cy="88" r="2.6" fill="#FFF0B9"/>
+  </g>
+</svg>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Section from "@/components/Section";
 import PartnerCard from "@/components/PartnerCard";
+import PhoneInstrument from "@/components/PhoneInstrument";
 import { getJson, type Partner } from "@/lib/content";
 import { SITE } from "@/lib/constants";
 
@@ -36,6 +37,14 @@ export default function AboutPage() {
             community. Anyone can contribute — code, research, photos, recordings, or translations.
           </p>
         </div>
+      </Section>
+
+      <Section
+        eyebrow="Interaktif"
+        title="Ruang latihan digital"
+        intro="Satu bahagian khas untuk pengguna telefon mencuba bunyi asas kulintangan sebelum modul ritma lengkap ditambah."
+      >
+        <PhoneInstrument />
       </Section>
 
       {partners.length > 0 && (

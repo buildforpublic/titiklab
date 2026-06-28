@@ -1,14 +1,14 @@
 [
   {
     "type": "image",
-    "src": "/media/gallery/placeholder-demo.svg",
-    "caption": "Placeholder — add a real photo of a Tagungguk demonstration.",
-    "credit": "Photo credit goes here"
+    "src": "/media/gallery/smkdhpja.jpg",
+    "caption": "Sekolah Menengah Kebangsaan Datuk Haji Panglima Jakarullah (SMKDHPJA) — antara sekolah yang dicapai melalui projek TitikLab.",
+    "credit": "Sumber: Halaman Facebook SMKDHPJ"
   },
   {
-    "type": "youtube",
-    "src": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "caption": "Placeholder video — replace with a real Tagungguk performance link.",
-    "credit": "Video credit goes here"
+    "type": "image",
+    "src": "/media/gallery/smkdpa.jpg",
+    "caption": "Sekolah Menengah Kebangsaan Datuk Panglima Abdullah (SMKDPA) — antara sekolah yang dicapai melalui projek TitikLab.",
+    "credit": "Sumber: Halaman Facebook SMKDPA"
   }
 ]
