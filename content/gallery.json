@@ -1,0 +1,14 @@
+[
+  {
+    "type": "image",
+    "src": "/media/gallery/placeholder-demo.svg",
+    "caption": "Placeholder — add a real photo of a Tagungguk demonstration.",
+    "credit": "Photo credit goes here"
+  },
+  {
+    "type": "youtube",
+    "src": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "caption": "Placeholder video — replace with a real Tagungguk performance link.",
+    "credit": "Video credit goes here"
+  }
+]

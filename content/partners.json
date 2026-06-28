@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cikgu Rosley",
+    "role": "Research Partner",
+    "description": "Conducted academic research on Tagungguk, including the traditional rhythm codes (titik) that form the foundation of TitikLab's educational materials.",
+    "link": ""
+  },
+  {
+    "name": "Sulimbag Jawtee",
+    "role": "Music Group · Semporna, Sabah",
+    "description": "A traditional Bajau music group from Semporna verifying the musical content and conducting demonstrations during community workshops.",
+    "link": ""
+  },
+  {
+    "name": "Build for Public",
+    "role": "Open-source Community",
+    "description": "A community of volunteers shipping open-source software for public good and non-profits. TitikLab is built in public as a Build for Public project.",
+    "link": "https://buildforpublic.com"
+  }
+]
