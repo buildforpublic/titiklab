@@ -3,35 +3,42 @@ import { NAV_LINKS, SITE } from "@/lib/constants";
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b-2 border-[var(--color-border)] bg-[var(--color-bg)]/95 backdrop-blur">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
-        <Link href="/" className="flex items-baseline gap-2">
-          <span className="font-[family-name:var(--font-display)] text-xl font-700 text-[var(--color-ink)]">
-            {SITE.name}
-          </span>
-          <span className="hidden text-xs text-[var(--color-ink-faint)] sm:inline">
-            {SITE.tagline}
+    <header className="sticky top-0 z-50 border-b border-[var(--color-border-subtle)] bg-white/96 backdrop-blur">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+        <Link href="/" className="flex items-center gap-3">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/media/gallery/titiklab-instrument-logo.svg"
+            alt="TitikLab"
+            className="h-12 w-12 object-contain"
+          />
+          <span className="leading-tight">
+            <span className="block font-[family-name:var(--font-display)] text-xl font-700 text-[var(--color-ink)]">
+              {SITE.name}
+            </span>
+            <span className="hidden text-[0.67rem] font-600 text-[var(--color-ink-soft)] sm:block">
+              {SITE.tagline}
+            </span>
           </span>
         </Link>
-        <ul className="hidden items-center gap-6 md:flex">
+        <ul className="hidden items-center gap-7 md:flex">
           {NAV_LINKS.map((link) => (
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="text-sm font-500 text-[var(--color-ink-soft)] transition-colors hover:text-[var(--color-ocean-deep)]"
+                className="text-[0.72rem] font-700 uppercase text-[var(--color-ink-soft)] transition-colors hover:text-[var(--color-ocean-deep)]"
               >
                 {link.label}
               </Link>
             </li>
           ))}
         </ul>
-        {/* Mobile: simple link row. A polished menu is a good-first-issue. */}
         <details className="md:hidden">
-          <summary className="cursor-pointer list-none text-sm font-600">Menu</summary>
-          <ul className="absolute right-5 mt-2 flex flex-col gap-3 rounded-xl border-2 border-[var(--color-border)] bg-[var(--color-surface)] p-4 shadow-[4px_4px_0_var(--color-border)]">
+          <summary className="cursor-pointer list-none text-xs font-700 uppercase">Menu</summary>
+          <ul className="absolute right-5 mt-3 flex flex-col gap-3 border border-[var(--color-border-subtle)] bg-white p-4 shadow-lg">
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
-                <Link href={link.href} className="text-sm font-500">
+                <Link href={link.href} className="text-sm font-600">
                   {link.label}
                 </Link>
               </li>

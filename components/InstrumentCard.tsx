@@ -8,7 +8,7 @@ export default function InstrumentCard({ instrument }: { instrument: Instrument 
         <img
           src={instrument.image}
           alt={instrument.name}
-          className="h-44 w-full border-b-2 border-[var(--color-border)] object-cover"
+          className="h-56 w-full border-b-2 border-[var(--color-border)] bg-[#f7f5ef] object-contain p-3"
         />
       )}
       <div className="p-5">
