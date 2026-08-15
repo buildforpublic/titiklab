@@ -4,20 +4,20 @@
     "malayName": "Kulintangan",
     "role": "Melody",
     "description": "A row of small horizontally-laid bossed gongs, played melodically. The kulintangan carries the lead pattern of each titik. (Description placeholder — verify with the partners.)",
-    "image": "/media/gallery/instrument-kulintangan.jpg"
+    "image": "/media/gallery/instrument-kulintangan-hd.png"
   },
   {
     "name": "Agung",
     "malayName": "Agung",
     "role": "Bass / timekeeping",
     "description": "Standing hanging gongs that mark the underlying beat and anchor the ensemble. (Description placeholder — add the specific gongs used and their names.)",
-    "image": "/media/gallery/instrument-agung.jpg"
+    "image": "/media/gallery/instrument-agung-hd.png"
   },
   {
     "name": "Tambul",
     "malayName": "Tambul",
     "role": "Drum / rhythm",
     "description": "A silver drum that drives the rhythm alongside the gongs. (Description placeholder — TODO: confirm the drum type and playing technique.)",
-    "image": "/media/gallery/instrument-tambul.jpg"
+    "image": "/media/gallery/instrument-tambul-hd.png"
   }
 ]
