@@ -34,6 +34,43 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section className="heritage-intro grid items-center gap-8 border-b border-[var(--color-border-subtle)] px-6 py-10 sm:px-10 md:grid-cols-[220px_1fr] lg:px-14">
+          <div className="mx-auto max-w-[220px]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/media/gallery/titiklab-main-logo.png"
+              alt="Ilustrasi pemuzik Bajau memainkan gong"
+              className="heritage-logo w-full"
+            />
+          </div>
+          <div>
+            <p className="eyebrow">Tentang TitikLab</p>
+            <h2 className="mt-2 text-3xl font-700 text-[var(--color-ocean-deep)] sm:text-4xl">
+              Warisan muzik, dipelajari bersama
+            </h2>
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-[var(--color-ink-soft)] sm:text-base">
+              TitikLab ialah platform pembelajaran komuniti untuk memelihara dan memperkenalkan
+              Tagungguk, muzik kulintangan tradisional Bajau dari Semporna, Sabah. Di sini,
+              pelajar dan orang ramai boleh mengenali sejarah, alat muzik dan lima titik melalui
+              bahan digital yang mudah diterokai.
+            </p>
+            <div className="mt-6 grid gap-3 sm:grid-cols-3">
+              <div className="fact-card">
+                <strong>5 titik</strong>
+                <span>Irama tradisional untuk diterokai</span>
+              </div>
+              <div className="fact-card">
+                <strong>Audio & visual</strong>
+                <span>Pembelajaran melalui rakaman dan galeri</span>
+              </div>
+              <div className="fact-card">
+                <strong>Milik komuniti</strong>
+                <span>Dibina secara terbuka bersama rakan budaya</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="bg-white px-6 py-11 text-center sm:px-10">
           <p className="section-rule mx-auto max-w-2xl text-xl font-700 text-[var(--color-ocean-deep)]">
             Meneroka Irama Tagungguk

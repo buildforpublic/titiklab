@@ -3,19 +3,19 @@
 
 @theme {
   /* TitikLab palette — maroon heritage, Bajau textile orange, warm paper */
-  --color-bg: #f8efe4;
-  --color-surface: #fffaf2;
-  --color-ink: #17212a;
-  --color-ink-soft: #4d5962;
-  --color-ink-faint: #7a858d;
-  --color-border: #810000;
-  --color-border-subtle: #ead7bd;
+  --color-bg: #f7eddf;
+  --color-surface: #fffaf1;
+  --color-ink: #2a211d;
+  --color-ink-soft: #66554b;
+  --color-ink-faint: #8b7769;
+  --color-border: #8f2f25;
+  --color-border-subtle: #e4c99e;
 
   /* Brand */
-  --color-ocean: #810000;
-  --color-ocean-deep: #520000;
-  --color-brass: #d88722;
-  --color-coral: #c24b22;
+  --color-ocean: #9d392b;
+  --color-ocean-deep: #652219;
+  --color-brass: #c88a2b;
+  --color-coral: #bb5b35;
 
   /* Fonts */
   --font-display: "Fraunces", Georgia, serif;
@@ -41,6 +41,16 @@ body {
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+}
+
+.site-header {
+  background: rgba(255, 250, 241, 0.94);
+  box-shadow: 0 6px 24px rgba(101, 34, 25, 0.08);
+}
+
+.brand-logo {
+  border-radius: 999px;
+  filter: drop-shadow(0 4px 7px rgba(101, 34, 25, 0.16));
 }
 
 h1,
@@ -105,9 +115,11 @@ h4 {
 }
 
 .paper-shell {
-  background: rgba(255, 250, 242, 0.97);
+  background: rgba(255, 250, 241, 0.97);
   border: 2px solid var(--color-border);
-  box-shadow: 0 18px 45px rgba(129, 0, 0, 0.12), 0 0 0 8px rgba(216, 135, 34, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(101, 34, 25, 0.14), 0 0 0 8px rgba(200, 138, 43, 0.08);
+  overflow: hidden;
 }
 
 .hero-photo {
@@ -130,6 +142,49 @@ h4 {
   height: 1px;
   flex: 1;
   background: linear-gradient(90deg, transparent, rgba(185, 135, 54, 0.8), transparent);
+}
+
+.heritage-intro {
+  background:
+    radial-gradient(circle at 10% 20%, rgba(200, 138, 43, 0.14), transparent 18rem),
+    linear-gradient(125deg, #fffaf1, #f8ead7);
+}
+
+.heritage-logo {
+  border-radius: 999px;
+  filter: drop-shadow(0 14px 18px rgba(101, 34, 25, 0.2));
+}
+
+.eyebrow {
+  color: var(--color-coral);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.fact-card {
+  display: flex;
+  min-height: 7.25rem;
+  flex-direction: column;
+  gap: 0.45rem;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid rgba(143, 47, 37, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 250, 241, 0.78);
+}
+
+.fact-card strong {
+  color: var(--color-ocean-deep);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.fact-card span {
+  color: var(--color-ink-soft);
+  font-size: 0.75rem;
+  line-height: 1.55;
 }
 
 /* ── PROSE (rendered markdown) ── */
