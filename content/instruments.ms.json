@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Kulintangan",
+    "malayName": "Kulintangan",
+    "role": "Melodi",
+    "description": "Pusat melodi ensembel: sederet gong berbusut yang secara tradisional diperbuat daripada tembaga, walaupun besi kini boleh digunakan kerana tembaga sukar diperoleh. Temu bual mencatat sembilan biji gong kecil, tetapi jumlah ini masih KIV dan perlu disahkan. Pembuat mahir dikenal pasti di Matunggong, Kudat dan Kota Belud.",
+    "image": "/media/gallery/instrument-kulintangan-hd.png"
+  },
+  {
+    "name": "Agung",
+    "malayName": "Agung",
+    "role": "Bass / penjaga tempo",
+    "description": "Gong tergantung yang menyokong, menyambut dan memberi isyarat dalam ensembel. Temu bual membezakan agung buah (juga disebut canang atau bell), agung sambut dan agung tawag-tawag. Tawag bermaksud “panggil” dalam bahasa Suluk; bahagian yang dipalu laju ini dahulu digunakan untuk memanggil masyarakat atau memberi isyarat kecemasan. Secara tradisional diperbuat daripada tembaga, dengan besi turut digunakan sekarang.",
+    "image": "/media/gallery/instrument-agung-hd.png"
+  },
+  {
+    "name": "Tambul",
+    "malayName": "Tambul",
+    "role": "Gendang / rentak",
+    "description": "Gendang yang memacu rentak bersama gong. Tambul terdahulu menggunakan muka kulit kambing yang diperhalusi, bingkai kayu, badan tembaga atau besi, serta tali penegang kasar seperti karung. Kayu keras yang tahan anai-anai seperti belian atau ipil digunakan untuk pemukul. Gendang yang dijual di kedai alat muzik boleh digunakan sebagai ganti pada masa kini.",
+    "image": "/media/gallery/instrument-tambul-hd.png"
+  }
+]

@@ -22,38 +22,60 @@ function historySections(body: string) {
     });
 }
 
-export default function HistoryPage() {
-  const { body } = getMarkdown("history.md");
+function HistoryMap({
+  body,
+  language,
+}: {
+  body: string;
+  language: "en" | "ms";
+}) {
   const sections = historySections(body);
 
   return (
+    <div
+      className={`history-map lang-${language}`}
+      aria-label={
+        language === "ms"
+          ? "Peta minda yang menerangkan sejarah Tagungguk"
+          : "Mind map explaining the history of Tagungguk"
+      }
+    >
+      <div className="history-map__core">
+        <span>{language === "ms" ? "Warisan hidup" : "Living heritage"}</span>
+        <strong>Tagungguk</strong>
+        <small>Semporna, Sabah</small>
+      </div>
+
+      {sections.map((section, index) => (
+        <article
+          key={section.title}
+          className={`history-map__card history-map__card--${index + 1}`}
+        >
+          <div className="history-map__number">{String(index + 1).padStart(2, "0")}</div>
+          <h2>{section.title}</h2>
+          <div
+            className="history-map__copy"
+            dangerouslySetInnerHTML={{ __html: section.html }}
+          />
+        </article>
+      ))}
+    </div>
+  );
+}
+
+export default function HistoryPage() {
+  const { body: englishBody } = getMarkdown("history.md");
+  const { body: malayBody } = getMarkdown("history.ms.md");
+
+  return (
     <Section
-      eyebrow="Oral history"
-      title="The story of Tagungguk"
-      intro="Explore the tradition through five connected perspectives drawn from Ayunee’s interview with Mahammod Bongsu, founder of Sulimbag Jawtee."
+      eyebrow={<><span className="lang-en">Oral history</span><span className="lang-ms">Sejarah lisan</span></>}
+      title={<><span className="lang-en">The story of Tagungguk</span><span className="lang-ms">Kisah Tagungguk</span></>}
+      intro={<><span className="lang-en">Explore the tradition through five connected perspectives drawn from Ayunee’s interview with Mahammod Bongsu, founder of Sulimbag Jawtee.</span><span className="lang-ms">Terokai tradisi ini melalui lima perspektif yang saling berkaitan daripada temu bual Ayunee bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.</span></>}
       className="history-section"
     >
-      <div className="history-map" aria-label="Mind map explaining the history of Tagungguk">
-        <div className="history-map__core">
-          <span>Living heritage</span>
-          <strong>Tagungguk</strong>
-          <small>Semporna, Sabah</small>
-        </div>
-
-        {sections.map((section, index) => (
-          <article
-            key={section.title}
-            className={`history-map__card history-map__card--${index + 1}`}
-          >
-            <div className="history-map__number">{String(index + 1).padStart(2, "0")}</div>
-            <h2>{section.title}</h2>
-            <div
-              className="history-map__copy"
-              dangerouslySetInnerHTML={{ __html: section.html }}
-            />
-          </article>
-        ))}
-      </div>
+      <HistoryMap body={englishBody} language="en" />
+      <HistoryMap body={malayBody} language="ms" />
     </Section>
   );
 }

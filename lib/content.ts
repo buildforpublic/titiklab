@@ -45,8 +45,9 @@ export type Partner = {
 };
 
 /** Read a single titik markdown file by slug. Returns null if it does not exist. */
-export function getTitik(slug: string): Titik | null {
-  const filePath = path.join(CONTENT_DIR, "titik", `${slug}.md`);
+export function getTitik(slug: string, locale: "en" | "ms" = "en"): Titik | null {
+  const suffix = locale === "ms" ? ".ms" : "";
+  const filePath = path.join(CONTENT_DIR, "titik", `${slug}${suffix}.md`);
   if (!fs.existsSync(filePath)) return null;
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
@@ -66,13 +67,13 @@ export function getTitik(slug: string): Titik | null {
 }
 
 /** All titik, sorted by their `order` frontmatter field. */
-export function getAllTitik(): Titik[] {
+export function getAllTitik(locale: "en" | "ms" = "en"): Titik[] {
   const dir = path.join(CONTENT_DIR, "titik");
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
-    .filter((f) => f.endsWith(".md"))
-    .map((f) => getTitik(f.replace(/\.md$/, "")))
+    .filter((f) => f.endsWith(".md") && !f.endsWith(".ms.md"))
+    .map((f) => getTitik(f.replace(/\.md$/, ""), locale))
     .filter((t): t is Titik => t !== null)
     .sort((a, b) => a.order - b.order);
 }

@@ -28,7 +28,10 @@ export default function Navbar() {
                 href={link.href}
                 className="text-[0.72rem] font-700 uppercase text-[var(--color-ink-soft)] transition-colors hover:text-[var(--color-ocean-deep)]"
               >
-                {link.label}
+                <span className="lang-en">{link.label}</span>
+                <span className="lang-ms">
+                  {{ History: "Sejarah", "The Five Titik": "Lima Titik", Instruments: "Instrumen", Gallery: "Galeri", Resources: "Sumber", About: "Tentang" }[link.label] ?? link.label}
+                </span>
               </Link>
             </li>
           ))}
@@ -39,7 +42,10 @@ export default function Navbar() {
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="text-sm font-600">
-                  {link.label}
+                  <span className="lang-en">{link.label}</span>
+                  <span className="lang-ms">
+                    {{ History: "Sejarah", "The Five Titik": "Lima Titik", Instruments: "Instrumen", Gallery: "Galeri", Resources: "Sumber", About: "Tentang" }[link.label] ?? link.label}
+                  </span>
                 </Link>
               </li>
             ))}
