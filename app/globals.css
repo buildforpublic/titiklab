@@ -31,13 +31,12 @@ body {
   background:
     radial-gradient(circle at 16% 10%, rgba(216, 135, 34, 0.18), transparent 34rem),
     radial-gradient(circle at 88% 20%, rgba(129, 0, 0, 0.16), transparent 28rem),
-    linear-gradient(rgba(248, 239, 228, 0.84), rgba(255, 247, 236, 0.94)),
-    url("/media/gallery/performance-illustration-bg.png"),
-    url("/media/gallery/site-background-boat.png");
-  background-attachment: fixed, fixed, fixed, fixed, fixed;
-  background-position: left top, right top, center top, right 5rem, center top;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: auto, auto, auto, min(980px, 85vw) auto, cover;
+    linear-gradient(rgba(248, 239, 228, 0.86), rgba(255, 247, 236, 0.95)),
+    url("/media/gallery/titiklab-hero-ensemble.png");
+  background-attachment: fixed, fixed, fixed, fixed;
+  background-position: left top, right top, center top, center 4rem;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: auto, auto, auto, cover;
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
