@@ -32,11 +32,11 @@ body {
     radial-gradient(circle at 16% 10%, rgba(216, 135, 34, 0.18), transparent 34rem),
     radial-gradient(circle at 88% 20%, rgba(129, 0, 0, 0.16), transparent 28rem),
     linear-gradient(rgba(248, 239, 228, 0.86), rgba(255, 247, 236, 0.95)),
-    url("/media/gallery/titiklab-hero-ensemble.png");
+    url("/media/gallery/performance-illustration-bg.png");
   background-attachment: fixed, fixed, fixed, fixed;
-  background-position: left top, right top, center top, center 4rem;
+  background-position: left top, right top, center top, center 5rem;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: auto, auto, auto, cover;
+  background-size: auto, auto, auto, min(1100px, 92vw) auto;
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
