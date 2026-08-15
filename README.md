@@ -13,7 +13,7 @@ TitikLab makes Bajau musical heritage accessible to students and the public thro
 educational website where users can:
 
 1. **Learn the history** and cultural significance of Tagungguk.
-2. **Explore the five traditional titik** — Tabawan, Tarirai, Limbayan, Lellang, and Senai-senai.
+2. **Explore the five core titik** — Tabawan, Tarirai, Limbayan, Lellang, and Luvak-luvak — with Senai-senai documented as an additional rhythm.
 3. **Learn the instruments** used in a Tagungguk ensemble.
 4. **View photos and videos** of demonstrations.
 5. **Listen** to the rhythm of each titik.
@@ -56,9 +56,8 @@ to edit:
 | Audio recordings | drop `.mp3` files into `public/media/audio/` |
 | The downloadable pamphlet | drop `pamphlet.pdf` into `public/media/resources/` |
 
-> `content/titik/tabawan.md` is a **filled-in template** — copy its structure when completing the
-> other four titik. All content currently marked "placeholder" or "TODO" needs to be verified
-> with our community partners.
+> The titik files contain sourced interview material. Details marked **KIV** or “needs confirmation”
+> must be reviewed with community partners before being treated as final.
 
 ---
 

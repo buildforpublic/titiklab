@@ -2,29 +2,27 @@
 name: Lellang
 slug: lellang
 order: 4
-meaning: "TODO — short gloss of the name"
-tempo: "TODO"
-difficulty: "TODO"
+meaning: "A slow titik accompanied by Bajau sung verse"
+tempo: "Slow"
+difficulty: "Requires customary guidance"
 audio: "/media/audio/lellang.m4a"
-rhythmCode: "TODO"
+rhythmCode: "KIV — notation pending"
 ---
-
-> **This page needs content.** 🙌 See `content/titik/tabawan.md` for the full template,
-> then fill in the sections below using Cikgu Rosley's research and Sulimbag Jawtee's guidance.
-> No coding needed — you can edit this file directly on GitHub.
 
 ## Overview
 
-Describe the character of the Lellang rhythm.
+Lellang is a slow titik distinguished by Bajau singing or *kalangan*, a form of sung verse. The melody may be sung, chanted or lulled in a style described as *lolay*.
 
-## Cultural context
+## Ritual and performance context
 
-When and why is Lellang played?
+The interview connects Lellang with communities that practise *maghandak* (a possession ritual), as well as practices named *magkalangan* and *magsaitan*. During this performance, the tambul ropes may be loosened so the drum produces a lower bass-like sound rather than a sharp tone.
 
-## The rhythm
+It may be danced by women or men. Among practitioners, movement may begin spontaneously when the rhythm and singing are heard. Other accounts in the interview also associate Lellang with women’s movement, welcoming dignitaries, and—depending on the kulintangan player—*kuntau* or silat. These uses require further community clarification.
 
-Describe the pattern and update `rhythmCode` in the frontmatter above.
+## What still needs confirmation
 
-## How to learn it
+The precise occasions, fuller origin history, associated stories and rhythm notation remain to be documented.
 
-Beginner tips.
+> **Cultural note:** The ritual terms above are presented as oral-history testimony and should be interpreted with guidance from customary practitioners.
+>
+> **Source:** Interview by Ayunee with Mahammod Bongsu, founder of Sulimbag Jawtee.

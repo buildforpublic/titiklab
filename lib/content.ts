@@ -14,6 +14,7 @@ export type Titik = {
   difficulty: string;
   audio: string;
   rhythmCode: string;
+  additional: boolean;
   /** Rendered HTML of the markdown body. */
   html: string;
   /** Raw markdown body (before rendering). */
@@ -58,6 +59,7 @@ export function getTitik(slug: string): Titik | null {
     difficulty: (data.difficulty as string) ?? "",
     audio: (data.audio as string) ?? "",
     rhythmCode: (data.rhythmCode as string) ?? "",
+    additional: (data.additional as boolean) ?? false,
     html: marked.parse(content, { async: false }) as string,
     body: content.trim(),
   };

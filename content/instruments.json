@@ -3,21 +3,21 @@
     "name": "Kulintangan",
     "malayName": "Kulintangan",
     "role": "Melody",
-    "description": "A row of small horizontally-laid bossed gongs, played melodically. The kulintangan carries the lead pattern of each titik. (Description placeholder — verify with the partners.)",
+    "description": "The melodic centre of the ensemble: a row of bossed gongs traditionally made from brass, although iron may now be used because brass is difficult to obtain. The interview records nine kettle gongs, but this count is KIV and still requires confirmation. Skilled makers were identified in Matunggong, Kudat, and Kota Belud.",
     "image": "/media/gallery/instrument-kulintangan-hd.png"
   },
   {
     "name": "Agung",
     "malayName": "Agung",
     "role": "Bass / timekeeping",
-    "description": "Standing hanging gongs that mark the underlying beat and anchor the ensemble. (Description placeholder — add the specific gongs used and their names.)",
+    "description": "Suspended gongs that support, answer and signal within the ensemble. The interview distinguishes agung buah (also described as canang or bell), agung sambut, and agung tawag-tawag. Tawag means “to call” in Suluk; this rapidly played part was historically used to summon the community or signal an emergency. Traditionally made from brass, with iron now also used.",
     "image": "/media/gallery/instrument-agung-hd.png"
   },
   {
     "name": "Tambul",
     "malayName": "Tambul",
     "role": "Drum / rhythm",
-    "description": "A silver drum that drives the rhythm alongside the gongs. (Description placeholder — TODO: confirm the drum type and playing technique.)",
+    "description": "The drum that drives the rhythm alongside the gongs. Earlier tambul used a refined goatskin head, a wooden frame, a brass or iron body, and a coarse sack-like tension rope. Hard, termite-resistant wood such as belian or ipil was used for the beater. A shop-bought drum may be substituted today.",
     "image": "/media/gallery/instrument-tambul-hd.png"
   }
 ]

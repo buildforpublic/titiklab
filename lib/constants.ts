@@ -27,12 +27,12 @@ export const NAV_LINKS = [
   { href: "/about", label: "About" },
 ];
 
-// The five traditional titik (rhythm patterns), in canonical order.
+// The five core titik documented by the current oral-history source.
 // Full content lives in content/titik/<slug>.md — edit those files to add details.
 export const TITIK_ORDER = [
   "tabawan",
   "tarirai",
   "limbayan",
   "lellang",
-  "senai-senai",
+  "luvak-luvak",
 ] as const;

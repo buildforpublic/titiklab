@@ -2,39 +2,23 @@
 name: Tabawan
 slug: tabawan
 order: 1
-meaning: "Named after Pulau Tabawan — placeholder gloss, verify with Cikgu Rosley"
-tempo: "Moderate"
-difficulty: "Beginner"
+meaning: "Named after a place in the Philippines"
+tempo: "Fast"
+difficulty: "Community guidance recommended"
 audio: "/media/audio/tabawan.m4a"
-rhythmCode: "D . T . D D T ."
+rhythmCode: "KIV — notation pending"
 ---
-
-> **⚠️ This is a worked example / template.** The text below shows the structure every
-> titik page should follow. The musical and cultural details still need to be verified
-> with Cikgu Rosley's research and the Sulimbag Jawtee group. Edit freely.
 
 ## Overview
 
-Tabawan is one of the five traditional titik of Tagungguk. This section should describe the
-character of the rhythm, when it is played, and what makes it distinct from the other titik.
+Tabawan takes its name from a place in the Philippines associated with the community that originally played and carried this titik. Its rhythm is faster and its tonal character differs from the other titik.
 
-## Cultural context
+## Dance and cultural context
 
-Describe the cultural setting — the occasions where Tabawan is performed (celebrations,
-weddings, community gatherings), its origin, and any stories associated with it.
+Tabawan accompanies *igal* and may be danced by both women and men. As the music becomes faster, the dancer’s movements become more measured and controlled. Women’s movement is described as especially restrained, with an emphasis on grace and maintaining dignity. The form was compared broadly with named Malay performance forms such as zapin and inang, while remaining its own tradition.
 
-## The rhythm
+## What still needs confirmation
 
-Explain the rhythm pattern in plain language. The short `rhythmCode` in the frontmatter
-(shown in the sidebar) is a quick reference — here you can describe it in more detail:
+The precise playing occasion, fuller origin account, associated stories, and rhythm notation were not supplied in this interview and remain to be documented.
 
-- **D** = a low/bass stroke
-- **T** = a high/treble stroke
-- **.** = a rest
-
-> Replace this notation legend with the actual system from Cikgu Rosley's research.
-
-## How to learn it
-
-Tips for a beginner learning Tabawan on the kulintangan — which gongs to start with, the
-counting, and common mistakes to avoid.
+> **Source:** Interview by Ayunee with Mahammod Bongsu, founder of Sulimbag Jawtee.

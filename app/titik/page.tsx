@@ -6,23 +6,41 @@ import { getAllTitik } from "@/lib/content";
 export const metadata: Metadata = {
   title: "The Five Titik",
   description:
-    "Explore the five traditional titik of Tagungguk: Tabawan, Tarirai, Limbayan, Lellang, and Senai-senai.",
+    "Explore five core titik of Tagungguk—Tabawan, Tarirai, Limbayan, Lellang and Luvak-luvak—with Senai-senai documented as an additional rhythm.",
 };
 
 export default function TitikIndexPage() {
   const titik = getAllTitik();
+  const coreTitik = titik.filter((item) => !item.additional);
+  const additionalTitik = titik.filter((item) => item.additional);
 
   return (
     <Section
       eyebrow="The rhythms"
-      title="The five traditional titik"
-      intro="Tabawan, Tarirai, Limbayan, Lellang, and Senai-senai — each a distinct rhythmic pattern in the Tagungguk repertoire."
+      title="The five core titik"
+      intro="Tabawan, Tarirai, Limbayan, Lellang and Luvak-luvak—each has a distinct rhythmic and cultural character in the Tagungguk repertoire."
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {titik.map((t) => (
-          <TitikCard key={t.slug} titik={t} />
+        {coreTitik.map((item) => (
+          <TitikCard key={item.slug} titik={item} />
         ))}
       </div>
+
+      {additionalTitik.length > 0 && (
+        <div className="mt-14 border-t-2 border-[var(--color-border)] pt-10">
+          <p className="text-sm font-700 uppercase tracking-[0.18em] text-[var(--color-brass)]">
+            Additional rhythm
+          </p>
+          <p className="mt-3 max-w-2xl text-[var(--color-ink-soft)]">
+            Senai-senai is documented separately as additional material from the interview.
+          </p>
+          <div className="mt-7 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {additionalTitik.map((item) => (
+              <TitikCard key={item.slug} titik={item} />
+            ))}
+          </div>
+        </div>
+      )}
     </Section>
   );
 }
