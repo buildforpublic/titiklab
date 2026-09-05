@@ -21,7 +21,7 @@ export default function HomePage() {
               {SITE.tagline}
             </p>
             <p className="mt-5 max-w-md text-sm leading-7 text-white/82 sm:text-base">
-              Memelihara warisan. Menginspirasi generasi melalui pembelajaran digital Tagungguk.
+              Memelihara warisan. Menginspirasi generasi melalui pembelajaran digital Tagunggu'.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/titik" className="btn-pill btn-pill-filled">
@@ -50,7 +50,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-[var(--color-ink-soft)] sm:text-base">
               TitikLab ialah platform pembelajaran komuniti untuk memelihara dan memperkenalkan
-              Tagungguk, muzik kulintangan tradisional Bajau dari Semporna, Sabah. Di sini,
+              Tagunggu', muzik kulintangan tradisional Bajau dari Semporna, Sabah. Di sini,
               pelajar dan orang ramai boleh mengenali sejarah, alat muzik dan lima titik melalui
               bahan digital yang mudah diterokai.
             </p>
@@ -73,10 +73,10 @@ export default function HomePage() {
 
         <section className="bg-white px-6 py-11 text-center sm:px-10">
           <p className="section-rule mx-auto max-w-2xl text-xl font-700 text-[var(--color-ocean-deep)]">
-            Meneroka Irama Tagungguk
+            Meneroka Irama Tagunggu'
           </p>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-[var(--color-ink-soft)]">
-            Tagungguk ialah muzik tradisional Bajau yang dimainkan menggunakan kulintangan.
+            Tagunggu' ialah muzik tradisional Bajau yang dimainkan menggunakan kulintangan.
             Terokai lima titik utama dan pelajari irama warisan nenek moyang kita.
           </p>
           <div className="mt-9 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
@@ -95,7 +95,7 @@ export default function HomePage() {
               Kenali Kulintangan
             </h2>
             <p className="mt-3 max-w-xs text-sm leading-6 text-[var(--color-ink-soft)]">
-              Alat muzik tradisional yang menjadi jiwa irama Tagungguk.
+              Alat muzik tradisional yang menjadi jiwa irama Tagunggu'.
             </p>
             <span className="btn-pill btn-pill-filled mt-5">Ketahui Lebih Lanjut</span>
           </Link>

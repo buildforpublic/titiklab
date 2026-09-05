@@ -7,7 +7,7 @@ export const SITE = {
   domain: "titiklab.org",
   url: "https://titiklab.org",
   description:
-    "An educational platform preserving and promoting Tagungguk — the traditional Bajau kulintangan music of Semporna, Sabah. Learn the history, the five titik, the instruments, and the rhythms.",
+    "An educational platform preserving and promoting Tagunggu' — the traditional Bajau kulintangan music of Semporna, Sabah. Learn the history, the five titik, the instruments, and the rhythms.",
   email: "hello@titiklab.org", // TODO: update with the project's real contact email
   github: "https://github.com/buildforpublic/titiklab",
   // Build for Public supports this project as part of the open-source community —

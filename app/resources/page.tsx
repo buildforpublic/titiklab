@@ -3,12 +3,12 @@ import Section from "@/components/Section";
 
 export const metadata: Metadata = {
   title: "Resources",
-  description: "Downloadable educational resources for learning Tagungguk.",
+  description: "Downloadable educational resources for learning Tagunggu'.",
 };
 
 const RESOURCES = [
   {
-    title: "Tagungguk Learning Pamphlet",
+    title: "Tagunggu' Learning Pamphlet",
     description:
       "An introductory pamphlet covering the history, the five titik, and the instruments. (Placeholder — the real pamphlet is in progress.)",
     href: "/media/resources/pamphlet.pdf",
@@ -21,7 +21,7 @@ export default function ResourcesPage() {
     <Section
       eyebrow="Learn & teach"
       title="Educational resources"
-      intro="Free materials for students, teachers, and anyone learning Tagungguk."
+      intro="Free materials for students, teachers, and anyone learning Tagunggu'."
     >
       <div className="grid gap-6 sm:grid-cols-2">
         {RESOURCES.map((r) => (

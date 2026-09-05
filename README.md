@@ -1,7 +1,7 @@
 # TitikLab
 
 **Pendigitalan Irama Kulintangan Bajau** — an open, educational platform preserving and
-promoting **Tagungguk**, the traditional Bajau kulintangan music of Semporna, Sabah.
+promoting **Tagunggu'**, the traditional Bajau kulintangan music of Semporna, Sabah.
 
 🌐 Live: _domain to be confirmed_ · Community-owned, built in public with the [Build for Public](https://buildforpublic.com) volunteer community
 
@@ -12,9 +12,9 @@ promoting **Tagungguk**, the traditional Bajau kulintangan music of Semporna, Sa
 TitikLab makes Bajau musical heritage accessible to students and the public through a simple
 educational website where users can:
 
-1. **Learn the history** and cultural significance of Tagungguk.
+1. **Learn the history** and cultural significance of Tagunggu'.
 2. **Explore the five core titik** — Tabawan, Tarirai, Limbayan, Lellang, and Luvak-luvak — with Senai-senai documented as an additional rhythm.
-3. **Learn the instruments** used in a Tagungguk ensemble.
+3. **Learn the instruments** used in a Tagunggu' ensemble.
 4. **View photos and videos** of demonstrations.
 5. **Listen** to the rhythm of each titik.
 6. **Download educational resources** such as a learning pamphlet.

@@ -22,10 +22,14 @@ export type Titik = {
 };
 
 export type Instrument = {
+  slug: string;
   name: string;
   malayName?: string;
   role: string;
   description: string;
+  italicTerms?: string[];
+  researchNotes?: string[];
+  interviewNotes?: string[];
   image?: string;
 };
 
@@ -95,4 +99,12 @@ export function getJson<T>(fileName: string): T[] {
   const filePath = path.join(CONTENT_DIR, fileName);
   if (!fs.existsSync(filePath)) return [];
   return JSON.parse(fs.readFileSync(filePath, "utf8")) as T[];
+}
+
+export function getAllInstruments(locale: "en" | "ms" = "en"): Instrument[] {
+  return getJson<Instrument>(locale === "ms" ? "instruments.ms.json" : "instruments.json");
+}
+
+export function getInstrument(slug: string, locale: "en" | "ms" = "en"): Instrument | null {
+  return getAllInstruments(locale).find((instrument) => instrument.slug === slug) ?? null;
 }

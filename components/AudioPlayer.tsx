@@ -14,7 +14,7 @@ export default function AudioPlayer({ src, label }: AudioPlayerProps) {
         Your browser does not support the audio element.
       </audio>
       <p className="mt-2 text-xs text-[var(--color-ink-faint)]">
-        Rakaman irama untuk pembelajaran Tagungguk.
+        Rakaman irama untuk pembelajaran Tagunggu'.
       </p>
     </div>
   );

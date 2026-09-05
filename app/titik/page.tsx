@@ -6,7 +6,7 @@ import { getAllTitik } from "@/lib/content";
 export const metadata: Metadata = {
   title: "The Five Titik",
   description:
-    "Explore five core titik of Tagungguk—Tabawan, Tarirai, Limbayan, Lellang and Luvak-luvak—with Senai-senai documented as an additional rhythm.",
+    "Explore five core titik of Tagunggu'—Tabawan, Tarirai, Limbayan, Lellang and Luvak-luvak—with Senai-senai documented as an additional rhythm.",
 };
 
 export default function TitikIndexPage() {
@@ -21,7 +21,7 @@ export default function TitikIndexPage() {
     <Section
       eyebrow={<><span className="lang-en">The rhythms</span><span className="lang-ms">Rentak</span></>}
       title={<><span className="lang-en">The five core titik</span><span className="lang-ms">Lima titik utama</span></>}
-      intro={<><span className="lang-en">Tabawan, Tarirai, Limbayan, Lellang and Luvak-luvak—each has a distinct rhythmic and cultural character in the Tagungguk repertoire.</span><span className="lang-ms">Tabawan, Tarirai, Limbayan, Lellang dan Luvak-luvak—setiap satunya mempunyai ciri rentak dan budaya yang tersendiri dalam repertoir Tagungguk.</span></>}
+      intro={<><span className="lang-en">Tabawan, Tarirai, Limbayan, Lellang and Luvak-luvak—each has a distinct rhythmic and cultural character in the Tagunggu' repertoire.</span><span className="lang-ms">Tabawan, Tarirai, Limbayan, Lellang dan Luvak-luvak—setiap satunya mempunyai ciri rentak dan budaya yang tersendiri dalam repertoir Tagunggu'.</span></>}
     >
       <div className="lang-en grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {coreTitik.map((item) => (

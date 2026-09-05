@@ -19,7 +19,7 @@ export async function generateMetadata({
   if (!titik) return { title: "Titik not found" };
   return {
     title: titik.name,
-    description: `${titik.name} — ${titik.meaning || "a traditional titik of Tagungguk"}.`,
+    description: `${titik.name} — ${titik.meaning || "a traditional titik of Tagunggu'"}.`,
   };
 }
 

@@ -5,7 +5,7 @@ import { getJson, type GalleryItem } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Gallery",
-  description: "Photos and videos of Tagungguk demonstrations and workshops.",
+  description: "Photos and videos of Tagunggu' demonstrations and workshops.",
 };
 
 export default function GalleryPage() {

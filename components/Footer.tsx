@@ -9,7 +9,7 @@ export default function Footer() {
           <p className="font-[family-name:var(--font-display)] text-lg font-700">{SITE.name}</p>
           <p className="mt-2 max-w-xs text-sm text-[var(--color-ink-soft)]">
             <span className="lang-en">{SITE.description}</span>
-            <span className="lang-ms">Platform pendidikan untuk memelihara dan mempromosikan Tagungguk—muzik kulintangan tradisional Bajau dari Semporna, Sabah.</span>
+            <span className="lang-ms">Platform pendidikan untuk memelihara dan mempromosikan Tagunggu'—muzik kulintangan tradisional Bajau dari Semporna, Sabah.</span>
           </p>
         </div>
         <div>

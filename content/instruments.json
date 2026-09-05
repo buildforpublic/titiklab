@@ -1,23 +1,59 @@
 [
   {
+    "slug": "kulintangan",
     "name": "Kulintangan",
     "malayName": "Kulintangan",
     "role": "Melody",
-    "description": "The melodic centre of the ensemble: a row of bossed gongs traditionally made from brass, although iron may now be used because brass is difficult to obtain. The interview records nine kettle gongs, but this count is KIV and still requires confirmation. Skilled makers were identified in Matunggong, Kudat, and Kota Belud.",
+    "description": "A graduated set of small bossed pot gongs that forms the principal melodic component of the Tagunggu’ ensemble.",
+    "researchNotes": [
+      "The kulintangan usually consists of seven to nine small gongs arranged in tonal order.",
+      "Although the individual gongs have no formal names, Bajau practitioners commonly group them as palinduan (two or three lower-numbered gongs, usually 1–3), paletehan or pamaletehan (usually gongs 4–7), and parindil or teng-teng (gongs 8–9).",
+      "The wooden beater used to strike the kulintangan is known as tingan."
+    ],
+    "interviewNotes": [
+      "Kulintangan gongs were traditionally made from brass. Iron may now be used because brass is difficult to obtain.",
+      "Skilled makers were identified in Matunggong, Kudat, and Kota Belud."
+    ],
     "image": "/media/gallery/instrument-kulintangan-hd.png"
   },
   {
+    "slug": "agung",
     "name": "Agung",
     "malayName": "Agung",
     "role": "Bass / timekeeping",
-    "description": "Suspended gongs that support, answer and signal within the ensemble. The interview distinguishes agung buah (also described as canang or bell), agung sambut, and agung tawag-tawag. Tawag means “to call” in Suluk; this rapidly played part was historically used to summon the community or signal an emergency. Traditionally made from brass, with iron now also used.",
-    "image": "/media/gallery/instrument-agung-hd.png"
+    "description": "Three large hanging gongs that reinforce the rhythmic and sonic structure of the Tagunggu’ ensemble.",
+    "italicTerms": ["agung sambut", "agung lusung", "agung bua", "agung tawag-tawag", "canang", "bell", "sulimbang"],
+    "researchNotes": [
+      "The agung produces a firm, authoritative low-frequency sound. It marks time, helps control tempo, and maintains musical continuity.",
+      "Within Bajau society, the agung forms part of langkapan—ancestral heirlooms carrying significant symbolic and spiritual value.",
+      "The smaller gong is known as agung sambut, the larger gong as agung lusung, and the flatter gong as agung bua.",
+      "The wooden gong beater is known as tigung."
+    ],
+    "interviewNotes": [
+      "Agung bua, also called canang or bell, completes and strengthens the flow of a sulimbang or rhythmic arrangement, depending on the player’s skill.",
+      "Agung sambut answers or responds to the sounding pattern.",
+      "Agung tawag-tawag takes its name from the Suluk word tawag, meaning “to call”. It functions like a signal and is played rapidly. Historically, its strokes were used to summon the community or signal an emergency such as a death.",
+      "Agung gongs were traditionally made from brass, with iron also used today."
+    ],
+    "image": "/media/gallery/instrument-agung-hd-v2.png"
   },
   {
+    "slug": "tambul",
     "name": "Tambul",
     "malayName": "Tambul",
     "role": "Drum / rhythm",
-    "description": "The drum that drives the rhythm alongside the gongs. Earlier tambul used a refined goatskin head, a wooden frame, a brass or iron body, and a coarse sack-like tension rope. Hard, termite-resistant wood such as belian or ipil was used for the beater. A shop-bought drum may be substituted today.",
+    "description": "A double-headed drum that produces a repeated, consistent pulse and acts as the principal rhythmic driver of the Tagunggu’ ensemble.",
+    "researchNotes": [
+      "Strong, continuous tambul strokes shape the music’s dynamics and reinforce the ensemble’s overall rhythmic structure.",
+      "Like the agung, the tambul forms part of langkapan—an ancestral heirloom with symbolic and spiritual value—and is therefore subject to customary restrictions concerning its care and playing technique.",
+      "Earlier tambul were commonly made from wood with goatskin membranes. Contemporary construction may use metals such as brass and alloy.",
+      "The wooden beater used to strike the tambul is known as tibul."
+    ],
+    "interviewNotes": [
+      "Tambul uses refined goatskin heads, a wooden frame including suitable root wood, a brass or iron body, and coarse sack-like tension rope.",
+      "Hard, termite-resistant wood such as belian or ipil was used for the beater.",
+      "A drum purchased from a musical-instrument shop may be used as a substitute today."
+    ],
     "image": "/media/gallery/instrument-tambul-hd.png"
   }
 ]

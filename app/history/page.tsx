@@ -6,7 +6,7 @@ import { getMarkdown } from "@/lib/content";
 export const metadata: Metadata = {
   title: "History & Cultural Significance",
   description:
-    "The history and cultural significance of Tagungguk, the traditional Bajau kulintangan music of Semporna, Sabah.",
+    "The history and cultural significance of Tagunggu', the traditional Bajau kulintangan music of Semporna, Sabah.",
 };
 
 function historySections(body: string) {
@@ -36,13 +36,13 @@ function HistoryMap({
       className={`history-map lang-${language}`}
       aria-label={
         language === "ms"
-          ? "Peta minda yang menerangkan sejarah Tagungguk"
-          : "Mind map explaining the history of Tagungguk"
+          ? "Peta minda yang menerangkan sejarah Tagunggu'"
+          : "Mind map explaining the history of Tagunggu'"
       }
     >
       <div className="history-map__core">
         <span>{language === "ms" ? "Warisan hidup" : "Living heritage"}</span>
-        <strong>Tagungguk</strong>
+        <strong>Tagunggu'</strong>
         <small>Semporna, Sabah</small>
       </div>
 
@@ -70,8 +70,8 @@ export default function HistoryPage() {
   return (
     <Section
       eyebrow={<><span className="lang-en">Oral history</span><span className="lang-ms">Sejarah lisan</span></>}
-      title={<><span className="lang-en">The story of Tagungguk</span><span className="lang-ms">Kisah Tagungguk</span></>}
-      intro={<><span className="lang-en">Explore the tradition through five connected perspectives drawn from Ayunee’s interview with Mahammod Bongsu, founder of Sulimbag Jawtee.</span><span className="lang-ms">Terokai tradisi ini melalui lima perspektif yang saling berkaitan daripada temu bual Ayunee bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.</span></>}
+      title={<><span className="lang-en">The story of Tagunggu'</span><span className="lang-ms">Kisah Tagunggu'</span></>}
+      intro={<><span className="lang-en">Explore the tradition through five interconnected perspectives based on Cikgu Rosley’s educational research and an interview conducted by the TitikLab founder with Mahammod Bongsu, founder of Sulimbag Jawtee.</span><span className="lang-ms">Terokai tradisi ini melalui lima perspektif yang saling berkaitan berdasarkan kajian pendidikan Cikgu Rosley dan temu bual oleh pengasas TitikLab bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.</span></>}
       className="history-section"
     >
       <HistoryMap body={englishBody} language="en" />

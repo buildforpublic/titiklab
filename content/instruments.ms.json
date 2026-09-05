@@ -1,23 +1,59 @@
 [
   {
+    "slug": "kulintangan",
     "name": "Kulintangan",
     "malayName": "Kulintangan",
     "role": "Melodi",
-    "description": "Pusat melodi ensembel: sederet gong berbusut yang secara tradisional diperbuat daripada tembaga, walaupun besi kini boleh digunakan kerana tembaga sukar diperoleh. Temu bual mencatat sembilan biji gong kecil, tetapi jumlah ini masih KIV dan perlu disahkan. Pembuat mahir dikenal pasti di Matunggong, Kudat dan Kota Belud.",
+    "description": "Satu set gong berperiuk kecil yang disusun secara berperingkat nada dan berfungsi sebagai komponen melodi utama dalam ensembel Tagunggu’.",
+    "researchNotes": [
+      "Kulintangan lazimnya terdiri daripada tujuh hingga sembilan buah gong kecil yang disusun mengikut nada.",
+      "Walaupun setiap gong kecil tidak mempunyai nama khusus secara formal, masyarakat Bajau lazimnya mengelompokkannya sebagai palinduan (dua atau tiga gong bernombor rendah, biasanya 1–3), paletehan atau pamaletehan (biasanya gong 4–7), serta parindil atau teng-teng (gong 8–9).",
+      "Kayu pemukul yang digunakan untuk mengetuk kulintangan dikenali sebagai tingan."
+    ],
+    "interviewNotes": [
+      "Gong kulintangan secara tradisional diperbuat daripada tembaga. Besi kini boleh digunakan kerana tembaga sukar diperoleh.",
+      "Pembuat mahir dikenal pasti di Matunggong, Kudat dan Kota Belud."
+    ],
     "image": "/media/gallery/instrument-kulintangan-hd.png"
   },
   {
+    "slug": "agung",
     "name": "Agung",
     "malayName": "Agung",
     "role": "Bass / penjaga tempo",
-    "description": "Gong tergantung yang menyokong, menyambut dan memberi isyarat dalam ensembel. Temu bual membezakan agung buah (juga disebut canang atau bell), agung sambut dan agung tawag-tawag. Tawag bermaksud “panggil” dalam bahasa Suluk; bahagian yang dipalu laju ini dahulu digunakan untuk memanggil masyarakat atau memberi isyarat kecemasan. Secara tradisional diperbuat daripada tembaga, dengan besi turut digunakan sekarang.",
-    "image": "/media/gallery/instrument-agung-hd.png"
+    "description": "Tiga buah gong gantung bersaiz besar yang menyokong ritma dan struktur bunyi dalam ensembel Tagunggu’.",
+    "italicTerms": ["agung sambut", "agung lusung", "agung bua", "agung tawag-tawag", "canang", "bell", "sulimbang"],
+    "researchNotes": [
+      "Agung menghasilkan bunyi berfrekuensi rendah yang mantap dan berautoriti. Ia menjadi penanda masa, membantu mengawal tempo dan mengekalkan kesinambungan muzik.",
+      "Dalam masyarakat Bajau, agung merupakan sebahagian daripada langkapan—harta pusaka nenek moyang yang mempunyai nilai simbolik dan spiritual yang tinggi.",
+      "Gong yang lebih kecil dikenali sebagai agung sambut, gong yang lebih besar sebagai agung lusung, dan gong berbentuk leper sebagai agung bua.",
+      "Kayu pemukul gong dikenali sebagai tigung."
+    ],
+    "interviewNotes": [
+      "Agung bua, yang turut disebut canang atau bell, melengkapkan dan memantapkan alunan sulimbang atau susunan rentak, bergantung pada kemahiran pemain.",
+      "Agung sambut menyambut atau menjawab bunyi paluan.",
+      "Agung tawag-tawag mengambil nama daripada perkataan Suluk tawag, yang bermaksud “panggil”. Ia berfungsi seperti isyarat dan dipalu dengan laju. Pada masa dahulu, paluannya digunakan untuk memanggil masyarakat atau memberi isyarat kecemasan seperti kematian.",
+      "Agung secara tradisional diperbuat daripada tembaga, dengan besi turut digunakan pada masa kini."
+    ],
+    "image": "/media/gallery/instrument-agung-hd-v2.png"
   },
   {
+    "slug": "tambul",
     "name": "Tambul",
     "malayName": "Tambul",
     "role": "Gendang / rentak",
-    "description": "Gendang yang memacu rentak bersama gong. Tambul terdahulu menggunakan muka kulit kambing yang diperhalusi, bingkai kayu, badan tembaga atau besi, serta tali penegang kasar seperti karung. Kayu keras yang tahan anai-anai seperti belian atau ipil digunakan untuk pemukul. Gendang yang dijual di kedai alat muzik boleh digunakan sebagai ganti pada masa kini.",
+    "description": "Gendang bermuka dua yang menghasilkan denyutan berulang dan konsisten serta menjadi pemacu utama ritma ensembel Tagunggu’.",
+    "researchNotes": [
+      "Pukulan tambul yang kuat dan berterusan membentuk dinamik muzik serta mengukuhkan struktur ritma keseluruhan ensembel.",
+      "Seperti agung, tambul merupakan sebahagian daripada langkapan—harta pusaka nenek moyang yang mempunyai nilai simbolik dan spiritual—dan tertakluk kepada pantang larang tertentu dari segi penjagaan dan teknik permainan.",
+      "Tambul pada masa lalu lazimnya diperbuat daripada kayu dengan membran kulit kambing. Pembuatan masa kini boleh menggunakan logam seperti tembaga dan aloi.",
+      "Kayu pemukul tambul dikenali sebagai tibul."
+    ],
+    "interviewNotes": [
+      "Tambul menggunakan kulit kambing yang diperhalusi, bingkai daripada kayu termasuk akar kayu yang sesuai, badan tembaga atau besi, serta tali penegang kasar seperti karung.",
+      "Kayu keras yang tahan anai-anai seperti belian atau ipil digunakan untuk pemukul.",
+      "Gendang yang dibeli dari kedai alat muzik boleh digunakan sebagai pengganti pada masa kini."
+    ],
     "image": "/media/gallery/instrument-tambul-hd.png"
   }
 ]
