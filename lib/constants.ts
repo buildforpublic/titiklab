@@ -7,7 +7,7 @@ export const SITE = {
   domain: "titiklab.org",
   url: "https://titiklab.org",
   description:
-    "An educational platform preserving and promoting Tagungguk — the traditional Bajau kulintangan music of Semporna, Sabah. Learn the history, the five titik, the instruments, and the rhythms.",
+    "An educational platform preserving and promoting Tagunggu' — the traditional Bajau kulintangan music of Semporna, Sabah. Learn the history, the five titik, the instruments, and the rhythms.",
   email: "hello@titiklab.org", // TODO: update with the project's real contact email
   github: "https://github.com/buildforpublic/titiklab",
   // Build for Public supports this project as part of the open-source community —
@@ -27,12 +27,12 @@ export const NAV_LINKS = [
   { href: "/about", label: "About" },
 ];
 
-// The five traditional titik (rhythm patterns), in canonical order.
+// The five core titik documented by the current oral-history source.
 // Full content lives in content/titik/<slug>.md — edit those files to add details.
 export const TITIK_ORDER = [
   "tabawan",
   "tarirai",
   "limbayan",
   "lellang",
-  "senai-senai",
+  "luvak-luvak",
 ] as const;

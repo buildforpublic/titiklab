@@ -3,19 +3,19 @@
 
 @theme {
   /* TitikLab palette — maroon heritage, Bajau textile orange, warm paper */
-  --color-bg: #f8efe4;
-  --color-surface: #fffaf2;
-  --color-ink: #17212a;
-  --color-ink-soft: #4d5962;
-  --color-ink-faint: #7a858d;
-  --color-border: #810000;
-  --color-border-subtle: #ead7bd;
+  --color-bg: #f7eddf;
+  --color-surface: #fffaf1;
+  --color-ink: #2a211d;
+  --color-ink-soft: #66554b;
+  --color-ink-faint: #8b7769;
+  --color-border: #8f2f25;
+  --color-border-subtle: #e4c99e;
 
   /* Brand */
-  --color-ocean: #810000;
-  --color-ocean-deep: #520000;
-  --color-brass: #d88722;
-  --color-coral: #c24b22;
+  --color-ocean: #9d392b;
+  --color-ocean-deep: #652219;
+  --color-brass: #c88a2b;
+  --color-coral: #bb5b35;
 
   /* Fonts */
   --font-display: "Fraunces", Georgia, serif;
@@ -27,20 +27,87 @@ html {
   scroll-behavior: smooth;
 }
 
+.lang-ms {
+  display: none !important;
+}
+
+html[data-language="ms"] .lang-en {
+  display: none !important;
+}
+
+html[data-language="ms"] .lang-ms {
+  display: revert !important;
+}
+
+html[data-language="ms"] .history-map.lang-ms {
+  display: grid !important;
+}
+
+html[data-language="ms"] .lang-ms.grid {
+  display: grid !important;
+}
+
+.language-bar {
+  position: relative;
+  z-index: 60;
+  border-bottom: 1px solid rgba(143, 47, 37, 0.12);
+  background: var(--color-ocean-deep);
+  color: white;
+}
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-height: 2.15rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.language-switcher__label {
+  margin-right: 0.4rem;
+  color: rgba(255, 255, 255, 0.66);
+}
+
+.language-switcher button {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
+  color: rgba(255, 255, 255, 0.74);
+  cursor: pointer;
+}
+
+.language-switcher button[aria-pressed="true"] {
+  border-color: var(--color-brass);
+  background: var(--color-brass);
+  color: #2a160f;
+}
+
 body {
   background:
     radial-gradient(circle at 16% 10%, rgba(216, 135, 34, 0.18), transparent 34rem),
     radial-gradient(circle at 88% 20%, rgba(129, 0, 0, 0.16), transparent 28rem),
-    linear-gradient(rgba(248, 239, 228, 0.84), rgba(255, 247, 236, 0.94)),
-    url("/media/gallery/performance-illustration-bg.png"),
-    url("/media/gallery/site-background-boat.png");
-  background-attachment: fixed, fixed, fixed, fixed, fixed;
-  background-position: left top, right top, center top, right 5rem, center top;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: auto, auto, auto, min(980px, 85vw) auto, cover;
+    linear-gradient(rgba(248, 239, 228, 0.86), rgba(255, 247, 236, 0.95)),
+    url("/media/gallery/performance-illustration-bg.png");
+  background-attachment: fixed, fixed, fixed, fixed;
+  background-position: left top, right top, center top, center 5rem;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: auto, auto, auto, min(1100px, 92vw) auto;
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+}
+
+.site-header {
+  background: rgba(255, 250, 241, 0.94);
+  box-shadow: 0 6px 24px rgba(101, 34, 25, 0.08);
+}
+
+.brand-logo {
+  border-radius: 999px;
+  filter: drop-shadow(0 4px 7px rgba(101, 34, 25, 0.16));
 }
 
 h1,
@@ -105,15 +172,17 @@ h4 {
 }
 
 .paper-shell {
-  background: rgba(255, 250, 242, 0.97);
+  background: rgba(255, 250, 241, 0.97);
   border: 2px solid var(--color-border);
-  box-shadow: 0 18px 45px rgba(129, 0, 0, 0.12), 0 0 0 8px rgba(216, 135, 34, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(101, 34, 25, 0.14), 0 0 0 8px rgba(200, 138, 43, 0.08);
+  overflow: hidden;
 }
 
 .hero-photo {
   background-image:
-    linear-gradient(90deg, rgba(58, 0, 0, 0.95) 0%, rgba(129, 0, 0, 0.76) 38%, rgba(194, 75, 34, 0.28) 100%),
-    url("/media/gallery/titiklab-hero.png");
+    linear-gradient(90deg, rgba(58, 0, 0, 0.97) 0%, rgba(101, 34, 25, 0.8) 32%, rgba(101, 34, 25, 0.08) 66%),
+    url("/media/gallery/titiklab-hero-ensemble.png");
   background-position: center;
   background-size: cover;
 }
@@ -130,6 +199,492 @@ h4 {
   height: 1px;
   flex: 1;
   background: linear-gradient(90deg, transparent, rgba(185, 135, 54, 0.8), transparent);
+}
+
+.heritage-intro {
+  background:
+    radial-gradient(circle at 10% 20%, rgba(200, 138, 43, 0.14), transparent 18rem),
+    linear-gradient(125deg, #fffaf1, #f8ead7);
+}
+
+.heritage-logo {
+  border-radius: 999px;
+  filter: drop-shadow(0 14px 18px rgba(101, 34, 25, 0.2));
+}
+
+.eyebrow {
+  color: var(--color-coral);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.fact-card {
+  display: flex;
+  min-height: 7.25rem;
+  flex-direction: column;
+  gap: 0.45rem;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid rgba(143, 47, 37, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 250, 241, 0.78);
+}
+
+.fact-card strong {
+  color: var(--color-ocean-deep);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.fact-card span {
+  color: var(--color-ink-soft);
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+
+/* ── INSTRUMENT MIND MAP ── */
+.instrument-map {
+  position: relative;
+  isolation: isolate;
+  min-height: 70rem;
+  padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 5vw, 4.5rem) 4rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  background:
+    radial-gradient(circle at 50% 20%, rgba(200, 138, 43, 0.12), transparent 22rem),
+    linear-gradient(145deg, rgba(255, 250, 241, 0.98), rgba(244, 224, 196, 0.96));
+  box-shadow: 0 24px 60px rgba(101, 34, 25, 0.16);
+}
+
+.instrument-map__content {
+  position: relative;
+  z-index: 1;
+}
+
+.instrument-map__overview {
+  margin: 0 auto 2.25rem;
+  max-width: 52rem;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid rgba(200, 138, 43, 0.34);
+  border-radius: 1.25rem;
+  background: rgba(255, 252, 246, 0.94);
+  box-shadow: 0 16px 36px rgba(101, 34, 25, 0.1);
+}
+
+.instrument-map__overview h2 {
+  margin-top: 0;
+  color: var(--color-ocean-deep);
+  text-align: center;
+}
+
+.instrument-map__hub {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  width: 11.5rem;
+  aspect-ratio: 1;
+  margin: 2rem auto 5.5rem;
+  place-content: center;
+  border: 1px solid rgba(255, 241, 204, 0.7);
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 35% 24%, rgba(255, 213, 125, 0.28), transparent 35%),
+    linear-gradient(145deg, var(--color-ocean), var(--color-ocean-deep));
+  color: white;
+  text-align: center;
+  box-shadow: 0 18px 40px rgba(101, 34, 25, 0.28), 0 0 0 9px rgba(200, 138, 43, 0.14);
+}
+
+.instrument-map__hub::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 1px;
+  height: 4.5rem;
+  background: linear-gradient(var(--color-brass), rgba(200, 138, 43, 0.22));
+}
+
+.instrument-map__hub span,
+.instrument-map__hub small {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.76;
+}
+
+.instrument-map__hub strong {
+  margin: 0.25rem 0;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.instrument-map__branches {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+}
+
+html[data-language="ms"] .instrument-map__branches.lang-ms {
+  display: grid !important;
+}
+
+.instrument-map__branches::before {
+  content: "";
+  position: absolute;
+  top: -2.8rem;
+  left: 16.66%;
+  right: 16.66%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-brass) 12%, var(--color-brass) 88%, transparent);
+}
+
+.instrument-map__card {
+  position: relative;
+  border-radius: 1.25rem;
+  background: rgba(255, 252, 246, 0.96);
+  overflow: visible;
+}
+
+.instrument-map__card::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 1px;
+  height: 2.8rem;
+  background: var(--color-brass);
+}
+
+.instrument-map__summary {
+  position: relative;
+  display: grid;
+  min-height: 12rem;
+  padding: 1.5rem 1rem 1.25rem;
+  cursor: pointer;
+  list-style: none;
+  place-items: center;
+  text-align: center;
+}
+
+.instrument-map__summary:focus-visible {
+  outline: 3px solid rgba(200, 138, 43, 0.55);
+  outline-offset: 4px;
+  border-radius: 1.1rem;
+}
+
+.instrument-map__logo {
+  display: grid;
+  width: 7.25rem;
+  aspect-ratio: 1;
+  margin-bottom: 0.8rem;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(200, 138, 43, 0.38);
+  border-radius: 999px;
+  background:
+    radial-gradient(circle, rgba(255, 252, 241, 0.98) 45%, rgba(222, 176, 91, 0.28)),
+    var(--color-sand);
+  box-shadow: 0 8px 20px rgba(101, 34, 25, 0.14), inset 0 0 0 6px rgba(255, 255, 255, 0.55);
+}
+
+.instrument-map__logo img {
+  width: 100%;
+  height: 100%;
+  padding: 0.85rem;
+  object-fit: contain;
+  filter: saturate(0.86) contrast(1.08) drop-shadow(0 5px 5px rgba(61, 31, 22, 0.18));
+}
+
+.instrument-map__summary-copy {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.instrument-map__summary-copy strong {
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+}
+
+.instrument-map__summary-copy > span {
+  color: var(--color-brass);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.instrument-map__summary-copy small {
+  margin-top: 0.4rem;
+  color: var(--color-ink-faint);
+  font-size: 0.72rem;
+}
+
+.instrument-map__arrow {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  display: grid;
+  width: 1.8rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--color-ocean-deep);
+  color: white;
+  font-size: 1rem;
+  line-height: 1;
+  transition: transform 180ms ease;
+}
+
+.instrument-map__summary:hover .instrument-map__arrow {
+  transform: translateX(0.2rem);
+}
+
+.instrument-map__card:hover {
+  box-shadow: 0 18px 38px rgba(101, 34, 25, 0.18);
+  transform: translateY(-0.2rem);
+}
+
+.instrument-map__card p {
+  text-wrap: pretty;
+}
+
+@media (max-width: 900px) {
+  .instrument-map {
+    min-height: 0;
+    padding-inline: 1.25rem;
+  }
+
+  .instrument-map__branches {
+    gap: 0.75rem;
+  }
+
+  .instrument-map__summary {
+    padding-inline: 0.65rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .instrument-map {
+    padding: 1.25rem 1rem;
+    border-radius: 1.25rem;
+  }
+
+  .instrument-map__overview {
+    padding: 1.25rem;
+  }
+
+  .instrument-map__hub {
+    width: 10rem;
+    margin-bottom: 4.25rem;
+  }
+
+  .instrument-map__branches {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-left: 1.75rem;
+  }
+
+  .instrument-map__branches::before {
+    top: -3rem;
+    right: auto;
+    bottom: 2.5rem;
+    left: 0.65rem;
+    width: 1px;
+    height: auto;
+    background: linear-gradient(var(--color-brass), rgba(200, 138, 43, 0.18));
+  }
+
+  .instrument-map__card::before {
+    top: 3rem;
+    right: 100%;
+    bottom: auto;
+    left: auto;
+    width: 1.1rem;
+    height: 1px;
+  }
+}
+
+/* ── HISTORY MIND MAP ── */
+.history-section > header {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.history-map {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 12rem minmax(0, 1fr);
+  grid-template-areas:
+    "community core definition"
+    "rhythms core preservation"
+    "source source source";
+  gap: 2rem 2.75rem;
+  align-items: center;
+  padding: 1.5rem 0;
+  isolation: isolate;
+}
+
+.history-map::before {
+  content: "";
+  position: absolute;
+  inset: 5rem 18% 11rem;
+  z-index: 0;
+  background:
+    linear-gradient(90deg, transparent 49.7%, rgba(200, 138, 43, 0.5) 49.7% 50.3%, transparent 50.3%),
+    linear-gradient(0deg, transparent 49.7%, rgba(200, 138, 43, 0.5) 49.7% 50.3%, transparent 50.3%);
+}
+
+.history-map__core {
+  grid-area: core;
+  z-index: 1;
+  display: grid;
+  aspect-ratio: 1;
+  place-content: center;
+  border: 1px solid rgba(255, 250, 241, 0.75);
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 35% 25%, rgba(255, 210, 128, 0.3), transparent 35%),
+    linear-gradient(145deg, var(--color-ocean), var(--color-ocean-deep));
+  color: white;
+  text-align: center;
+  box-shadow: 0 20px 45px rgba(101, 34, 25, 0.28), 0 0 0 8px rgba(200, 138, 43, 0.14);
+}
+
+.history-map__core span,
+.history-map__core small {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.76;
+}
+
+.history-map__core strong {
+  margin: 0.3rem 0;
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+
+.history-map__card {
+  position: relative;
+  z-index: 1;
+  padding: 1.6rem;
+  border: 1px solid rgba(143, 47, 37, 0.18);
+  border-radius: 1.25rem;
+  background: linear-gradient(145deg, rgba(255, 252, 247, 0.98), rgba(250, 235, 216, 0.94));
+  box-shadow: 0 18px 45px rgba(101, 34, 25, 0.1);
+}
+
+.history-map__card::after {
+  content: "";
+  position: absolute;
+  inset: 0.45rem;
+  pointer-events: none;
+  border: 1px solid rgba(200, 138, 43, 0.2);
+  border-radius: 0.95rem;
+}
+
+.history-map__card--1 { grid-area: community; }
+.history-map__card--2 { grid-area: definition; }
+.history-map__card--3 { grid-area: rhythms; }
+.history-map__card--4 { grid-area: preservation; }
+.history-map__card--5 {
+  grid-area: source;
+  width: min(46rem, 100%);
+  justify-self: center;
+  text-align: center;
+}
+
+.history-map__number {
+  color: var(--color-brass);
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.history-map__card h2 {
+  margin: 0.35rem 0 0.85rem;
+  color: var(--color-ocean-deep);
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.history-map__copy {
+  color: var(--color-ink-soft);
+  font-size: 0.84rem;
+  line-height: 1.72;
+}
+
+.history-map__copy p,
+.history-map__copy ul {
+  margin-bottom: 0.75rem;
+}
+
+.history-map__copy ul {
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+
+.history-map__copy blockquote {
+  color: var(--color-ink-faint);
+  font-style: italic;
+}
+
+.history-map__copy > :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .history-map {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "core core"
+      "community definition"
+      "rhythms preservation"
+      "source source";
+    padding: 1.5rem 0;
+  }
+
+  .history-map::before {
+    display: none;
+  }
+
+  .history-map__core {
+    width: 11rem;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .history-map {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+
+  html[data-language="ms"] .history-map.lang-ms {
+    display: flex !important;
+  }
+
+  .history-map__core {
+    width: 11rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .history-map__card {
+    width: 100%;
+  }
 }
 
 /* ── PROSE (rendered markdown) ── */

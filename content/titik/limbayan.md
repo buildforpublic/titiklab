@@ -2,29 +2,23 @@
 name: Limbayan
 slug: limbayan
 order: 3
-meaning: "TODO — short gloss of the name"
-tempo: "TODO"
-difficulty: "TODO"
+meaning: "To sway or wave the hands gently"
+tempo: "Slow"
+difficulty: "Community guidance recommended"
 audio: "/media/audio/limbayan.m4a"
-rhythmCode: "TODO"
+rhythmCode: "KIV — notation pending"
 ---
-
-> **This page needs content.** 🙌 See `content/titik/tabawan.md` for the full template,
-> then fill in the sections below using Cikgu Rosley's research and Sulimbag Jawtee's guidance.
-> No coding needed — you can edit this file directly on GitHub.
 
 ## Overview
 
-Describe the character of the Limbayan rhythm.
+Limbayan is a slow, gentle titik. Its name refers to softly swaying or waving the hands, and its musical character is more graceful and delicate than the other rhythms.
 
-## Cultural context
+## Dance and cultural context
 
-When and why is Limbayan played?
+The accompanying *igal* uses relatively few elaborate turns. Its focus is the relaxed, flowing movement of the hands, described in the interview as comparable in broad visual character to Sumazau hand movements.
 
-## The rhythm
+## What still needs confirmation
 
-Describe the pattern and update `rhythmCode` in the frontmatter above.
+Who traditionally performs the dance, the precise occasions, fuller origin history, associated stories and rhythm notation remain to be documented.
 
-## How to learn it
-
-Beginner tips.
+> **Source:** Interview by Ayunee with Mahammod Bongsu, founder of Sulimbag Jawtee.

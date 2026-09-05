@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -28,8 +29,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" data-language="en" suppressHydrationWarning>
       <body>
+        <div className="language-bar">
+          <div className="mx-auto flex max-w-6xl justify-end px-5">
+            <LanguageSwitcher />
+          </div>
+        </div>
         <Navbar />
         <main>{children}</main>
         <Footer />

@@ -19,14 +19,14 @@ export default function AboutPage() {
         <div className="prose-titik">
           <p>
             <strong>TitikLab: Pendigitalan Irama Kulintangan Bajau</strong> is a community project
-            to preserve and promote Tagungguk — the traditional Bajau music of Semporna, Sabah —
+            to preserve and promote Tagunggu' — the traditional Bajau music of Semporna, Sabah —
             through a digital learning platform and open educational materials.
           </p>
           <p>The platform helps students and the public:</p>
           <ul>
-            <li>Learn the history and cultural significance of Tagungguk.</li>
+            <li>Learn the history and cultural significance of Tagunggu'.</li>
             <li>Explore the five traditional titik.</li>
-            <li>Understand the instruments of a Tagungguk ensemble.</li>
+            <li>Understand the instruments of a Tagunggu' ensemble.</li>
             <li>View photos and videos of demonstrations.</li>
             <li>Listen to the rhythm of each titik.</li>
             <li>Download educational resources such as a learning pamphlet.</li>

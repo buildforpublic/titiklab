@@ -74,7 +74,7 @@ bun dev      # http://localhost:3000
 
 ## Cultural respect
 
-Tagungguk is living cultural heritage. Please verify musical and historical details with our
+Tagunggu' is living cultural heritage. Please verify musical and historical details with our
 community partners (Cikgu Rosley, Sulimbag Jawtee) before presenting them as fact, credit sources,
 and be respectful in how the material is used. When in doubt, open an issue and ask.
 
