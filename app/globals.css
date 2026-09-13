@@ -524,8 +524,7 @@ html[data-language="ms"] .instrument-map__branches.lang-ms {
   grid-template-columns: minmax(0, 1fr) 12rem minmax(0, 1fr);
   grid-template-areas:
     "community core definition"
-    "rhythms core preservation"
-    "source source source";
+    "rhythms core preservation";
   gap: 2rem 2.75rem;
   align-items: center;
   padding: 1.5rem 0;
@@ -570,8 +569,9 @@ html[data-language="ms"] .instrument-map__branches.lang-ms {
 .history-map__core strong {
   margin: 0.3rem 0;
   font-family: var(--font-display);
-  font-size: 1.65rem;
+  font-size: 1.35rem;
   font-weight: 600;
+  line-height: 1.25;
 }
 
 .history-map__card {
@@ -650,8 +650,7 @@ html[data-language="ms"] .instrument-map__branches.lang-ms {
     grid-template-areas:
       "core core"
       "community definition"
-      "rhythms preservation"
-      "source source";
+      "rhythms preservation";
     padding: 1.5rem 0;
   }
 

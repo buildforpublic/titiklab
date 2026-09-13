@@ -41,9 +41,7 @@ function HistoryMap({
       }
     >
       <div className="history-map__core">
-        <span>{language === "ms" ? "Warisan hidup" : "Living heritage"}</span>
-        <strong>Tagunggu'</strong>
-        <small>Semporna, Sabah</small>
+        <strong>Tagunggu&apos; Bajau<br />Semporna, Sabah</strong>
       </div>
 
       {sections.map((section, index) => (
@@ -69,9 +67,9 @@ export default function HistoryPage() {
 
   return (
     <Section
-      eyebrow={<><span className="lang-en">Oral history</span><span className="lang-ms">Sejarah lisan</span></>}
+      eyebrow={<><span className="lang-en">History</span><span className="lang-ms">Sejarah</span></>}
       title={<><span className="lang-en">The story of Tagunggu'</span><span className="lang-ms">Kisah Tagunggu'</span></>}
-      intro={<><span className="lang-en">Explore the tradition through five interconnected perspectives based on Cikgu Rosley’s educational research and an interview conducted by the TitikLab founder with Mahammod Bongsu, founder of Sulimbag Jawtee.</span><span className="lang-ms">Terokai tradisi ini melalui lima perspektif yang saling berkaitan berdasarkan kajian pendidikan Cikgu Rosley dan temu bual oleh pengasas TitikLab bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.</span></>}
+      intro={<><span className="lang-en">Explore the tradition through four interconnected perspectives based on Cikgu Rosley’s educational research and an interview conducted by the TitikLab founder with Mahammod Bongsu, founder of Sulimbag Jawtee.</span><span className="lang-ms">Terokai tradisi ini melalui empat perspektif yang saling berkaitan berdasarkan kajian pendidikan Cikgu Rosley dan temu bual oleh pengasas TitikLab bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.</span></>}
       className="history-section"
     >
       <HistoryMap body={englishBody} language="en" />
