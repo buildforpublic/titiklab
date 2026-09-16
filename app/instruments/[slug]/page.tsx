@@ -98,28 +98,34 @@ function InstrumentContent({
             ))}
           </div>
 
-          {instrument.soundSamples && instrument.soundSamples.length > 0 && (
-            <KulintanganSoundboard sounds={instrument.soundSamples} language={language} />
+          {instrument.galleryImages && instrument.galleryImages.length > 0 && (
+            <details className="group mt-4 rounded-xl border border-[var(--color-border)] bg-white/45 p-3">
+              <summary className="inline-flex cursor-pointer list-none items-center gap-2 rounded-full bg-[var(--color-ocean-deep)] px-4 py-2 text-sm font-700 text-white transition hover:-translate-y-0.5 group-open:bg-[var(--color-ocean)]">
+                <span aria-hidden="true">＋</span>
+                {language === "ms" ? "Lihat foto pembuat gong" : "View gong-maker photos"}
+              </summary>
+              <div className="mt-4 grid max-w-2xl gap-4 sm:grid-cols-2">
+                {instrument.galleryImages.map((image) => (
+                  <figure key={image.src} className="overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-paper)] p-2">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      className="aspect-[4/3] w-full rounded-lg object-cover"
+                    />
+                    {image.caption && (
+                      <figcaption className="px-1 pb-1 pt-2 text-xs leading-5 text-[var(--color-ink-soft)]">
+                        {image.caption}
+                      </figcaption>
+                    )}
+                  </figure>
+                ))}
+              </div>
+            </details>
           )}
 
-          {instrument.galleryImages && instrument.galleryImages.length > 0 && (
-            <div className="mt-10 grid gap-5 sm:grid-cols-2">
-              {instrument.galleryImages.map((image) => (
-                <figure key={image.src} className="card-hard overflow-hidden p-3">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={image.src}
-                    alt={image.alt}
-                    className="aspect-[4/3] w-full rounded-xl object-cover"
-                  />
-                  {image.caption && (
-                    <figcaption className="px-2 pb-1 pt-3 text-sm leading-6 text-[var(--color-ink-soft)]">
-                      {image.caption}
-                    </figcaption>
-                  )}
-                </figure>
-              ))}
-            </div>
+          {instrument.soundSamples && instrument.soundSamples.length > 0 && (
+            <KulintanganSoundboard sounds={instrument.soundSamples} language={language} />
           )}
         </article>
       </div>
