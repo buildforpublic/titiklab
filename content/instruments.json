@@ -30,10 +30,10 @@
         "buttonLabel": "View tingan photo",
         "images": [
           {
-            "src": "/media/gallery/kulintangan-tingan-focus-vertical.png",
+            "src": "/media/gallery/kulintangan-tingan-original-rotated.jpg",
             "alt": "Four wooden tingan used to strike the kulintangan",
             "caption": "Wooden tingan used to strike the kulintangan gongs.",
-            "orientation": "portrait"
+            "orientation": "landscape"
           }
         ]
       },

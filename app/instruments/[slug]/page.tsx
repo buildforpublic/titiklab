@@ -62,16 +62,14 @@ function InstrumentContent({
             <figure
               key={image.src}
               className={`w-full overflow-hidden rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-2 ${
-                image.orientation === "portrait" ? "max-w-[11rem]" : "max-w-[15rem]"
+                image.orientation === "portrait" ? "max-w-[11rem]" : "max-w-[18rem]"
               }`}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={image.src}
                 alt={image.alt}
-                className={`w-full rounded-md object-cover ${
-                  image.orientation === "portrait" ? "aspect-[3/4]" : "aspect-[4/3]"
-                }`}
+                className="h-auto w-full rounded-md object-contain"
               />
               {image.caption && (
                 <figcaption className="px-1 pb-1 pt-2 text-xs leading-5 text-[var(--color-ink-soft)]">
