@@ -24,16 +24,33 @@
       { "label": "Gong 6 · F", "audio": "/media/audio/kulintangan-f.m4a" },
       { "label": "Gong 7 · G", "audio": "/media/audio/kulintangan-g.m4a" }
     ],
-    "galleryImages": [
+    "noteGalleries": [
       {
-        "src": "/media/gallery/kulintangan-gong-workshop.jpg",
-        "alt": "Pelbagai gong yang dipamerkan di bengkel pembuat gong",
-        "caption": "Dokumentasi bengkel pembuatan gong di Kampung Matunggong, Kudat."
+        "noteIncludes": "Kayu pemukul yang digunakan",
+        "buttonLabel": "Lihat foto tingan",
+        "images": [
+          {
+            "src": "/media/gallery/kulintangan-tingan-focus.png",
+            "alt": "Empat batang tingan kayu yang digunakan untuk mengetuk kulintangan",
+            "caption": "Tingan kayu yang digunakan untuk mengetuk gong kulintangan."
+          }
+        ]
       },
       {
-        "src": "/media/gallery/kulintangan-gong-makers.jpg",
-        "alt": "Dua pembuat gong bergambar bersama sebuah gong",
-        "caption": "Pembuat gong dan hasil kraftangan tradisional yang didokumentasikan semasa kunjungan lapangan."
+        "noteIncludes": "Pembuat mahir ensembel",
+        "buttonLabel": "Lihat foto pembuat gong",
+        "images": [
+          {
+            "src": "/media/gallery/kulintangan-gong-workshop.jpg",
+            "alt": "Pelbagai gong yang dipamerkan di bengkel pembuat gong",
+            "caption": "Dokumentasi bengkel pembuatan gong di Kampung Matunggong, Kudat."
+          },
+          {
+            "src": "/media/gallery/kulintangan-gong-makers.jpg",
+            "alt": "Dua pembuat gong bergambar bersama sebuah gong",
+            "caption": "Pembuat gong dan hasil kraftangan tradisional yang didokumentasikan semasa kunjungan lapangan."
+          }
+        ]
       }
     ]
   },

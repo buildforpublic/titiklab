@@ -24,16 +24,33 @@
       { "label": "Gong 6 · F", "audio": "/media/audio/kulintangan-f.m4a" },
       { "label": "Gong 7 · G", "audio": "/media/audio/kulintangan-g.m4a" }
     ],
-    "galleryImages": [
+    "noteGalleries": [
       {
-        "src": "/media/gallery/kulintangan-gong-workshop.jpg",
-        "alt": "A display of gongs at a traditional gong maker's workshop",
-        "caption": "Documentation of a gong-making workshop in Kampung Matunggong, Kudat."
+        "noteIncludes": "wooden beater used",
+        "buttonLabel": "View tingan photo",
+        "images": [
+          {
+            "src": "/media/gallery/kulintangan-tingan-focus.png",
+            "alt": "Four wooden tingan used to strike the kulintangan",
+            "caption": "Wooden tingan used to strike the kulintangan gongs."
+          }
+        ]
       },
       {
-        "src": "/media/gallery/kulintangan-gong-makers.jpg",
-        "alt": "Two gong makers photographed with a gong",
-        "caption": "Gong makers and traditional craft documented during the field visit."
+        "noteIncludes": "Skilled makers",
+        "buttonLabel": "View gong-maker photos",
+        "images": [
+          {
+            "src": "/media/gallery/kulintangan-gong-workshop.jpg",
+            "alt": "A display of gongs at a traditional gong maker's workshop",
+            "caption": "Documentation of a gong-making workshop in Kampung Matunggong, Kudat."
+          },
+          {
+            "src": "/media/gallery/kulintangan-gong-makers.jpg",
+            "alt": "Two gong makers photographed with a gong",
+            "caption": "Gong makers and traditional craft documented during the field visit."
+          }
+        ]
       }
     ]
   },

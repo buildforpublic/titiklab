@@ -47,6 +47,33 @@ function InstrumentContent({
   instrument: Instrument;
   language: "en" | "ms";
 }) {
+  function NoteGallery({ note }: { note: string }) {
+    const gallery = instrument.noteGalleries?.find((item) => note.includes(item.noteIncludes));
+    if (!gallery) return null;
+
+    return (
+      <details className="group mt-3 border-t border-[var(--color-border)] pt-3">
+        <summary className="inline-flex cursor-pointer list-none items-center gap-2 rounded-full bg-[var(--color-ocean-deep)] px-3 py-1.5 text-xs font-700 text-white transition hover:-translate-y-0.5 group-open:bg-[var(--color-ocean)]">
+          <span aria-hidden="true">＋</span>
+          {gallery.buttonLabel}
+        </summary>
+        <div className="mt-3 flex max-w-2xl flex-wrap gap-3">
+          {gallery.images.map((image) => (
+            <figure key={image.src} className="w-full max-w-[15rem] overflow-hidden rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={image.src} alt={image.alt} className="aspect-[4/3] w-full rounded-md object-cover" />
+              {image.caption && (
+                <figcaption className="px-1 pb-1 pt-2 text-xs leading-5 text-[var(--color-ink-soft)]">
+                  {image.caption}
+                </figcaption>
+              )}
+            </figure>
+          ))}
+        </div>
+      </details>
+    );
+  }
+
   return (
     <div className={`lang-${language}`}>
       <Link href="/instruments" className="text-sm text-[var(--color-ocean-deep)] hover:underline">
@@ -81,48 +108,28 @@ function InstrumentContent({
 
           <div className="mt-8 space-y-4">
             {instrument.researchNotes?.map((note) => (
-              <p key={note} className="rounded-xl border border-[var(--color-border)] bg-white/55 p-4 leading-7 text-[var(--color-ink-soft)]">
-                {italicizeTerms(note, instrument.italicTerms)}{" "}
-                <span className="text-xs italic text-[var(--color-ink-faint)]">
-                  {language === "ms" ? "(Kajian Cikgu Rosley)" : "(Cikgu Rosley’s research)"}
-                </span>
-              </p>
+              <div key={note} className="rounded-xl border border-[var(--color-border)] bg-white/55 p-4 leading-7 text-[var(--color-ink-soft)]">
+                <p>
+                  {italicizeTerms(note, instrument.italicTerms)}{" "}
+                  <span className="text-xs italic text-[var(--color-ink-faint)]">
+                    {language === "ms" ? "(Kajian Cikgu Rosley)" : "(Cikgu Rosley’s research)"}
+                  </span>
+                </p>
+                <NoteGallery note={note} />
+              </div>
             ))}
             {instrument.interviewNotes?.map((note) => (
-              <p key={note} className="rounded-xl border border-[var(--color-border)] bg-white/55 p-4 leading-7 text-[var(--color-ink-soft)]">
-                {italicizeTerms(note, instrument.italicTerms)}{" "}
-                <span className="text-xs italic text-[var(--color-ink-faint)]">
-                  {language === "ms" ? "(Pengasas TitikLab)" : "(TitikLab founder)"}
-                </span>
-              </p>
+              <div key={note} className="rounded-xl border border-[var(--color-border)] bg-white/55 p-4 leading-7 text-[var(--color-ink-soft)]">
+                <p>
+                  {italicizeTerms(note, instrument.italicTerms)}{" "}
+                  <span className="text-xs italic text-[var(--color-ink-faint)]">
+                    {language === "ms" ? "(Pengasas TitikLab)" : "(TitikLab founder)"}
+                  </span>
+                </p>
+                <NoteGallery note={note} />
+              </div>
             ))}
           </div>
-
-          {instrument.galleryImages && instrument.galleryImages.length > 0 && (
-            <details className="group mt-4 rounded-xl border border-[var(--color-border)] bg-white/45 p-3">
-              <summary className="inline-flex cursor-pointer list-none items-center gap-2 rounded-full bg-[var(--color-ocean-deep)] px-4 py-2 text-sm font-700 text-white transition hover:-translate-y-0.5 group-open:bg-[var(--color-ocean)]">
-                <span aria-hidden="true">＋</span>
-                {language === "ms" ? "Lihat foto pembuat gong" : "View gong-maker photos"}
-              </summary>
-              <div className="mt-4 grid max-w-2xl gap-4 sm:grid-cols-2">
-                {instrument.galleryImages.map((image) => (
-                  <figure key={image.src} className="overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-paper)] p-2">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={image.src}
-                      alt={image.alt}
-                      className="aspect-[4/3] w-full rounded-lg object-cover"
-                    />
-                    {image.caption && (
-                      <figcaption className="px-1 pb-1 pt-2 text-xs leading-5 text-[var(--color-ink-soft)]">
-                        {image.caption}
-                      </figcaption>
-                    )}
-                  </figure>
-                ))}
-              </div>
-            </details>
-          )}
 
           {instrument.soundSamples && instrument.soundSamples.length > 0 && (
             <KulintanganSoundboard sounds={instrument.soundSamples} language={language} />
