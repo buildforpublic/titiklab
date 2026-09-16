@@ -31,6 +31,8 @@ export type Instrument = {
   researchNotes?: string[];
   interviewNotes?: string[];
   image?: string;
+  galleryImages?: Array<{ src: string; alt: string; caption?: string }>;
+  soundSamples?: Array<{ label: string; audio: string }>;
 };
 
 export type GalleryItem = {

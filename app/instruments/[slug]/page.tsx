@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Section from "@/components/Section";
+import KulintanganSoundboard from "@/components/KulintanganSoundboard";
 import {
   getAllInstruments,
   getInstrument,
@@ -96,6 +97,30 @@ function InstrumentContent({
               </p>
             ))}
           </div>
+
+          {instrument.soundSamples && instrument.soundSamples.length > 0 && (
+            <KulintanganSoundboard sounds={instrument.soundSamples} language={language} />
+          )}
+
+          {instrument.galleryImages && instrument.galleryImages.length > 0 && (
+            <div className="mt-10 grid gap-5 sm:grid-cols-2">
+              {instrument.galleryImages.map((image) => (
+                <figure key={image.src} className="card-hard overflow-hidden p-3">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="aspect-[4/3] w-full rounded-xl object-cover"
+                  />
+                  {image.caption && (
+                    <figcaption className="px-2 pb-1 pt-3 text-sm leading-6 text-[var(--color-ink-soft)]">
+                      {image.caption}
+                    </figcaption>
+                  )}
+                </figure>
+              ))}
+            </div>
+          )}
         </article>
       </div>
     </div>

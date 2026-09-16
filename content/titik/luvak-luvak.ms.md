@@ -1,24 +1,32 @@
 ---
 name: Luvak-luvak
 slug: luvak-luvak
-order: 5
+order: 4
 meaning: "Titik yang rancak"
-tempo: "Rancak — KIV"
+tempo: "Rancak"
 difficulty: "KIV"
-audio: ""
-rhythmCode: "KIV — notasi belum lengkap"
+audio: "/media/audio/luvak-luvak.m4a"
+rhythmCode: "Akan datang 👀🎶 !!!"
 ---
 
 ## Gambaran keseluruhan
 
-Luvak-luvak diterangkan sebagai titik rancak yang digunakan untuk *igal*. Ciri rentaknya lebih bertenaga daripada bentuk lain yang didokumentasikan.
+Luvak-luvak diterangkan sebagai titik rancak yang digunakan dalam *igal* dan ciri rentaknya lebih bertenaga.
 
 ## Ciri tarian
 
-Temu bual menerangkan hubungan antara muzik dan gerakan: apabila paluan menjadi semakin laju, penari boleh bergerak semakin perlahan dengan lenggok tubuh yang lebih melentik.
+Hubungan antara muzik dan gerakan: apabila paluan menjadi semakin laju, penari bergerak dengan semakin perlahan dan lenggok tubuh yang lebih melentik serta sopan.
 
-## Perkara yang masih perlu disahkan
+> ***Sumber:*** *Temu bual Pengasas TitikLab bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.*
 
-Catatan mengandungi keterangan tempo yang bercanggah—rancak tetapi turut ditandakan “perlahan” dalam satu jawapan. Maksud, penari, waktu dimainkan, asal-usul, cerita dan notasi perlu disahkan.
+## Lagu latihan
 
-> **Sumber:** Temu bual Ayunee bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.
+1. Baby
+2. Anak kampung
+3. Baby Shark Doo
+4. Aafiyah Anak Ibu
+5. Astaga Bercanda
+6. Happy Birthday
+7. Aspalela
+8. Sintak Taliaga
+9. Tanggal 31 Merdeka

@@ -12,9 +12,30 @@
     ],
     "interviewNotes": [
       "Gong kulintangan secara tradisional diperbuat daripada tembaga. Besi kini boleh digunakan kerana tembaga sukar diperoleh.",
-      "Pembuat mahir dikenal pasti di Matunggong, Kudat dan Kota Belud."
+      "Pembuat mahir ensembel Tagunggu’ dikenal pasti di Kampung Matunggong, Kudat dan Kota Belud."
     ],
-    "image": "/media/gallery/instrument-kulintangan-hd.png"
+    "image": "/media/gallery/instrument-kulintangan-hd.png",
+    "soundSamples": [
+      { "label": "Gong 1 · A", "audio": "/media/audio/kulintangan-a.m4a" },
+      { "label": "Gong 2 · B", "audio": "/media/audio/kulintangan-b.m4a" },
+      { "label": "Gong 3 · C", "audio": "/media/audio/kulintangan-c.m4a" },
+      { "label": "Gong 4 · D", "audio": "/media/audio/kulintangan-d.m4a" },
+      { "label": "Gong 5 · E", "audio": "/media/audio/kulintangan-e.m4a" },
+      { "label": "Gong 6 · F", "audio": "/media/audio/kulintangan-f.m4a" },
+      { "label": "Gong 7 · G", "audio": "/media/audio/kulintangan-g.m4a" }
+    ],
+    "galleryImages": [
+      {
+        "src": "/media/gallery/kulintangan-gong-workshop.jpg",
+        "alt": "Pelbagai gong yang dipamerkan di bengkel pembuat gong",
+        "caption": "Dokumentasi bengkel pembuatan gong di Kampung Matunggong, Kudat."
+      },
+      {
+        "src": "/media/gallery/kulintangan-gong-makers.jpg",
+        "alt": "Dua pembuat gong bergambar bersama sebuah gong",
+        "caption": "Pembuat gong dan hasil kraftangan tradisional yang didokumentasikan semasa kunjungan lapangan."
+      }
+    ]
   },
   {
     "slug": "agung",

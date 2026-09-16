@@ -44,11 +44,6 @@ function TitikContent({ titik, language }: { titik: Titik; language: "en" | "ms"
             {language === "ms" ? "Tempo" : "Tempo"}: <strong>{titik.tempo}</strong>
           </span>
         )}
-        {titik.difficulty && (
-          <span className="rounded-full border-2 border-[var(--color-border)] px-4 py-1 text-sm">
-            {language === "ms" ? "Tahap" : "Difficulty"}: <strong>{titik.difficulty}</strong>
-          </span>
-        )}
       </div>
 
       <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_320px]">
@@ -64,7 +59,7 @@ function TitikContent({ titik, language }: { titik: Titik; language: "en" | "ms"
               </p>
               <p className="mt-2 text-xs text-[var(--color-ink-faint)]">
                 {language === "ms"
-                  ? "Notasi berdasarkan kajian Cikgu Rosley—diperhalusi bersama Sulimbag Jawtee."
+                  ? "Notasi berdasarkan kajian Pendidikan Cikgu Rosley."
                   : "Notation based on Cikgu Rosley’s research—refined with Sulimbag Jawtee."}
               </p>
             </div>

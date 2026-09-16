@@ -5,7 +5,7 @@ order: 5
 meaning: "A lively titik"
 tempo: "Lively — KIV"
 difficulty: "KIV"
-audio: ""
+audio: "/media/audio/luvak-luvak.m4a"
 rhythmCode: "KIV — notation pending"
 ---
 

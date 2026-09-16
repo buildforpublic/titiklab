@@ -3,10 +3,10 @@ name: Limbayan
 slug: limbayan
 order: 3
 meaning: "Menghayun atau melimbai tangan dengan lembut"
-tempo: "Perlahan"
+tempo: "Sederhana laju"
 difficulty: "Bimbingan komuniti disarankan"
 audio: "/media/audio/limbayan.m4a"
-rhythmCode: "KIV — notasi belum lengkap"
+rhythmCode: "Akan datang 👀🎶 !!!"
 ---
 
 ## Gambaran keseluruhan
@@ -15,10 +15,6 @@ Limbayan ialah titik yang perlahan dan lembut. Namanya merujuk kepada gerakan ta
 
 ## Tarian dan konteks budaya
 
-*Igal* yang mengiringinya tidak mempunyai banyak lenggok rumit. Tumpuannya ialah gerakan tangan yang mengalir dan lembut, yang secara umum dibandingkan dengan gerakan tangan Sumazau.
+*Igal* yang mengiringinya tidak mempunyai banyak lenggok rumit. Tumpuannya ialah gerakan tangan yang mengalir dan lembut.
 
-## Perkara yang masih perlu disahkan
-
-Penari tradisional, waktu dimainkan, asal-usul penuh, cerita berkaitan dan notasi rentak masih perlu didokumentasikan.
-
-> **Sumber:** Temu bual Ayunee bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.
+> ***Sumber:*** *Temu bual Pengasas TitikLab bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.*
