@@ -35,7 +35,7 @@ export type Instrument = {
   noteGalleries?: Array<{
     noteIncludes: string;
     buttonLabel: string;
-    images: Array<{ src: string; alt: string; caption?: string }>;
+    images: Array<{ src: string; alt: string; caption?: string; orientation?: "portrait" | "landscape" }>;
   }>;
   soundSamples?: Array<{ label: string; audio: string }>;
 };

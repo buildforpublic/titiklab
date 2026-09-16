@@ -30,9 +30,10 @@
         "buttonLabel": "Lihat foto tingan",
         "images": [
           {
-            "src": "/media/gallery/kulintangan-tingan-focus.png",
+            "src": "/media/gallery/kulintangan-tingan-focus-vertical.png",
             "alt": "Empat batang tingan kayu yang digunakan untuk mengetuk kulintangan",
-            "caption": "Tingan kayu yang digunakan untuk mengetuk gong kulintangan."
+            "caption": "Tingan kayu yang digunakan untuk mengetuk gong kulintangan.",
+            "orientation": "portrait"
           }
         ]
       },

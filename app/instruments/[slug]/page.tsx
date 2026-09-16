@@ -59,9 +59,20 @@ function InstrumentContent({
         </summary>
         <div className="mt-3 flex max-w-2xl flex-wrap gap-3">
           {gallery.images.map((image) => (
-            <figure key={image.src} className="w-full max-w-[15rem] overflow-hidden rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-2">
+            <figure
+              key={image.src}
+              className={`w-full overflow-hidden rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-2 ${
+                image.orientation === "portrait" ? "max-w-[11rem]" : "max-w-[15rem]"
+              }`}
+            >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={image.src} alt={image.alt} className="aspect-[4/3] w-full rounded-md object-cover" />
+              <img
+                src={image.src}
+                alt={image.alt}
+                className={`w-full rounded-md object-cover ${
+                  image.orientation === "portrait" ? "aspect-[3/4]" : "aspect-[4/3]"
+                }`}
+              />
               {image.caption && (
                 <figcaption className="px-1 pb-1 pt-2 text-xs leading-5 text-[var(--color-ink-soft)]">
                   {image.caption}
