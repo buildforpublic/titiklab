@@ -1,22 +1,22 @@
-# Sejarah & Kepentingan Budaya
-
-> **Sumber sejarah:** Kajian pendidikan Cikgu Rosley dan temu bual oleh pengasas TitikLab bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.
+# Sejarah
 
 ## Komuniti Bajau yang diketengahkan
 
-Dalam catatan ini, Tagunggu' dikaitkan khusus dengan pengamal budaya Bajau yang menetap di Semporna, Sabah, dan bukan masyarakat Bajau secara umum. Tradisi ini berakar daripada keluarga yang mengamalkan ritual budaya seperti *mag’ombok, magduwata* dan *magsibandai*. Pengetahuan diwariskan daripada satu generasi kepada generasi seterusnya melalui lisan, pemerhatian, pengulangan serta pengalaman persembahan dalam amalan keluarga dan komuniti, bukan melalui pembelajaran formal.
+Dalam konteks ini, Tagunggu' dikaitkan khusus dengan pengamal budaya Bajau yang menetap di Semporna, Sabah, dan bukan masyarakat Bajau secara umum. Tradisi Tagunggu’ berakar umbi daripada keluarga yang mengamalkan ritual penyembuhan tradisional dan kepercayaan seperti *mag’ombok, magduwata* dan *magsibandai*. Irama Tagunggu’ merupakan komponen utama dalam amalan ritual tersebut. Pada asalnya, tidak semua komuniti Bajau mengamalkan ritual budaya yang sama.
 
-Pada asalnya, tidak semua komuniti Bajau mengamalkan ritual atau tradisi yang sama. Apabila Tagunggu' berkembang sebagai amalan muzik, ia mula dimainkan dengan lebih meluas dalam kalangan komuniti Bajau.
+Namun kini, Tagunggu' berkembang sebagai amalan muzik bagi masyarakat Bajau di Semporna, Sabah. Ia mula dimainkan dengan lebih meluas dan menjadi tonggak utama yang membentuk asas persembahan seperti *igal* atau tarian.
+
+Pengetahuan Tagunggu’ diwariskan daripada satu generasi kepada generasi seterusnya melalui lisan, pemerhatian, pengulangan serta pengalaman persembahan dalam amalan keluarga dan komuniti, bukan melalui pembelajaran formal.
 
 ## Apakah Tagunggu'?
 
-Tagunggu' ialah ensembel muzik tradisional Bajau di Semporna, Sabah, yang berpusat pada kulintangan, gong/agung dan tambul/gendang.
+Tagunggu' ialah ensembel muzik tradisional Bajau di Semporna, Sabah, yang terdiri daripada kulintangan (*pot gongs*), agung (gong besar) dan tambul (gendang).
 
-Tagunggu' selalunya dimainkan dalam konteks upacara adat, perayaan serta aktiviti kemasyarakatan masyarakat Bajau seperti Festival Regatta Lepa. Pada zaman dahulu, bunyi gong digunakan untuk memanggil masyarakat atau memberi isyarat kecemasan seperti kematian. Tagunggu' juga lazim dimainkan selepas majlis khatam al-Quran sebagai acara *maglami-lami*.
+Tagunggu' selalunya dimainkan dalam konteks upacara adat, perayaan, perkahwinan serta aktiviti kemasyarakatan masyarakat Bajau seperti Festival Regatta Lepa. Pada zaman dahulu, bunyi gong digunakan untuk memanggil masyarakat atau memberi isyarat kecemasan seperti kematian. Tagunggu' juga lazim dimainkan selepas majlis khatam al-Quran sebagai acara *maglami-lami*.
 
 ## Peranan titik
 
-*Titik* ialah bentuk rentak dalam repertoir Tagunggu'. Titik yang berbeza mengiringi gaya tarian *igal* dan keadaan budaya yang berbeza. Lima titik utama yang didokumentasikan ialah **Tabawan, Tarirai, Limbayan, Lellang dan Luvak-luvak**.
+*Titik* ialah bentuk rentak atau irama dalam repertoir Tagunggu'. Titik yang berbeza mengiringi gaya tarian *igal* dan keadaan budaya yang berbeza. Lima titik utama yang didokumentasikan ialah **Tabawan, Tarirai, Limbayan, Lellang dan Luvak-luvak**.
 
 Mahammod Bongsu menganggarkan bahawa mungkin lebih daripada 30 bentuk rentak pernah wujud, termasuk irama seperti titik *Sunat* dan titik *Jawtee*, tetapi jumlah keseluruhan repertoir itu tidak lagi dapat dikesan.
 
@@ -30,4 +30,6 @@ Beberapa cabaran telah dikenal pasti:
 - semakin kurang penggiat aktif membawa tradisi ini ke hadapan; dan
 - amalan muzik boleh terpisah daripada pengetahuan adat yang dipegang oleh komuniti yang menyambut tarikh ritual tertentu setiap tahun.
 
-Pendigitalan dapat mendokumentasikan muzik, istilah, cerita dan kesaksian komuniti sebelum ditelan arus kemodenan. Bahan digital harus menyokong, bukan menggantikan, pengamal dan pemegang adat yang mengekalkan tradisi Tagunggu' ini.
+Pendigitalan dapat mendokumentasikan muzik, istilah dan cerita di sebalik Tagunggu’ sebelum ditelan arus kemodenan.
+
+**Bahan digital harus menyokong, bukan menggantikan, pengamal dan pemegang adat yang mengekalkan tradisi Tagunggu' ini.**

@@ -48,6 +48,13 @@ export type Partner = {
   logo?: string;
 };
 
+export type Person = {
+  name: string;
+  role: string;
+  roleMs: string;
+  initials: string;
+};
+
 /** Read a single titik markdown file by slug. Returns null if it does not exist. */
 export function getTitik(slug: string, locale: "en" | "ms" = "en"): Titik | null {
   const suffix = locale === "ms" ? ".ms" : "";
