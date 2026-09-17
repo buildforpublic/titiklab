@@ -1,12 +1,10 @@
 import Link from "next/link";
 import TitikCard from "@/components/TitikCard";
-import PartnerCard from "@/components/PartnerCard";
-import { getAllTitik, getJson, type Partner, type Person } from "@/lib/content";
+import { getAllTitik, getJson, type Person } from "@/lib/content";
 import { SITE } from "@/lib/constants";
 
 export default function HomePage() {
   const titik = getAllTitik();
-  const partners = getJson<Partner>("partners.json");
   const people = getJson<Person>("people.json");
 
   return (
@@ -167,19 +165,6 @@ export default function HomePage() {
             </Link>
           </div>
         </section>
-
-        {partners.length > 0 && (
-          <section className="bg-white px-6 py-12 sm:px-10">
-            <p className="mb-7 text-center font-[family-name:var(--font-display)] text-2xl font-700 text-[var(--color-ocean-deep)]">
-              Rakan Komuniti
-            </p>
-            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              {partners.map((p) => (
-                <PartnerCard key={p.name} partner={p} />
-              ))}
-            </div>
-          </section>
-        )}
 
         <section className="flex flex-col gap-5 bg-[var(--color-ocean-deep)] px-6 py-6 text-white sm:flex-row sm:items-center sm:justify-between sm:px-10">
           <p className="max-w-xl font-[family-name:var(--font-display)] text-lg italic">

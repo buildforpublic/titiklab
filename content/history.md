@@ -28,6 +28,5 @@ Several challenges have been identified:
 
 - fewer young people are interested in learning and carrying the tradition forward;
 - fewer active practitioners are bringing the tradition into public view; and
-- musical practice can become separated from the customary knowledge held by communities that observe particular annual ritual dates.
 
 Digitisation can document the music, terminology, stories and community testimony before they are lost to modernisation. Digital material should support, not replace, the practitioners and customary holders who sustain the Tagunggu' tradition.

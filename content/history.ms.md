@@ -28,7 +28,6 @@ Beberapa cabaran telah dikenal pasti:
 
 - semakin kurang anak muda yang berminat mempelajari dan meneruskan tradisi;
 - semakin kurang penggiat aktif membawa tradisi ini ke hadapan; dan
-- amalan muzik boleh terpisah daripada pengetahuan adat yang dipegang oleh komuniti yang menyambut tarikh ritual tertentu setiap tahun.
 
 Pendigitalan dapat mendokumentasikan muzik, istilah dan cerita di sebalik Tagunggu’ sebelum ditelan arus kemodenan.
 
