@@ -40,6 +40,14 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-[var(--color-ink)]">{person.name}</h3>
               <p className="lang-en mt-2 whitespace-pre-line text-sm leading-6 text-[var(--color-ink-soft)]">{person.role}</p>
               <p className="lang-ms mt-2 whitespace-pre-line text-sm leading-6 text-[var(--color-ink-soft)]">{person.roleMs}</p>
+              {person.email && (
+                <a
+                  href={`mailto:${person.email}`}
+                  className="mt-3 inline-block text-sm font-semibold text-[var(--color-ocean-deep)] underline decoration-[var(--color-brass)] underline-offset-4"
+                >
+                  {person.email}
+                </a>
+              )}
             </article>
           ))}
         </div>

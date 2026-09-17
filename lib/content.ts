@@ -79,6 +79,7 @@ export type Person = {
   role: string;
   roleMs: string;
   initials: string;
+  email?: string;
   image?: string;
   imageVariant?: "portrait" | "logo";
 };
