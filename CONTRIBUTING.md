@@ -30,6 +30,16 @@ GitHub account.
 - **Video:** just add an entry to `content/gallery.json` with `"type": "youtube"` and the video
   link — no upload needed.
 
+### Add a downloadable resource
+
+1. Upload the file into `public/media/resources/`.
+2. Add an entry to `content/resources.json`, using the existing pamphlet as an example.
+3. Include English and Malay titles, descriptions, and download button labels. Set
+   `href` to `/media/resources/your-file.pdf` (replace the filename with yours).
+
+To update the pamphlet, replace `public/media/resources/TitikLab Pamhplet.pdf` with the new
+PDF, keeping the same filename so existing download links continue to work.
+
 ### Add an audio recording
 
 Upload an `.mp3` into `public/media/audio/` named after the titik (e.g. `tarirai.mp3`). It will
