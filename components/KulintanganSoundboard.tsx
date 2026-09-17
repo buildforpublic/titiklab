@@ -10,9 +10,13 @@ type GongSound = {
 export default function KulintanganSoundboard({
   sounds,
   language,
+  title,
+  description,
 }: {
   sounds: GongSound[];
   language: "en" | "ms";
+  title?: string;
+  description?: string;
 }) {
   const activeAudio = useRef<HTMLAudioElement | null>(null);
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -34,12 +38,13 @@ export default function KulintanganSoundboard({
         {language === "ms" ? "Dengar setiap gong" : "Hear each gong"}
       </p>
       <h2 className="mt-2 font-[family-name:var(--font-display)] text-2xl font-700 text-[var(--color-ink)]">
-        {language === "ms" ? "Tujuh bunyi kulintangan" : "Seven kulintangan sounds"}
+        {title ?? (language === "ms" ? "Tujuh bunyi kulintangan" : "Seven kulintangan sounds")}
       </h2>
       <p className="mt-2 max-w-2xl text-sm leading-6 text-[var(--color-ink-soft)]">
-        {language === "ms"
-          ? "Tekan setiap gong untuk mendengar rakaman bunyinya. Gong disusun daripada saiz paling besar di kiri dan semakin kecil ke kanan."
-          : "Press each gong to hear its recorded sound. The gongs are arranged from larger on the left to smaller on the right."}
+        {description ??
+          (language === "ms"
+            ? "Tekan setiap gong untuk mendengar rakaman bunyinya. Gong disusun daripada saiz paling besar di kiri dan semakin kecil ke kanan."
+            : "Press each gong to hear its recorded sound. The gongs are arranged from larger on the left to smaller on the right.")}
       </p>
 
       <div className="mt-8 flex items-end justify-center gap-2 overflow-x-auto pb-3 sm:gap-3">

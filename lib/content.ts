@@ -30,6 +30,7 @@ export type Instrument = {
   italicTerms?: string[];
   researchNotes?: string[];
   interviewNotes?: string[];
+  detailedNotes?: Array<{ text: string; source: string }>;
   image?: string;
   galleryImages?: Array<{ src: string; alt: string; caption?: string }>;
   noteGalleries?: Array<{
@@ -38,6 +39,8 @@ export type Instrument = {
     images: Array<{ src: string; alt: string; caption?: string; orientation?: "portrait" | "landscape" }>;
   }>;
   soundSamples?: Array<{ label: string; audio: string }>;
+  soundboardTitle?: string;
+  soundboardDescription?: string;
 };
 
 export type GalleryItem = {

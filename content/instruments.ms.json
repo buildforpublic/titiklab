@@ -61,20 +61,49 @@
     "malayName": "Agung",
     "role": "Bass / penjaga tempo",
     "description": "Tiga buah gong gantung bersaiz besar yang menyokong ritma dan struktur bunyi dalam ensembel Tagunggu’.",
-    "italicTerms": ["agung sambut", "agung lusung", "agung bua", "agung tawag-tawag", "canang", "bell", "sulimbang"],
-    "researchNotes": [
-      "Agung menghasilkan bunyi berfrekuensi rendah yang mantap dan berautoriti. Ia menjadi penanda masa, membantu mengawal tempo dan mengekalkan kesinambungan muzik.",
-      "Dalam masyarakat Bajau, agung merupakan sebahagian daripada langkapan—harta pusaka nenek moyang yang mempunyai nilai simbolik dan spiritual yang tinggi.",
-      "Gong yang lebih kecil dikenali sebagai agung sambut, gong yang lebih besar sebagai agung lusung, dan gong berbentuk leper sebagai agung bua.",
-      "Kayu pemukul gong dikenali sebagai tigung."
+    "italicTerms": ["agung sambut", "agung lusung", "agung bua", "agung tawag-tawag", "canang", "bell", "sulimbag", "tawag", "langkapan", "tigung"],
+    "detailedNotes": [
+      {
+        "text": "Agung menghasilkan bunyi berfrekuensi rendah yang mantap dan berautoriti. Dalam konteks persembahan, ia menjadi penanda masa, membantu mengawal tempo dan mengekalkan kesinambungan muzik.",
+        "source": "Kajian Cikgu Rosley"
+      },
+      {
+        "text": "Bagi masyarakat Bajau, agung merupakan sebahagian daripada langkapan—harta pusaka nenek moyang yang mempunyai nilai simbolik dan spiritual yang tinggi.",
+        "source": "Kajian Cikgu Rosley"
+      },
+      {
+        "text": "Pengelasan: agung yang lebih kecil dikenali sebagai agung sambut, agung yang lebih besar sebagai agung lusung, dan agung berbentuk leper sebagai agung bua. Ketiga-tiga agung ini mempunyai fungsi tersendiri.",
+        "source": "Kajian Cikgu Rosley"
+      },
+      {
+        "text": "1. Agung bua, yang turut dikenali sebagai canang atau bell, melengkapkan dan memantapkan alunan atau sulimbag atau susunan rentak. Fungsi ini bergantung pada kemahiran pemain.",
+        "source": "Pengasas SJ"
+      },
+      {
+        "text": "2. Agung sambut juga dikenali sebagai agung tawag-tawag. Namanya diambil daripada perkataan Suluk tawag, yang bermaksud “panggil”. Ia berfungsi seperti isyarat dan kebiasaannya dipalu dengan laju. Pada masa dahulu, paluannya digunakan untuk memanggil masyarakat atau memberi isyarat kecemasan seperti kematian.",
+        "source": "Pengasas SJ"
+      },
+      {
+        "text": "3. Agung lusung berfungsi untuk menyambut atau menjawab bunyi alunan atau sulimbag. Agung sambut dan agung lusung melengkapi bunyi antara satu sama lain.",
+        "source": "Pengasas SJ"
+      },
+      {
+        "text": "Kayu pemukul agung dikenali sebagai tigung.",
+        "source": "Kajian Cikgu Rosley"
+      },
+      {
+        "text": "Agung secara tradisional diperbuat daripada tembaga, dengan besi turut digunakan pada masa kini.",
+        "source": "Pengasas TitikLab"
+      }
     ],
-    "interviewNotes": [
-      "Agung bua, yang turut disebut canang atau bell, melengkapkan dan memantapkan alunan sulimbang atau susunan rentak, bergantung pada kemahiran pemain.",
-      "Agung sambut menyambut atau menjawab bunyi paluan.",
-      "Agung tawag-tawag mengambil nama daripada perkataan Suluk tawag, yang bermaksud “panggil”. Ia berfungsi seperti isyarat dan dipalu dengan laju. Pada masa dahulu, paluannya digunakan untuk memanggil masyarakat atau memberi isyarat kecemasan seperti kematian.",
-      "Agung secara tradisional diperbuat daripada tembaga, dengan besi turut digunakan pada masa kini."
+    "image": "/media/gallery/instrument-agung-hd-v2.png",
+    "soundSamples": [
+      { "label": "Gong 1", "audio": "/media/audio/agung-gong-1.m4a" },
+      { "label": "Gong 2", "audio": "/media/audio/agung-gong-2.m4a" },
+      { "label": "Gong 3 · Gua", "audio": "/media/audio/agung-gong-3-gua.m4a" }
     ],
-    "image": "/media/gallery/instrument-agung-hd-v2.png"
+    "soundboardTitle": "Tiga bunyi agung",
+    "soundboardDescription": "Tekan setiap gong untuk mendengar rakaman bunyi tiga agung dalam ensembel Tagunggu’."
   },
   {
     "slug": "tambul",

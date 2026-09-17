@@ -116,6 +116,19 @@ function InstrumentContent({
           </p>
 
           <div className="mt-8 space-y-4">
+            {instrument.detailedNotes?.map((note) => (
+              <div key={`${note.text}-${note.source}`} className="rounded-xl border border-[var(--color-border)] bg-white/55 p-4 leading-7 text-[var(--color-ink-soft)]">
+                <p>
+                  {italicizeTerms(note.text, instrument.italicTerms)}{" "}
+                  <span className="text-xs italic text-[var(--color-ink-faint)]">
+                    ({note.source})
+                  </span>
+                </p>
+                <NoteGallery note={note.text} />
+              </div>
+            ))}
+            {!instrument.detailedNotes && (
+              <>
             {instrument.researchNotes?.map((note) => (
               <div key={note} className="rounded-xl border border-[var(--color-border)] bg-white/55 p-4 leading-7 text-[var(--color-ink-soft)]">
                 <p>
@@ -138,10 +151,17 @@ function InstrumentContent({
                 <NoteGallery note={note} />
               </div>
             ))}
+              </>
+            )}
           </div>
 
           {instrument.soundSamples && instrument.soundSamples.length > 0 && (
-            <KulintanganSoundboard sounds={instrument.soundSamples} language={language} />
+            <KulintanganSoundboard
+              sounds={instrument.soundSamples}
+              language={language}
+              title={instrument.soundboardTitle}
+              description={instrument.soundboardDescription}
+            />
           )}
         </article>
       </div>

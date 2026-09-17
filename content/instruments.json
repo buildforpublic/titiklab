@@ -61,20 +61,49 @@
     "malayName": "Agung",
     "role": "Bass / timekeeping",
     "description": "Three large hanging gongs that reinforce the rhythmic and sonic structure of the Tagunggu’ ensemble.",
-    "italicTerms": ["agung sambut", "agung lusung", "agung bua", "agung tawag-tawag", "canang", "bell", "sulimbang"],
-    "researchNotes": [
-      "The agung produces a firm, authoritative low-frequency sound. It marks time, helps control tempo, and maintains musical continuity.",
-      "Within Bajau society, the agung forms part of langkapan—ancestral heirlooms carrying significant symbolic and spiritual value.",
-      "The smaller gong is known as agung sambut, the larger gong as agung lusung, and the flatter gong as agung bua.",
-      "The wooden gong beater is known as tigung."
+    "italicTerms": ["agung sambut", "agung lusung", "agung bua", "agung tawag-tawag", "canang", "bell", "sulimbag", "tawag", "langkapan", "tigung"],
+    "detailedNotes": [
+      {
+        "text": "The agung produces a firm, authoritative low-frequency sound. In performance, it marks time, helps control tempo, and maintains musical continuity.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "For the Bajau community, the agung forms part of langkapan—ancestral heirlooms with significant symbolic and spiritual value.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "Classification: the smaller agung is known as agung sambut, the larger agung as agung lusung, and the flatter agung as agung bua. Each of the three has its own function.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "1. Agung bua, also known as canang or bell, completes and strengthens the musical flow or sulimbag—the rhythmic arrangement—depending on the player’s skill.",
+        "source": "SJ founder"
+      },
+      {
+        "text": "2. Agung sambut is also known as agung tawag-tawag. Its name comes from the Suluk word tawag, meaning “to call”. It functions as a signal and is usually played rapidly. In the past, its strokes were used to summon the community or signal an emergency such as a death.",
+        "source": "SJ founder"
+      },
+      {
+        "text": "3. Agung lusung responds to or answers the musical flow or sulimbag. Agung sambut and agung lusung complement one another’s sound.",
+        "source": "SJ founder"
+      },
+      {
+        "text": "The wooden agung beater is known as tigung.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "Agung gongs were traditionally made from brass, with iron also used today.",
+        "source": "TitikLab founder"
+      }
     ],
-    "interviewNotes": [
-      "Agung bua, also called canang or bell, completes and strengthens the flow of a sulimbang or rhythmic arrangement, depending on the player’s skill.",
-      "Agung sambut answers or responds to the sounding pattern.",
-      "Agung tawag-tawag takes its name from the Suluk word tawag, meaning “to call”. It functions like a signal and is played rapidly. Historically, its strokes were used to summon the community or signal an emergency such as a death.",
-      "Agung gongs were traditionally made from brass, with iron also used today."
+    "image": "/media/gallery/instrument-agung-hd-v2.png",
+    "soundSamples": [
+      { "label": "Gong 1", "audio": "/media/audio/agung-gong-1.m4a" },
+      { "label": "Gong 2", "audio": "/media/audio/agung-gong-2.m4a" },
+      { "label": "Gong 3 · Gua", "audio": "/media/audio/agung-gong-3-gua.m4a" }
     ],
-    "image": "/media/gallery/instrument-agung-hd-v2.png"
+    "soundboardTitle": "Three agung sounds",
+    "soundboardDescription": "Press each gong to hear recordings of the three agung in the Tagunggu’ ensemble."
   },
   {
     "slug": "tambul",
