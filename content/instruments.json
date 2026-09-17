@@ -129,17 +129,44 @@
     "malayName": "Tambul",
     "role": "Drum / rhythm",
     "description": "A double-headed drum that produces a repeated, consistent pulse and acts as the principal rhythmic driver of the Tagunggu’ ensemble.",
-    "researchNotes": [
-      "Strong, continuous tambul strokes shape the music’s dynamics and reinforce the ensemble’s overall rhythmic structure.",
-      "Like the agung, the tambul forms part of langkapan—an ancestral heirloom with symbolic and spiritual value—and is therefore subject to customary restrictions concerning its care and playing technique.",
-      "Earlier tambul were commonly made from wood with goatskin membranes. Contemporary construction may use metals such as brass and alloy.",
-      "The wooden beater used to strike the tambul is known as tibul."
+    "italicTerms": ["langkapan", "tibul"],
+    "detailedNotes": [
+      {
+        "text": "Strong, continuous tambul strokes shape the music’s dynamics and reinforce the ensemble’s overall rhythmic structure.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "Like the agung, the tambul forms part of langkapan—an ancestral heirloom with symbolic and spiritual value—and is therefore subject to customary restrictions concerning its care and playing technique.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "In the past, the tambul was commonly made from wood with a refined goatskin membrane, a wooden frame including suitable root wood, and a brass or iron body. Today, its construction may use metals such as brass and alloy. A drum purchased from a musical-instrument shop may also be used as a contemporary substitute.",
+        "source": "Cikgu Rosley’s research; SJ founder"
+      },
+      {
+        "text": "The wooden beater used to strike the tambul is known as tibul.",
+        "source": "Cikgu Rosley’s research"
+      }
     ],
-    "interviewNotes": [
-      "Tambul uses refined goatskin heads, a wooden frame including suitable root wood, a brass or iron body, and coarse sack-like tension rope.",
-      "Hard, termite-resistant wood such as belian or ipil was used for the beater.",
-      "A drum purchased from a musical-instrument shop may be used as a substitute today."
+    "noteGalleries": [
+      {
+        "noteIncludes": "wooden beater used to strike",
+        "buttonLabel": "View tibul photo",
+        "images": [
+          {
+            "src": "/media/gallery/tambul-tibul-rotated.png",
+            "alt": "A pair of traditional tambul beaters known as tibul",
+            "caption": "Tibul used to strike the tambul.",
+            "orientation": "landscape"
+          }
+        ]
+      }
     ],
-    "image": "/media/gallery/instrument-tambul-hd.png"
+    "image": "/media/gallery/instrument-tambul-hd.png",
+    "soundSamples": [
+      { "label": "Tambul", "audio": "/media/audio/tambul.m4a", "width": 190, "height": 104, "kind": "drum" }
+    ],
+    "soundboardTitle": "Tambul sound",
+    "soundboardDescription": "Press the tambul to hear three recorded strokes, trimmed to begin directly with the instrument sound."
   }
 ]

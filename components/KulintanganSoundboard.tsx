@@ -9,6 +9,7 @@ type GongSound = {
   width?: number;
   height?: number;
   profile?: "flat" | "deep";
+  kind?: "gong" | "drum";
 };
 
 export default function KulintanganSoundboard({
@@ -24,6 +25,7 @@ export default function KulintanganSoundboard({
 }) {
   const activeAudio = useRef<HTMLAudioElement | null>(null);
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const isDrumBoard = sounds.every((sound) => sound.kind === "drum");
 
   function playSound(sound: GongSound, index: number) {
     activeAudio.current?.pause();
@@ -39,7 +41,9 @@ export default function KulintanganSoundboard({
   return (
     <section className="mt-10 rounded-3xl border border-[var(--color-border)] bg-[var(--color-sand)]/55 p-5 sm:p-7">
       <p className="text-xs font-700 uppercase tracking-[0.16em] text-[var(--color-brass)]">
-        {language === "ms" ? "Dengar setiap gong" : "Hear each gong"}
+        {isDrumBoard
+          ? language === "ms" ? "Dengar bunyi instrumen" : "Hear the instrument"
+          : language === "ms" ? "Dengar setiap gong" : "Hear each gong"}
       </p>
       <h2 className="mt-2 font-[family-name:var(--font-display)] text-2xl font-700 text-[var(--color-ink)]">
         {title ?? (language === "ms" ? "Tujuh bunyi kulintangan" : "Seven kulintangan sounds")}
@@ -63,14 +67,25 @@ export default function KulintanganSoundboard({
               type="button"
               onClick={() => playSound(sound, index)}
               aria-label={`${language === "ms" ? "Mainkan" : "Play"} ${sound.label}`}
-              className={`group relative shrink-0 rounded-full border-4 transition duration-200 hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-ocean)] ${
+              className={`group relative shrink-0 border-4 transition duration-200 hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-ocean)] ${
+                sound.kind === "drum" ? "rounded-[38%]" : "rounded-full"
+              } ${
                 active
                   ? "border-[var(--color-ocean)] shadow-[0_0_0_6px_rgba(200,138,43,0.2)]"
                   : "border-[#8f5c20] shadow-[0_8px_18px_rgba(74,35,15,0.22)]"
               }`}
               style={{ width, height }}
             >
-              <span
+              {sound.kind === "drum" ? (
+                <>
+                  <span className="absolute inset-1 rounded-[35%] bg-[linear-gradient(90deg,#e7c58b_0_10%,#8b4b25_16%,#b86f37_50%,#8b4b25_84%,#e7c58b_90%_100%)]" />
+                  <span className="absolute inset-y-1 left-[9%] w-[7%] rounded-full border border-[#815028] bg-[#ead09d]" />
+                  <span className="absolute inset-y-1 right-[9%] w-[7%] rounded-full border border-[#815028] bg-[#ead09d]" />
+                  <span className="absolute inset-x-[20%] top-[22%] h-px rotate-12 bg-[#f0d7aa]/80" />
+                  <span className="absolute inset-x-[20%] bottom-[22%] h-px -rotate-12 bg-[#f0d7aa]/80" />
+                </>
+              ) : (
+                <><span
                 className={`absolute inset-1 rounded-full ${
                   sound.profile === "flat"
                     ? "bg-[radial-gradient(circle_at_40%_35%,#e6bd62_0%,#bd7b27_52%,#75431c_100%)]"
@@ -83,7 +98,8 @@ export default function KulintanganSoundboard({
                     ? "h-[26%] w-[26%] border bg-[radial-gradient(circle_at_40%_35%,#e9c675,#a96524_75%,#704018)]"
                     : "h-[36%] w-[36%] border-2 bg-[radial-gradient(circle_at_38%_32%,#ffe49a,#bb7524_65%,#744015)]"
                 }`}
-              />
+              /></>
+              )}
               <span className="absolute inset-x-0 -bottom-7 text-center text-xs font-700 text-[var(--color-ink-soft)]">
                 {sound.label}
               </span>
