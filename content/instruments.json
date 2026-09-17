@@ -167,6 +167,6 @@
       { "label": "Tambul", "audio": "/media/audio/tambul.m4a", "width": 190, "height": 132, "kind": "drum", "image": "/media/gallery/instrument-tambul-hd-v2.png" }
     ],
     "soundboardTitle": "Tambul sound",
-    "soundboardDescription": "Press the tambul to hear three recorded strokes, trimmed to begin directly with the instrument sound."
+    "soundboardDescription": "Press the tambul to hear one recorded stroke that begins directly with the instrument sound."
   }
 ]
