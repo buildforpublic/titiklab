@@ -37,7 +37,7 @@ GitHub account.
 3. Include English and Malay titles, descriptions, and download button labels. Set
    `href` to `/media/resources/your-file.pdf` (replace the filename with yours).
 
-To update the pamphlet, replace `public/media/resources/pamphlet.pdf` with the new
+To update the pamphlet, replace `public/media/resources/TitikLab Pamhplet.pdf` with the new
 PDF, keeping the same filename so existing download links continue to work.
 
 ### Add an audio recording
