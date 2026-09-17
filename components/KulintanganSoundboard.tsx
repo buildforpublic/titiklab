@@ -10,6 +10,7 @@ type GongSound = {
   height?: number;
   profile?: "flat" | "deep";
   kind?: "gong" | "drum";
+  image?: string;
 };
 
 export default function KulintanganSoundboard({
@@ -76,7 +77,14 @@ export default function KulintanganSoundboard({
               }`}
               style={{ width, height }}
             >
-              {sound.kind === "drum" ? (
+              {sound.image ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={sound.image}
+                  alt=""
+                  className="absolute inset-0 h-full w-full rounded-[34%] bg-[var(--color-paper)] object-contain p-1"
+                />
+              ) : sound.kind === "drum" ? (
                 <>
                   <span className="absolute inset-1 rounded-[35%] bg-[linear-gradient(90deg,#e7c58b_0_10%,#8b4b25_16%,#b86f37_50%,#8b4b25_84%,#e7c58b_90%_100%)]" />
                   <span className="absolute inset-y-1 left-[9%] w-[7%] rounded-full border border-[#815028] bg-[#ead09d]" />

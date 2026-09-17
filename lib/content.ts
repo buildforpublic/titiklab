@@ -52,6 +52,7 @@ export type Instrument = {
     height?: number;
     profile?: "flat" | "deep";
     kind?: "gong" | "drum";
+    image?: string;
   }>;
   soundboardTitle?: string;
   soundboardDescription?: string;

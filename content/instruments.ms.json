@@ -162,9 +162,9 @@
         ]
       }
     ],
-    "image": "/media/gallery/instrument-tambul-hd-v2.png",
+    "image": "/media/gallery/instrument-tambul-hd.png",
     "soundSamples": [
-      { "label": "Tambul", "audio": "/media/audio/tambul.m4a", "width": 190, "height": 104, "kind": "drum" }
+      { "label": "Tambul", "audio": "/media/audio/tambul.m4a", "width": 190, "height": 132, "kind": "drum", "image": "/media/gallery/instrument-tambul-hd-v2.png" }
     ],
     "soundboardTitle": "Bunyi tambul",
     "soundboardDescription": "Tekan tambul untuk mendengar rakaman tiga pukulan yang telah dipotong agar bermula terus pada bunyi instrumen."
