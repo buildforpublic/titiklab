@@ -80,6 +80,7 @@ export type Person = {
   roleMs: string;
   initials: string;
   image?: string;
+  imageVariant?: "portrait" | "logo";
 };
 
 /** Read a single titik markdown file by slug. Returns null if it does not exist. */

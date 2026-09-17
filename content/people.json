@@ -14,14 +14,17 @@
   },
   {
     "name": "Sulimbag Jawtee",
-    "role": "Collaborator and traditional Bajau musicians",
-    "roleMs": "Kolaborator dan pemuzik tradisional Bajau",
-    "initials": "SJ"
+    "role": "Founder: Mr Mahammod bin Bongsu\nCollaborator and traditional Bajau musician",
+    "roleMs": "Pengasas: Tn. Mahammod bin Bongsu\nKolaborator dan pemuzik tradisional Bajau",
+    "initials": "SJ",
+    "image": "/media/gallery/tn-mahammod-bin-bongsu.png"
   },
   {
     "name": "Build for Public",
-    "role": "Open-source volunteer community supporting TitikLab's technical development",
-    "roleMs": "Komuniti sukarelawan sumber terbuka yang menyokong pembangunan teknikal TitikLab",
-    "initials": "BFP"
+    "role": "Web developer supporting TitikLab’s technical development",
+    "roleMs": "Web developer yang menyokong pembangunan teknikal TitikLab",
+    "initials": "BFP",
+    "image": "/media/gallery/build-for-public-logo.png",
+    "imageVariant": "logo"
   }
 ]

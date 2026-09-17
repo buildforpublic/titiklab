@@ -20,12 +20,16 @@ export default function AboutPage() {
           {people.map((person) => (
             <article key={person.name} className="card-hard p-6">
               {person.image ? (
-                <div className="mb-5 h-36 w-36 overflow-hidden rounded-full bg-[radial-gradient(circle_at_50%_35%,#f6e1bc_0%,#ead0a4_44%,#7b201d_100%)] ring-4 ring-[var(--color-border-subtle)]">
+                <div className={person.imageVariant === "logo"
+                  ? "mb-5 flex h-36 w-full items-center justify-center overflow-hidden rounded-2xl border border-[var(--color-border)] bg-white p-5"
+                  : "mb-5 h-36 w-36 overflow-hidden rounded-full bg-[radial-gradient(circle_at_50%_35%,#f6e1bc_0%,#ead0a4_44%,#7b201d_100%)] ring-4 ring-[var(--color-border-subtle)]"}>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={person.image}
                     alt={person.name}
-                    className="h-full w-full object-cover object-[50%_26%]"
+                    className={person.imageVariant === "logo"
+                      ? "h-full w-full object-contain"
+                      : "h-full w-full object-cover object-[50%_26%]"}
                   />
                 </div>
               ) : (
@@ -34,8 +38,8 @@ export default function AboutPage() {
                 </div>
               )}
               <h3 className="text-xl font-bold text-[var(--color-ink)]">{person.name}</h3>
-              <p className="lang-en mt-2 text-sm leading-6 text-[var(--color-ink-soft)]">{person.role}</p>
-              <p className="lang-ms mt-2 text-sm leading-6 text-[var(--color-ink-soft)]">{person.roleMs}</p>
+              <p className="lang-en mt-2 whitespace-pre-line text-sm leading-6 text-[var(--color-ink-soft)]">{person.role}</p>
+              <p className="lang-ms mt-2 whitespace-pre-line text-sm leading-6 text-[var(--color-ink-soft)]">{person.roleMs}</p>
             </article>
           ))}
         </div>
