@@ -9,6 +9,7 @@ export const SITE = {
   description:
     "An educational platform preserving and promoting Tagunggu' — the traditional Bajau kulintangan music of Semporna, Sabah. Learn the history, the five titik, the instruments, and the rhythms.",
   email: "hello@titiklab.org", // TODO: update with the project's real contact email
+  feedbackEmail: "ayunee.2024@yayasantar.org.my",
   github: "https://github.com/buildforpublic/titiklab",
   // Build for Public supports this project as part of the open-source community —
   // it does not own the project or its cultural content.

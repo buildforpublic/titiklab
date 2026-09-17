@@ -62,7 +62,9 @@ export type GalleryItem = {
   type: "image" | "youtube";
   src: string;
   caption: string;
+  captionMs?: string;
   credit?: string;
+  creditMs?: string;
   sourceUrl?: string;
 };
 

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Section from "@/components/Section";
+import WebsiteRating from "@/components/WebsiteRating";
 import { getJson, type Person } from "@/lib/content";
+import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "About",
@@ -59,6 +61,7 @@ export default function AboutPage() {
             </article>
           ))}
         </div>
+        <WebsiteRating recipient={SITE.feedbackEmail} />
       </Section>
   );
 }

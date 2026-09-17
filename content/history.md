@@ -4,15 +4,17 @@
 
 ## The Bajau community represented here
 
-In this account, Tagunggu' is associated specifically with Bajau cultural practitioners living in Semporna, Sabah, rather than with Bajau communities in general. The tradition is rooted in families that practise cultural rituals such as *mag’ombok, magduwata*, and *magsibandai*. Knowledge is passed from one generation to the next through oral transmission, observation, repetition, and performance experience within family and community practice, rather than through formal teaching.
+In this context, Tagunggu' is associated specifically with Bajau cultural practitioners living in Semporna, Sabah, rather than with Bajau communities in general. The Tagunggu’ tradition is rooted in families that practise traditional healing rituals and beliefs such as *mag’ombok, magduwata*, and *magsibandai*. Tagunggu’ rhythms are a principal component of these ritual practices. Historically, not every Bajau community practised the same cultural rituals.
 
-Historically, not every Bajau community practised the same rituals or traditions. As Tagunggu' developed as a musical practice, it came to be played more widely across Bajau communities.
+Today, Tagunggu' has developed as a musical practice among Bajau communities in Semporna, Sabah. It is performed more widely and has become a central foundation for performances such as *igal* or dance.
+
+Knowledge of Tagunggu’ is passed from one generation to the next through oral transmission, observation, repetition, and performance experience within family and community practice, rather than through formal education.
 
 ## What is Tagunggu'?
 
-Tagunggu' is a traditional Bajau musical ensemble in Semporna, Sabah, centred on the kulintangan, gong/agung, and tambul/drum.
+Tagunggu' is a traditional Bajau musical ensemble in Semporna, Sabah, comprising kulintangan (*pot gongs*), agung (large gongs), and tambul (drum).
 
-Tagunggu' is commonly performed in the context of customary ceremonies, celebrations, and Bajau community activities such as the Regatta Lepa Festival. In earlier times, gong sounds were used to call the community together or signal an emergency such as a death. Tagunggu' was also commonly performed after a Qur’an completion ceremony as part of *maglami-lami*.
+Tagunggu' is commonly performed during customary ceremonies, celebrations, weddings, and Bajau community activities such as the Regatta Lepa Festival. In earlier times, the sound of the agung or gong was used to call the community together or signal an emergency such as a death. Tagunggu' was also commonly performed after a Qur’an completion ceremony as part of *maglami-lami*.
 
 ## The role of the titik
 
@@ -22,11 +24,13 @@ Mahammod Bongsu estimated that more than 30 rhythmic forms may once have existed
 
 ## Why preservation matters
 
-Tagunggu' carries the legacy of Bajau communities whose cultural practices included *mag’ombok*, *magriawata*, and *magsibandai*. For tradition-bearers, continuing this legacy through future generations is essential.
+Tagunggu' carries the legacy of Bajau communities whose cultural practices include *mag’ombok*, *magduwata*, and *magsibandai*. For tradition-bearers, continuing this legacy through future generations is essential.
 
 Several challenges have been identified:
 
 - fewer young people are interested in learning and carrying the tradition forward;
-- fewer active practitioners are bringing the tradition into public view; and
+- fewer active practitioners are carrying the tradition forward.
 
-Digitisation can document the music, terminology, stories and community testimony before they are lost to modernisation. Digital material should support, not replace, the practitioners and customary holders who sustain the Tagunggu' tradition.
+Digitisation can document the music, terminology, and stories behind Tagunggu’ before they are lost to modernisation.
+
+**Digital materials should support, not replace, the practitioners and customary holders who sustain the Tagunggu' tradition.**

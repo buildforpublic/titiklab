@@ -37,7 +37,8 @@ export default function MediaGallery({ items }: { items: GalleryItem[] }) {
             />
           )}
           <figcaption className="p-4 text-sm text-[var(--color-ink-soft)]">
-            {item.caption}
+            <span className="lang-en">{item.caption}</span>
+            <span className="lang-ms">{item.captionMs ?? item.caption}</span>
             {item.credit && (
               <span className="mt-1 block text-xs text-[var(--color-ink-faint)]">
                 📷 {item.sourceUrl ? (
@@ -47,9 +48,9 @@ export default function MediaGallery({ items }: { items: GalleryItem[] }) {
                     rel="noreferrer"
                     className="underline decoration-dotted underline-offset-2 hover:text-[var(--color-ocean-deep)]"
                   >
-                    {item.credit}
+                    <><span className="lang-en">{item.credit}</span><span className="lang-ms">{item.creditMs ?? item.credit}</span></>
                   </a>
-                ) : item.credit}
+                ) : <><span className="lang-en">{item.credit}</span><span className="lang-ms">{item.creditMs ?? item.credit}</span></>}
               </span>
             )}
           </figcaption>

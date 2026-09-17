@@ -64,7 +64,7 @@ function TitikContent({ titik, language }: { titik: Titik; language: "en" | "ms"
               </p>
             </div>
           )}
-          {titik.audio && <AudioPlayer src={titik.audio} label={titik.name} />}
+          {titik.audio && <AudioPlayer src={titik.audio} label={titik.name} language={language} />}
         </aside>
       </div>
     </div>

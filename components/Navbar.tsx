@@ -9,7 +9,7 @@ export default function Navbar() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/media/gallery/titiklab-main-logo.png"
-            alt="TitikLab — pemuzik Bajau memainkan gong"
+            alt="TitikLab"
             className="brand-logo h-16 w-16 object-contain"
           />
           <span className="leading-tight">
