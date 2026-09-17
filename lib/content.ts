@@ -79,6 +79,7 @@ export type Person = {
   role: string;
   roleMs: string;
   initials: string;
+  image?: string;
 };
 
 /** Read a single titik markdown file by slug. Returns null if it does not exist. */

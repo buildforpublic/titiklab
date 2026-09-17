@@ -19,9 +19,20 @@ export default function AboutPage() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {people.map((person) => (
             <article key={person.name} className="card-hard p-6">
-              <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[var(--color-ocean-deep)] font-bold text-[var(--color-brass)] ring-4 ring-[var(--color-border-subtle)]">
-                {person.initials}
-              </div>
+              {person.image ? (
+                <div className="mb-5 flex h-56 items-end justify-center overflow-hidden rounded-2xl bg-[radial-gradient(circle_at_50%_35%,#f6e1bc_0%,#ead0a4_38%,#7b201d_100%)] px-3 pt-3 ring-1 ring-[var(--color-border)]">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={person.image}
+                    alt={person.name}
+                    className="h-full w-full object-contain object-bottom"
+                  />
+                </div>
+              ) : (
+                <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[var(--color-ocean-deep)] font-bold text-[var(--color-brass)] ring-4 ring-[var(--color-border-subtle)]">
+                  {person.initials}
+                </div>
+              )}
               <h3 className="text-xl font-bold text-[var(--color-ink)]">{person.name}</h3>
               <p className="lang-en mt-2 text-sm leading-6 text-[var(--color-ink-soft)]">{person.role}</p>
               <p className="lang-ms mt-2 text-sm leading-6 text-[var(--color-ink-soft)]">{person.roleMs}</p>
