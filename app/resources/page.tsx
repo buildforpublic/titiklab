@@ -30,7 +30,7 @@ export default function ResourcesPage() {
           <article key={r.title} className="card-hard flex flex-col p-6">
             <h3 className="text-lg font-700 text-[var(--color-ink)]"><span className="lang-en">{r.title}</span><span className="lang-ms">{r.titleMs}</span></h3>
             <p className="mt-2 flex-1 text-sm text-[var(--color-ink-soft)]"><span className="lang-en">{r.description}</span><span className="lang-ms">{r.descriptionMs}</span></p>
-            <a href={r.href} className="btn-pill btn-pill-outline mt-5 self-start" download>
+            <a href={r.href} className="btn-pill btn-pill-filled mt-5 self-start" download>
               <span className="lang-en">{r.cta}</span><span className="lang-ms">{r.ctaMs}</span>
             </a>
           </article>
