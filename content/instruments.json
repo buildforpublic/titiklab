@@ -100,6 +100,20 @@
         ]
       }
     ],
+    "noteGalleries": [
+      {
+        "noteIncludes": "wooden agung beater is known",
+        "buttonLabel": "View tigung photo",
+        "images": [
+          {
+            "src": "/media/gallery/agung-tigung-rotated.png",
+            "alt": "Four traditional agung beaters known as tigung",
+            "caption": "Tigung used to strike the agung gongs.",
+            "orientation": "landscape"
+          }
+        ]
+      }
+    ],
     "image": "/media/gallery/instrument-agung-hd-v2.png",
     "soundSamples": [
       { "label": "Agung bua", "audio": "/media/audio/agung-gong-1.m4a", "width": 136, "height": 136, "profile": "flat" },

@@ -100,6 +100,20 @@
         ]
       }
     ],
+    "noteGalleries": [
+      {
+        "noteIncludes": "Kayu pemukul agung dikenali",
+        "buttonLabel": "Lihat foto tigung",
+        "images": [
+          {
+            "src": "/media/gallery/agung-tigung-rotated.png",
+            "alt": "Empat pemukul agung tradisional yang dikenali sebagai tigung",
+            "caption": "Tigung yang digunakan untuk memalu agung.",
+            "orientation": "landscape"
+          }
+        ]
+      }
+    ],
     "image": "/media/gallery/instrument-agung-hd-v2.png",
     "soundSamples": [
       { "label": "Agung bua", "audio": "/media/audio/agung-gong-1.m4a", "width": 136, "height": 136, "profile": "flat" },
