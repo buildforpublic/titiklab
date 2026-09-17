@@ -18,15 +18,3 @@ Luvak-luvak diterangkan sebagai titik rancak yang digunakan dalam *igal* dan cir
 Hubungan antara muzik dan gerakan: apabila paluan menjadi semakin laju, penari bergerak dengan semakin perlahan dan lenggok tubuh yang lebih melentik serta sopan.
 
 > ***Sumber:*** *Temu bual Pengasas TitikLab bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.*
-
-## Lagu latihan
-
-1. Baby
-2. Anak kampung
-3. Baby Shark Doo
-4. Aafiyah Anak Ibu
-5. Astaga Bercanda
-6. Happy Birthday
-7. Aspalela
-8. Sintak Taliaga
-9. Tanggal 31 Merdeka
