@@ -162,7 +162,7 @@
         ]
       }
     ],
-    "image": "/media/gallery/instrument-tambul-hd.png",
+    "image": "/media/gallery/instrument-tambul-hd-v2.png",
     "soundSamples": [
       { "label": "Tambul", "audio": "/media/audio/tambul.m4a", "width": 190, "height": 104, "kind": "drum" }
     ],
