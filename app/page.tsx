@@ -1,12 +1,13 @@
 import Link from "next/link";
 import TitikCard from "@/components/TitikCard";
 import PartnerCard from "@/components/PartnerCard";
-import { getAllTitik, getJson, type Partner } from "@/lib/content";
+import { getAllTitik, getJson, type Partner, type Person } from "@/lib/content";
 import { SITE } from "@/lib/constants";
 
 export default function HomePage() {
   const titik = getAllTitik();
   const partners = getJson<Partner>("partners.json");
+  const people = getJson<Person>("people.json");
 
   return (
     <div className="px-4 py-8 sm:px-6">
@@ -123,6 +124,48 @@ export default function HomePage() {
             </p>
             <span className="btn-pill btn-pill-filled mt-5">Lihat Galeri</span>
           </Link>
+        </section>
+
+        <section className="border-t border-[var(--color-border-subtle)] bg-[var(--color-paper)] px-6 py-12 sm:px-10">
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="eyebrow">Warga TitikLab</p>
+            <h2 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-700 text-[var(--color-ocean-deep)]">
+              Individu dan komuniti di sebalik projek
+            </h2>
+          </div>
+          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {people.map((person) => (
+              <article key={person.name} className="card-hard p-5">
+                {person.image ? (
+                  <div className={person.imageVariant === "logo"
+                    ? "mb-4 flex h-24 items-center justify-center overflow-hidden rounded-xl border border-[var(--color-border)] bg-white p-4"
+                    : "mb-4 h-24 w-24 overflow-hidden rounded-full bg-[var(--color-sand)] ring-2 ring-[var(--color-border-subtle)]"}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={person.image}
+                      alt={person.name}
+                      className={person.imageVariant === "logo"
+                        ? "h-full w-full object-contain"
+                        : "h-full w-full object-cover object-[50%_26%]"}
+                    />
+                  </div>
+                ) : (
+                  <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[var(--color-ocean-deep)] font-700 text-[var(--color-brass)]">
+                    {person.initials}
+                  </div>
+                )}
+                <h3 className="font-700 text-[var(--color-ink)]">{person.name}</h3>
+                <p className="mt-2 whitespace-pre-line text-sm leading-6 text-[var(--color-ink-soft)]">
+                  {person.roleMs}
+                </p>
+              </article>
+            ))}
+          </div>
+          <div className="mt-7 text-center">
+            <Link href="/about" className="btn-pill btn-pill-outline">
+              Kenali Warga TitikLab
+            </Link>
+          </div>
         </section>
 
         {partners.length > 0 && (
