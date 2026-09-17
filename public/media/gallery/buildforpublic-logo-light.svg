@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120">
+  <defs><style>@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&amp;display=swap');</style></defs>
+  <rect width="600" height="120" fill="#ffffff"/>
+  <rect x="325.9" y="32" width="170.7" height="62" fill="#fff200"/>
+  <text font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-weight="800" font-size="52" y="80">
+    <tspan x="109.4" fill="#000000">Build for </tspan><tspan fill="#000000">Public</tspan>
+  </text>
+</svg>

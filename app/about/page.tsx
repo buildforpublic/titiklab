@@ -21,7 +21,7 @@ export default function AboutPage() {
             <article key={person.name} className="card-hard p-6">
               {person.image ? (
                 <div className={person.imageVariant === "logo"
-                  ? "mb-5 flex h-36 w-full items-center justify-center overflow-hidden rounded-2xl border border-[var(--color-border)] bg-white p-5"
+                  ? "mb-5 flex h-36 w-full items-center justify-center overflow-hidden rounded-2xl bg-white p-5"
                   : "mb-5 h-36 w-36 overflow-hidden rounded-full bg-[radial-gradient(circle_at_50%_35%,#f6e1bc_0%,#ead0a4_44%,#7b201d_100%)] ring-4 ring-[var(--color-border-subtle)]"}>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img

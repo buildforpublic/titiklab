@@ -97,7 +97,7 @@ export default function HomePage() {
               <article key={person.name} className="card-hard p-5">
                 {person.image ? (
                   <div className={person.imageVariant === "logo"
-                    ? "mb-4 flex h-24 items-center justify-center overflow-hidden rounded-xl border border-[var(--color-border)] bg-white p-4"
+                    ? "mb-4 flex h-24 items-center justify-center overflow-hidden rounded-xl bg-white p-4"
                     : "mb-4 h-24 w-24 overflow-hidden rounded-full bg-[var(--color-sand)] ring-2 ring-[var(--color-border-subtle)]"}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
