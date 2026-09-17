@@ -25,14 +25,26 @@ export default function ResourcesPage() {
       title={<><span className="lang-en">Educational resources</span><span className="lang-ms">Sumber pendidikan</span></>}
       intro={<><span className="lang-en">Free materials for students, teachers, and anyone learning Tagunggu&apos;.</span><span className="lang-ms">Bahan percuma untuk pelajar, guru dan sesiapa sahaja yang mempelajari Tagunggu&apos;.</span></>}
     >
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="resource-library">
         {resources.map((r) => (
-          <article key={r.title} className="card-hard flex flex-col p-6">
-            <h3 className="text-lg font-700 text-[var(--color-ink)]"><span className="lang-en">{r.title}</span><span className="lang-ms">{r.titleMs}</span></h3>
-            <p className="mt-2 flex-1 text-sm text-[var(--color-ink-soft)]"><span className="lang-en">{r.description}</span><span className="lang-ms">{r.descriptionMs}</span></p>
-            <a href={r.href} className="btn-pill btn-pill-maroon mt-5 self-start" download>
-              <span className="lang-en">{r.cta}</span><span className="lang-ms">{r.ctaMs}</span>
+          <article key={r.title} className="resource-book-card">
+            <a href={r.href} className="resource-book" aria-label={`Open ${r.title}`} target="_blank" rel="noreferrer">
+              <span className="resource-book__pages" aria-hidden="true" />
+              <span className="resource-book__cover">
+                <span className="resource-book__kicker">TitikLab</span>
+                <span className="resource-book__ornament" aria-hidden="true">✦</span>
+                <strong><span className="lang-en">Tagunggu&apos;<br />Learning Pamphlet</span><span className="lang-ms">Risalah Pembelajaran<br />Tagunggu&apos;</span></strong>
+                <span className="resource-book__edition"><span className="lang-en">Digital edition · PDF</span><span className="lang-ms">Edisi digital · PDF</span></span>
+              </span>
             </a>
+            <div className="resource-book-copy">
+              <p className="eyebrow"><span className="lang-en">Featured resource</span><span className="lang-ms">Sumber pilihan</span></p>
+              <h3><span className="lang-en">{r.title}</span><span className="lang-ms">{r.titleMs}</span></h3>
+              <p><span className="lang-en">{r.description}</span><span className="lang-ms">{r.descriptionMs}</span></p>
+              <a href={r.href} className="btn-pill btn-pill-maroon mt-5 self-start" download>
+                <span className="lang-en">{r.cta}</span><span className="lang-ms">{r.ctaMs}</span>
+              </a>
+            </div>
           </article>
         ))}
       </div>
