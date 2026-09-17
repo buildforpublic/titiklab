@@ -28,23 +28,14 @@ export default function ResourcesPage() {
       <div className="resource-library">
         {resources.map((r) => (
           <article key={r.title} className="resource-book-card">
-            <a href={r.href} className="resource-book" aria-label={`Open ${r.title}`} target="_blank" rel="noreferrer">
+            <a href={r.href} className="resource-book" aria-label={`Download ${r.title}`} download>
               <span className="resource-book__pages" aria-hidden="true" />
               <span className="resource-book__cover">
-                <span className="resource-book__kicker">TitikLab</span>
-                <span className="resource-book__ornament" aria-hidden="true">✦</span>
+                <img className="resource-book__logo" src="/media/gallery/titiklab-main-logo.png" alt="" aria-hidden="true" />
                 <strong><span className="lang-en">Tagunggu&apos;<br />Learning Pamphlet</span><span className="lang-ms">Risalah Pembelajaran<br />Tagunggu&apos;</span></strong>
                 <span className="resource-book__edition"><span className="lang-en">Digital edition · PDF</span><span className="lang-ms">Edisi digital · PDF</span></span>
               </span>
             </a>
-            <div className="resource-book-copy">
-              <p className="eyebrow"><span className="lang-en">Featured resource</span><span className="lang-ms">Sumber pilihan</span></p>
-              <h3><span className="lang-en">{r.title}</span><span className="lang-ms">{r.titleMs}</span></h3>
-              <p><span className="lang-en">{r.description}</span><span className="lang-ms">{r.descriptionMs}</span></p>
-              <a href={r.href} className="btn-pill btn-pill-maroon mt-5 self-start" download>
-                <span className="lang-en">{r.cta}</span><span className="lang-ms">{r.ctaMs}</span>
-              </a>
-            </div>
           </article>
         ))}
       </div>
