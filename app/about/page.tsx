@@ -20,20 +20,18 @@ export default function AboutPage() {
           {people.map((person) => (
             <article key={person.name} className="card-hard p-6">
               {person.image ? (
-                <div className={person.imageVariant === "logo"
-                  ? "mb-5 flex h-36 w-full items-center justify-center overflow-hidden rounded-2xl bg-white p-5"
-                  : "mb-5 h-36 w-36 overflow-hidden rounded-full bg-[radial-gradient(circle_at_50%_35%,#f6e1bc_0%,#ead0a4_44%,#7b201d_100%)] ring-4 ring-[var(--color-border-subtle)]"}>
+                <div className="mb-5 flex h-36 w-36 items-center justify-center overflow-hidden rounded-full bg-[radial-gradient(circle_at_50%_35%,#f6e1bc_0%,#ead0a4_44%,#7b201d_100%)] ring-4 ring-[var(--color-border-subtle)]">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={person.image}
                     alt={person.name}
                     className={person.imageVariant === "logo"
-                      ? "h-full w-full object-contain"
+                      ? "h-full w-full bg-white object-contain p-4"
                       : "h-full w-full object-cover object-[50%_26%]"}
                   />
                 </div>
               ) : (
-                <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[var(--color-ocean-deep)] font-bold text-[var(--color-brass)] ring-4 ring-[var(--color-border-subtle)]">
+                <div className="mb-5 flex h-36 w-36 items-center justify-center rounded-full bg-[var(--color-ocean-deep)] text-2xl font-bold text-[var(--color-brass)] ring-4 ring-[var(--color-border-subtle)]">
                   {person.initials}
                 </div>
               )}
