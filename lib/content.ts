@@ -44,7 +44,13 @@ export type Instrument = {
     buttonLabel: string;
     images: Array<{ src: string; alt: string; caption?: string; orientation?: "portrait" | "landscape" }>;
   }>;
-  soundSamples?: Array<{ label: string; audio: string; size?: number }>;
+  soundSamples?: Array<{
+    label: string;
+    audio: string;
+    size?: number;
+    width?: number;
+    height?: number;
+  }>;
   soundboardTitle?: string;
   soundboardDescription?: string;
 };

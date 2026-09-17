@@ -102,9 +102,9 @@
     ],
     "image": "/media/gallery/instrument-agung-hd-v2.png",
     "soundSamples": [
-      { "label": "Agung bua", "audio": "/media/audio/agung-gong-1.m4a", "size": 112 },
-      { "label": "Agung lusung", "audio": "/media/audio/agung-gong-2.m4a", "size": 132 },
-      { "label": "Agung sambut / tawag-tawag", "audio": "/media/audio/agung-gong-3-gua.m4a", "size": 96 }
+      { "label": "Agung bua", "audio": "/media/audio/agung-gong-1.m4a", "width": 142, "height": 88 },
+      { "label": "Agung lusung", "audio": "/media/audio/agung-gong-2.m4a", "width": 136, "height": 136 },
+      { "label": "Agung sambut / tawag-tawag", "audio": "/media/audio/agung-gong-3-gua.m4a", "width": 100, "height": 100 }
     ],
     "soundboardTitle": "Tiga bunyi agung",
     "soundboardDescription": "Dari kiri: agung bua, agung lusung yang paling besar di tengah, dan agung sambut atau agung tawag-tawag yang paling kecil di kanan. Tekan setiap gong untuk mendengar rakaman bunyinya."

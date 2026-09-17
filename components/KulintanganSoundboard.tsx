@@ -6,6 +6,8 @@ type GongSound = {
   label: string;
   audio: string;
   size?: number;
+  width?: number;
+  height?: number;
 };
 
 export default function KulintanganSoundboard({
@@ -51,6 +53,8 @@ export default function KulintanganSoundboard({
       <div className="mt-8 flex items-end justify-center gap-2 overflow-x-auto pb-3 sm:gap-3">
         {sounds.map((sound, index) => {
           const size = sound.size ?? 122 - index * 9;
+          const width = sound.width ?? size;
+          const height = sound.height ?? size;
           const active = activeIndex === index;
           return (
             <button
@@ -63,7 +67,7 @@ export default function KulintanganSoundboard({
                   ? "border-[var(--color-ocean)] shadow-[0_0_0_6px_rgba(200,138,43,0.2)]"
                   : "border-[#8f5c20] shadow-[0_8px_18px_rgba(74,35,15,0.22)]"
               }`}
-              style={{ width: size, height: size }}
+              style={{ width, height }}
             >
               <span className="absolute inset-1 rounded-full bg-[radial-gradient(circle_at_40%_35%,#f5d477_0%,#c98b2d_38%,#86501d_76%,#5f3417_100%)]" />
               <span className="absolute left-1/2 top-1/2 h-[36%] w-[36%] -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-[#6d3d18] bg-[radial-gradient(circle_at_38%_32%,#ffe49a,#bb7524_65%,#744015)]" />
