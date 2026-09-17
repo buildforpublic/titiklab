@@ -85,45 +85,6 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="grid border-t border-[var(--color-border-subtle)] bg-[#f5f0e7] md:grid-cols-3">
-          <Link
-            href="/instruments"
-            className="group min-h-48 border-b border-[var(--color-border-subtle)] bg-[linear-gradient(115deg,rgba(255,255,255,0.94),rgba(255,255,255,0.62)),url('/media/gallery/placeholder-kulintangan.svg')] bg-[length:cover] bg-center p-7 no-underline md:border-b-0 md:border-r"
-          >
-            <h2 className="font-[family-name:var(--font-display)] text-2xl font-700 text-[var(--color-ocean-deep)]">
-              Kenali Kulintangan
-            </h2>
-            <p className="mt-3 max-w-xs text-sm leading-6 text-[var(--color-ink-soft)]">
-              Alat muzik tradisional yang menjadi jiwa irama Tagunggu'.
-            </p>
-            <span className="btn-pill btn-pill-filled mt-5">Ketahui Lebih Lanjut</span>
-          </Link>
-          <Link
-            href="/resources"
-            className="group min-h-48 border-b border-[var(--color-border-subtle)] bg-[linear-gradient(115deg,rgba(255,255,255,0.94),rgba(255,255,255,0.66))] p-7 no-underline md:border-b-0 md:border-r"
-          >
-            <h2 className="font-[family-name:var(--font-display)] text-2xl font-700 text-[var(--color-ocean-deep)]">
-              Sumber Pembelajaran
-            </h2>
-            <p className="mt-3 max-w-xs text-sm leading-6 text-[var(--color-ink-soft)]">
-              Akses nota, video dan bahan pendidikan untuk semua.
-            </p>
-            <span className="btn-pill btn-pill-filled mt-5">Terokai Sumber</span>
-          </Link>
-          <Link
-            href="/gallery"
-            className="group min-h-48 bg-[linear-gradient(115deg,rgba(255,255,255,0.94),rgba(255,255,255,0.62)),url('/media/gallery/placeholder-demo.svg')] bg-[length:cover] bg-center p-7 no-underline"
-          >
-            <h2 className="font-[family-name:var(--font-display)] text-2xl font-700 text-[var(--color-ocean-deep)]">
-              Galeri & Video
-            </h2>
-            <p className="mt-3 max-w-xs text-sm leading-6 text-[var(--color-ink-soft)]">
-              Lihat dokumentasi persembahan dan aktiviti komuniti.
-            </p>
-            <span className="btn-pill btn-pill-filled mt-5">Lihat Galeri</span>
-          </Link>
-        </section>
-
         <section className="border-t border-[var(--color-border-subtle)] bg-[var(--color-paper)] px-6 py-12 sm:px-10">
           <div className="mx-auto max-w-2xl text-center">
             <p className="eyebrow">Warga TitikLab</p>
