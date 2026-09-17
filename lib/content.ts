@@ -31,6 +31,12 @@ export type Instrument = {
   researchNotes?: string[];
   interviewNotes?: string[];
   detailedNotes?: Array<{ text: string; source: string }>;
+  noteGroups?: Array<{
+    heading: string;
+    intro: string;
+    introSource?: string;
+    items: Array<{ text: string; source?: string }>;
+  }>;
   image?: string;
   galleryImages?: Array<{ src: string; alt: string; caption?: string }>;
   noteGalleries?: Array<{
@@ -38,7 +44,7 @@ export type Instrument = {
     buttonLabel: string;
     images: Array<{ src: string; alt: string; caption?: string; orientation?: "portrait" | "landscape" }>;
   }>;
-  soundSamples?: Array<{ label: string; audio: string }>;
+  soundSamples?: Array<{ label: string; audio: string; size?: number }>;
   soundboardTitle?: string;
   soundboardDescription?: string;
 };

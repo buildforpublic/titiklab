@@ -72,22 +72,6 @@
         "source": "Kajian Cikgu Rosley"
       },
       {
-        "text": "Pengelasan: agung yang lebih kecil dikenali sebagai agung sambut, agung yang lebih besar sebagai agung lusung, dan agung berbentuk leper sebagai agung bua. Ketiga-tiga agung ini mempunyai fungsi tersendiri.",
-        "source": "Kajian Cikgu Rosley"
-      },
-      {
-        "text": "1. Agung bua, yang turut dikenali sebagai canang atau bell, melengkapkan dan memantapkan alunan atau sulimbag atau susunan rentak. Fungsi ini bergantung pada kemahiran pemain.",
-        "source": "Pengasas SJ"
-      },
-      {
-        "text": "2. Agung sambut juga dikenali sebagai agung tawag-tawag. Namanya diambil daripada perkataan Suluk tawag, yang bermaksud “panggil”. Ia berfungsi seperti isyarat dan kebiasaannya dipalu dengan laju. Pada masa dahulu, paluannya digunakan untuk memanggil masyarakat atau memberi isyarat kecemasan seperti kematian.",
-        "source": "Pengasas SJ"
-      },
-      {
-        "text": "3. Agung lusung berfungsi untuk menyambut atau menjawab bunyi alunan atau sulimbag. Agung sambut dan agung lusung melengkapi bunyi antara satu sama lain.",
-        "source": "Pengasas SJ"
-      },
-      {
         "text": "Kayu pemukul agung dikenali sebagai tigung.",
         "source": "Kajian Cikgu Rosley"
       },
@@ -96,14 +80,34 @@
         "source": "Pengasas TitikLab"
       }
     ],
+    "noteGroups": [
+      {
+        "heading": "Pengelasan dan fungsi tiga agung",
+        "intro": "Agung yang lebih kecil dikenali sebagai agung sambut, agung yang lebih besar sebagai agung lusung, dan agung berbentuk leper sebagai agung bua. Ketiga-tiga agung ini mempunyai fungsi tersendiri.",
+        "introSource": "Kajian Cikgu Rosley",
+        "items": [
+          {
+            "text": "Agung bua, yang turut dikenali sebagai canang atau bell, melengkapkan dan memantapkan alunan atau sulimbag atau susunan rentak. Fungsi ini bergantung pada kemahiran pemain.",
+            "source": "Pengasas SJ"
+          },
+          {
+            "text": "Agung sambut juga dikenali sebagai agung tawag-tawag. Namanya diambil daripada perkataan Suluk tawag, yang bermaksud “panggil”. Ia berfungsi seperti isyarat dan kebiasaannya dipalu dengan laju. Pada masa dahulu, paluannya digunakan untuk memanggil masyarakat atau memberi isyarat kecemasan seperti kematian.",
+            "source": "Pengasas SJ"
+          },
+          {
+            "text": "Agung lusung berfungsi untuk menyambut atau menjawab bunyi alunan atau sulimbag. Agung sambut dan agung lusung melengkapi bunyi antara satu sama lain."
+          }
+        ]
+      }
+    ],
     "image": "/media/gallery/instrument-agung-hd-v2.png",
     "soundSamples": [
-      { "label": "Gong 1", "audio": "/media/audio/agung-gong-1.m4a" },
-      { "label": "Gong 2", "audio": "/media/audio/agung-gong-2.m4a" },
-      { "label": "Gong 3 · Gua", "audio": "/media/audio/agung-gong-3-gua.m4a" }
+      { "label": "Agung bua", "audio": "/media/audio/agung-gong-1.m4a", "size": 112 },
+      { "label": "Agung lusung", "audio": "/media/audio/agung-gong-2.m4a", "size": 132 },
+      { "label": "Agung sambut / tawag-tawag", "audio": "/media/audio/agung-gong-3-gua.m4a", "size": 96 }
     ],
     "soundboardTitle": "Tiga bunyi agung",
-    "soundboardDescription": "Tekan setiap gong untuk mendengar rakaman bunyi tiga agung dalam ensembel Tagunggu’."
+    "soundboardDescription": "Dari kiri: agung bua, agung lusung yang paling besar di tengah, dan agung sambut atau agung tawag-tawag yang paling kecil di kanan. Tekan setiap gong untuk mendengar rakaman bunyinya."
   },
   {
     "slug": "tambul",

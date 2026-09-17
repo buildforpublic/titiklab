@@ -127,6 +127,34 @@ function InstrumentContent({
                 <NoteGallery note={note.text} />
               </div>
             ))}
+            {instrument.noteGroups?.map((group) => (
+              <section
+                key={group.heading}
+                className="rounded-xl border border-[var(--color-border)] bg-white/65 p-5 leading-7 text-[var(--color-ink-soft)]"
+              >
+                <h2 className="font-700 text-[var(--color-ink)]">{group.heading}</h2>
+                <p className="mt-2">
+                  {italicizeTerms(group.intro, instrument.italicTerms)}{" "}
+                  {group.introSource && (
+                    <span className="text-xs italic text-[var(--color-ink-faint)]">
+                      ({group.introSource})
+                    </span>
+                  )}
+                </p>
+                <ol className="mt-4 space-y-4 pl-6 [list-style-type:decimal] marker:font-bold marker:text-[var(--color-brass)]">
+                  {group.items.map((item) => (
+                    <li key={item.text} className="pl-1">
+                      {italicizeTerms(item.text, instrument.italicTerms)}{" "}
+                      {item.source && (
+                        <span className="text-xs italic text-[var(--color-ink-faint)]">
+                          ({item.source})
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            ))}
             {!instrument.detailedNotes && (
               <>
             {instrument.researchNotes?.map((note) => (

@@ -5,6 +5,7 @@ import { useRef, useState } from "react";
 type GongSound = {
   label: string;
   audio: string;
+  size?: number;
 };
 
 export default function KulintanganSoundboard({
@@ -49,7 +50,7 @@ export default function KulintanganSoundboard({
 
       <div className="mt-8 flex items-end justify-center gap-2 overflow-x-auto pb-3 sm:gap-3">
         {sounds.map((sound, index) => {
-          const size = 122 - index * 9;
+          const size = sound.size ?? 122 - index * 9;
           const active = activeIndex === index;
           return (
             <button
