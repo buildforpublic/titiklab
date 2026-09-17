@@ -50,6 +50,7 @@ export type Instrument = {
     size?: number;
     width?: number;
     height?: number;
+    profile?: "flat" | "deep";
   }>;
   soundboardTitle?: string;
   soundboardDescription?: string;

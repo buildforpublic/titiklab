@@ -8,6 +8,7 @@ type GongSound = {
   size?: number;
   width?: number;
   height?: number;
+  profile?: "flat" | "deep";
 };
 
 export default function KulintanganSoundboard({
@@ -69,8 +70,20 @@ export default function KulintanganSoundboard({
               }`}
               style={{ width, height }}
             >
-              <span className="absolute inset-1 rounded-full bg-[radial-gradient(circle_at_40%_35%,#f5d477_0%,#c98b2d_38%,#86501d_76%,#5f3417_100%)]" />
-              <span className="absolute left-1/2 top-1/2 h-[36%] w-[36%] -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-[#6d3d18] bg-[radial-gradient(circle_at_38%_32%,#ffe49a,#bb7524_65%,#744015)]" />
+              <span
+                className={`absolute inset-1 rounded-full ${
+                  sound.profile === "flat"
+                    ? "bg-[radial-gradient(circle_at_40%_35%,#e6bd62_0%,#bd7b27_52%,#75431c_100%)]"
+                    : "bg-[radial-gradient(circle_at_40%_35%,#f5d477_0%,#c98b2d_38%,#86501d_76%,#5f3417_100%)]"
+                }`}
+              />
+              <span
+                className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-[#6d3d18] ${
+                  sound.profile === "flat"
+                    ? "h-[26%] w-[26%] border bg-[radial-gradient(circle_at_40%_35%,#e9c675,#a96524_75%,#704018)]"
+                    : "h-[36%] w-[36%] border-2 bg-[radial-gradient(circle_at_38%_32%,#ffe49a,#bb7524_65%,#744015)]"
+                }`}
+              />
               <span className="absolute inset-x-0 -bottom-7 text-center text-xs font-700 text-[var(--color-ink-soft)]">
                 {sound.label}
               </span>
