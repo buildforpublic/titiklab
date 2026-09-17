@@ -1,6 +1,6 @@
 # TitikLab — guidance for AI coding agents
 
-TitikLab is an educational website preserving **Tagungguk**, traditional Bajau kulintangan music
+TitikLab is an educational website preserving **Tagunggu'**, traditional Bajau kulintangan music
 from Semporna, Sabah. It is community-owned and built in public with support from the
 [Build for Public](https://buildforpublic.com) volunteer community (which supports, but does not
 own, the project or its cultural content).

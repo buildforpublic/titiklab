@@ -2,13 +2,26 @@
   {
     "type": "image",
     "src": "/media/gallery/smkdhpja.jpg",
-    "caption": "Sekolah Menengah Kebangsaan Datuk Haji Panglima Jakarullah (SMKDHPJA) — antara sekolah yang dicapai melalui projek TitikLab.",
-    "credit": "Sumber: Halaman Facebook SMKDHPJ"
+    "caption": "Sekolah Menengah Kebangsaan Datuk Haji Panglima Jakarullah (SMKDHPJA) — one of the schools reached through the TitikLab project.",
+    "captionMs": "Sekolah Menengah Kebangsaan Datuk Haji Panglima Jakarullah (SMKDHPJA) — antara sekolah yang dicapai melalui projek TitikLab.",
+    "credit": "Source: SMKDHPJ Facebook page",
+    "creditMs": "Sumber: Halaman Facebook SMKDHPJ"
   },
   {
     "type": "image",
     "src": "/media/gallery/smkdpa.jpg",
-    "caption": "Sekolah Menengah Kebangsaan Datuk Panglima Abdullah (SMKDPA) — antara sekolah yang dicapai melalui projek TitikLab.",
-    "credit": "Sumber: Halaman Facebook SMKDPA"
+    "caption": "Sekolah Menengah Kebangsaan Datuk Panglima Abdullah (SMKDPA) — one of the schools reached through the TitikLab project.",
+    "captionMs": "Sekolah Menengah Kebangsaan Datuk Panglima Abdullah (SMKDPA) — antara sekolah yang dicapai melalui projek TitikLab.",
+    "credit": "Source: SMKDPA Facebook page",
+    "creditMs": "Sumber: Halaman Facebook SMKDPA"
+  },
+  {
+    "type": "image",
+    "src": "/media/gallery/smk-kabogan-ii.png",
+    "caption": "Sekolah Menengah Kebangsaan Kabogan II",
+    "captionMs": "Sekolah Menengah Kebangsaan Kabogan II",
+    "credit": "Image source",
+    "creditMs": "Sumber gambar",
+    "sourceUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQDll6xhd_6ArPeIyIFijCYHTMoVn8enP31B_Ex6SjxRTT-HeB5agk24mfSHHiJXhrl8pLFo4P5ZxneQhbx5VqFg6cLzcqNmFzgtXUBxk3E92yzHVjS3AZZ1FHL4a7RxXsIp4o7CWQXJ4/s1600/DSCN4516+(1280x960)-001.jpg"
   }
 ]

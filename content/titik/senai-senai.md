@@ -1,30 +1,25 @@
 ---
 name: Senai-senai
 slug: senai-senai
-order: 5
-meaning: "TODO — short gloss of the name"
-tempo: "TODO"
-difficulty: "TODO"
+order: 6
+meaning: "Slowly, little by little"
+tempo: "Slow"
+difficulty: "Additional rhythm"
 audio: "/media/audio/senai-senai.m4a"
-rhythmCode: "TODO"
+rhythmCode: "KIV — notation pending"
+additional: true
 ---
 
-> **This page needs content.** 🙌 See `content/titik/tabawan.md` for the full template,
-> then fill in the sections below using Cikgu Rosley's research and Sulimbag Jawtee's guidance.
-> No coding needed — you can edit this file directly on GitHub.
+## Additional rhythm
 
-## Overview
+Senai-senai is presented in TitikLab as an **additional rhythm**, rather than one of the five core titik.
 
-Describe the character of the Senai-senai rhythm.
+Its name conveys “slowly” or “little by little”, and the rhythm is played slowly. The interview relates its character to earlier journeys at sea: the movement of deep water and the pulse of waves inspired its musical flow. Natural observations, including a fish recalled as *tapek kat*—described as dark with a beautiful tail—also form part of the oral account.
 
-## Cultural context
+Senai-senai may serve as background music for welcoming guests or accompanying an event.
 
-When and why is Senai-senai played?
+## What still needs confirmation
 
-## The rhythm
+The traditional dancers, precise occasions, fuller origin history, associated stories, and rhythm notation remain to be documented.
 
-Describe the pattern and update `rhythmCode` in the frontmatter above.
-
-## How to learn it
-
-Beginner tips.
+> **Source:** Interview by Ayunee with Mahammod Bongsu, founder of Sulimbag Jawtee.

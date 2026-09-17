@@ -1,23 +1,171 @@
 [
   {
+    "slug": "kulintangan",
     "name": "Kulintangan",
     "malayName": "Kulintangan",
     "role": "Melody",
-    "description": "A row of small horizontally-laid bossed gongs, played melodically. The kulintangan carries the lead pattern of each titik. (Description placeholder — verify with the partners.)",
-    "image": "/media/gallery/instrument-kulintangan.jpg"
+    "description": "A graduated set of small bossed pot gongs that forms the principal melodic component of the Tagunggu’ ensemble.",
+    "researchNotes": [
+      "The kulintangan usually consists of seven to nine small gongs arranged in tonal order.",
+      "Although the individual gongs have no formal names, Bajau practitioners commonly group them as palinduan (two or three lower-numbered gongs, usually 1–3), paletehan or pamaletehan (usually gongs 4–7), and parindil or teng-teng (gongs 8–9).",
+      "The wooden beater used to strike the kulintangan is known as tingan."
+    ],
+    "interviewNotes": [
+      "Skilled makers were identified in Matunggong, Kudat, and Kota Belud."
+    ],
+    "image": "/media/gallery/instrument-kulintangan-hd.png",
+    "soundSamples": [
+      { "label": "Gong 1 · A", "audio": "/media/audio/kulintangan-a.m4a" },
+      { "label": "Gong 2 · B", "audio": "/media/audio/kulintangan-b.m4a" },
+      { "label": "Gong 3 · C", "audio": "/media/audio/kulintangan-c.m4a" },
+      { "label": "Gong 4 · D", "audio": "/media/audio/kulintangan-d.m4a" },
+      { "label": "Gong 5 · E", "audio": "/media/audio/kulintangan-e.m4a" },
+      { "label": "Gong 6 · F", "audio": "/media/audio/kulintangan-f.m4a" },
+      { "label": "Gong 7 · G", "audio": "/media/audio/kulintangan-g.m4a" }
+    ],
+    "noteGalleries": [
+      {
+        "noteIncludes": "wooden beater used",
+        "buttonLabel": "View tingan photo",
+        "images": [
+          {
+            "src": "/media/gallery/kulintangan-tingan-vertical-transparent.png",
+            "alt": "Four wooden tingan used to strike the kulintangan",
+            "caption": "Wooden tingan used to strike the kulintangan gongs.",
+            "orientation": "portrait"
+          }
+        ]
+      },
+      {
+        "noteIncludes": "Skilled makers",
+        "buttonLabel": "View gong-maker photos",
+        "images": [
+          {
+            "src": "/media/gallery/kulintangan-gong-workshop.jpg",
+            "alt": "A display of gongs at a traditional gong maker's workshop",
+            "caption": "Documentation of a gong-making workshop in Kampung Matunggong, Kudat."
+          },
+          {
+            "src": "/media/gallery/kulintangan-gong-makers.jpg",
+            "alt": "Two gong makers photographed with a gong",
+            "caption": "Gong makers and traditional craft documented during the field visit."
+          }
+        ]
+      }
+    ]
   },
   {
+    "slug": "agung",
     "name": "Agung",
     "malayName": "Agung",
     "role": "Bass / timekeeping",
-    "description": "Standing hanging gongs that mark the underlying beat and anchor the ensemble. (Description placeholder — add the specific gongs used and their names.)",
-    "image": "/media/gallery/instrument-agung.jpg"
+    "description": "Three large hanging gongs that reinforce the rhythmic and sonic structure of the Tagunggu’ ensemble.",
+    "italicTerms": ["agung sambut", "agung lusung", "agung bua", "agung tawag-tawag", "canang", "bell", "sulimbag", "tawag", "langkapan", "tigung"],
+    "detailedNotes": [
+      {
+        "text": "The agung produces a firm, authoritative low-frequency sound. In performance, it marks time, helps control tempo, and maintains musical continuity.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "For the Bajau community, the agung forms part of langkapan—ancestral heirlooms with significant symbolic and spiritual value.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "The wooden agung beater is known as tigung.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "Agung gongs were traditionally made from brass, with iron also used today.",
+        "source": "TitikLab founder"
+      }
+    ],
+    "noteGroups": [
+      {
+        "heading": "Classification and functions of the three agung",
+        "intro": "The smaller agung is known as agung sambut, the larger agung as agung lusung, and the flatter agung as agung bua. Each of the three has its own function.",
+        "introSource": "Cikgu Rosley’s research",
+        "items": [
+          {
+            "text": "Agung bua, also known as canang or bell, completes and strengthens the musical flow (sulimbag) or the arrangement of the Tagunggu' musical rhythm. This function depends on the player’s skill.",
+            "source": "SJ founder"
+          },
+          {
+            "text": "Agung sambut is also known as agung tawag-tawag. Its name comes from the Suluk word tawag, meaning “to call”. It functions as a signal and is usually played rapidly. In the past, its strokes were used to summon the community or signal an emergency such as a death.",
+            "source": "SJ founder"
+          },
+          {
+            "text": "Agung lusung responds to or answers the musical flow (sulimbag). Agung sambut and agung lusung complement one another’s sound."
+          }
+        ]
+      }
+    ],
+    "noteGalleries": [
+      {
+        "noteIncludes": "wooden agung beater is known",
+        "buttonLabel": "View tigung photo",
+        "images": [
+          {
+            "src": "/media/gallery/agung-tigung-rotated.png",
+            "alt": "Four traditional agung beaters known as tigung",
+            "caption": "Tigung used to strike the agung gongs.",
+            "orientation": "landscape"
+          }
+        ]
+      }
+    ],
+    "image": "/media/gallery/instrument-agung-hd-v2.png",
+    "soundSamples": [
+      { "label": "Agung bua", "audio": "/media/audio/agung-gong-1.m4a", "width": 136, "height": 136, "profile": "flat" },
+      { "label": "Agung lusung", "audio": "/media/audio/agung-gong-2.m4a", "width": 136, "height": 136, "profile": "deep" },
+      { "label": "Agung sambut / tawag-tawag", "audio": "/media/audio/agung-gong-3-gua.m4a", "width": 100, "height": 100 }
+    ],
+    "soundboardTitle": "Three agung sounds",
+    "soundboardDescription": "From the left: the round, flatter agung bua; the agung lusung with a similar diameter but deeper profile; and the smallest agung sambut or agung tawag-tawag on the right. Press each gong to hear its recording."
   },
   {
+    "slug": "tambul",
     "name": "Tambul",
     "malayName": "Tambul",
     "role": "Drum / rhythm",
-    "description": "A silver drum that drives the rhythm alongside the gongs. (Description placeholder — TODO: confirm the drum type and playing technique.)",
-    "image": "/media/gallery/instrument-tambul.jpg"
+    "description": "A double-headed drum that produces a repeated, consistent pulse and acts as the principal rhythmic driver of the Tagunggu’ ensemble.",
+    "italicTerms": ["langkapan", "tibul"],
+    "detailedNotes": [
+      {
+        "text": "Strong, continuous tambul strokes shape the music’s dynamics and reinforce the ensemble’s overall rhythmic structure.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "Like the agung, the tambul forms part of langkapan—an ancestral heirloom with symbolic and spiritual value—and is therefore subject to customary restrictions concerning its care and playing technique.",
+        "source": "Cikgu Rosley’s research"
+      },
+      {
+        "text": "In the past, the tambul was commonly made from wood with a refined goatskin membrane, a wooden frame including suitable root wood, and a brass or iron body. Today, its construction may use metals such as brass and alloy. A drum purchased from a musical-instrument shop may also be used as a contemporary substitute.",
+        "source": "Cikgu Rosley’s research; SJ founder"
+      },
+      {
+        "text": "The wooden beater used to strike the tambul is known as tibul.",
+        "source": "Cikgu Rosley’s research"
+      }
+    ],
+    "noteGalleries": [
+      {
+        "noteIncludes": "wooden beater used to strike",
+        "buttonLabel": "View tibul photo",
+        "images": [
+          {
+            "src": "/media/gallery/tambul-tibul-rotated.png",
+            "alt": "A pair of traditional tambul beaters known as tibul",
+            "caption": "Tibul used to strike the tambul.",
+            "orientation": "landscape"
+          }
+        ]
+      }
+    ],
+    "image": "/media/gallery/instrument-tambul-hd.png",
+    "soundSamples": [
+      { "label": "Tambul", "audio": "/media/audio/tambul.m4a", "width": 190, "height": 132, "kind": "drum", "image": "/media/gallery/instrument-tambul-hd-v2.png" }
+    ],
+    "soundboardTitle": "Tambul sound",
+    "soundboardDescription": "Press the tambul to hear one recorded stroke that begins directly with the instrument sound."
   }
 ]

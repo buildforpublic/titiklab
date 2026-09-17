@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Ayunee Mahammod",
+    "role": "Founder of TitikLab\nTunku Scholar 2024",
+    "roleMs": "Pengasas TitikLab\nTunku Scholar 2024",
+    "initials": "AM",
+    "email": "ayunee.2024@yayasantar.org.my"
+  },
+  {
+    "name": "Cikgu Rosley bin Hajal",
+    "role": "Research source and academic adviser to the project\nTeacher at SMK Datuk Panglima Haji Jakarullah, Semporna, Sabah",
+    "roleMs": "Sumber kajian dan penasihat akademik projek\nGuru SMK Datuk Panglima Haji Jakarullah, Semporna, Sabah",
+    "initials": "RH",
+    "image": "/media/gallery/cikgu-rosley-original-hd.png"
+  },
+  {
+    "name": "Sulimbag Jawtee",
+    "role": "Founder: Mr Mahammod bin Bongsu\nCollaborator and traditional Bajau musician",
+    "roleMs": "Pengasas: Tn. Mahammod bin Bongsu\nKolaborator dan pemuzik tradisional Bajau",
+    "initials": "SJ",
+    "image": "/media/gallery/tn-mahammod-bin-bongsu.png"
+  },
+  {
+    "name": "Build for Public",
+    "role": "Web developer supporting TitikLab’s technical development",
+    "roleMs": "Web developer yang menyokong pembangunan teknikal TitikLab",
+    "initials": "BFP",
+    "image": "/media/gallery/build-for-public-logo.png",
+    "imageVariant": "logo",
+    "website": "https://www.buildforpublic.com"
+  }
+]

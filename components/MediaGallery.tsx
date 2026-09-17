@@ -37,10 +37,20 @@ export default function MediaGallery({ items }: { items: GalleryItem[] }) {
             />
           )}
           <figcaption className="p-4 text-sm text-[var(--color-ink-soft)]">
-            {item.caption}
+            <span className="lang-en">{item.caption}</span>
+            <span className="lang-ms">{item.captionMs ?? item.caption}</span>
             {item.credit && (
               <span className="mt-1 block text-xs text-[var(--color-ink-faint)]">
-                📷 {item.credit}
+                📷 {item.sourceUrl ? (
+                  <a
+                    href={item.sourceUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline decoration-dotted underline-offset-2 hover:text-[var(--color-ocean-deep)]"
+                  >
+                    <><span className="lang-en">{item.credit}</span><span className="lang-ms">{item.creditMs ?? item.credit}</span></>
+                  </a>
+                ) : <><span className="lang-en">{item.credit}</span><span className="lang-ms">{item.creditMs ?? item.credit}</span></>}
               </span>
             )}
           </figcaption>

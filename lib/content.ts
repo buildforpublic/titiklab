@@ -14,6 +14,7 @@ export type Titik = {
   difficulty: string;
   audio: string;
   rhythmCode: string;
+  additional: boolean;
   /** Rendered HTML of the markdown body. */
   html: string;
   /** Raw markdown body (before rendering). */
@@ -21,18 +22,50 @@ export type Titik = {
 };
 
 export type Instrument = {
+  slug: string;
   name: string;
   malayName?: string;
   role: string;
   description: string;
+  italicTerms?: string[];
+  researchNotes?: string[];
+  interviewNotes?: string[];
+  detailedNotes?: Array<{ text: string; source: string }>;
+  noteGroups?: Array<{
+    heading: string;
+    intro: string;
+    introSource?: string;
+    items: Array<{ text: string; source?: string }>;
+  }>;
   image?: string;
+  galleryImages?: Array<{ src: string; alt: string; caption?: string }>;
+  noteGalleries?: Array<{
+    noteIncludes: string;
+    buttonLabel: string;
+    images: Array<{ src: string; alt: string; caption?: string; orientation?: "portrait" | "landscape" }>;
+  }>;
+  soundSamples?: Array<{
+    label: string;
+    audio: string;
+    size?: number;
+    width?: number;
+    height?: number;
+    profile?: "flat" | "deep";
+    kind?: "gong" | "drum";
+    image?: string;
+  }>;
+  soundboardTitle?: string;
+  soundboardDescription?: string;
 };
 
 export type GalleryItem = {
   type: "image" | "youtube";
   src: string;
   caption: string;
+  captionMs?: string;
   credit?: string;
+  creditMs?: string;
+  sourceUrl?: string;
 };
 
 export type Partner = {
@@ -43,9 +76,21 @@ export type Partner = {
   logo?: string;
 };
 
+export type Person = {
+  name: string;
+  role: string;
+  roleMs: string;
+  initials: string;
+  email?: string;
+  website?: string;
+  image?: string;
+  imageVariant?: "portrait" | "logo";
+};
+
 /** Read a single titik markdown file by slug. Returns null if it does not exist. */
-export function getTitik(slug: string): Titik | null {
-  const filePath = path.join(CONTENT_DIR, "titik", `${slug}.md`);
+export function getTitik(slug: string, locale: "en" | "ms" = "en"): Titik | null {
+  const suffix = locale === "ms" ? ".ms" : "";
+  const filePath = path.join(CONTENT_DIR, "titik", `${slug}${suffix}.md`);
   if (!fs.existsSync(filePath)) return null;
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
@@ -58,19 +103,20 @@ export function getTitik(slug: string): Titik | null {
     difficulty: (data.difficulty as string) ?? "",
     audio: (data.audio as string) ?? "",
     rhythmCode: (data.rhythmCode as string) ?? "",
+    additional: (data.additional as boolean) ?? false,
     html: marked.parse(content, { async: false }) as string,
     body: content.trim(),
   };
 }
 
 /** All titik, sorted by their `order` frontmatter field. */
-export function getAllTitik(): Titik[] {
+export function getAllTitik(locale: "en" | "ms" = "en"): Titik[] {
   const dir = path.join(CONTENT_DIR, "titik");
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
-    .filter((f) => f.endsWith(".md"))
-    .map((f) => getTitik(f.replace(/\.md$/, "")))
+    .filter((f) => f.endsWith(".md") && !f.endsWith(".ms.md"))
+    .map((f) => getTitik(f.replace(/\.md$/, ""), locale))
     .filter((t): t is Titik => t !== null)
     .sort((a, b) => a.order - b.order);
 }
@@ -92,4 +138,12 @@ export function getJson<T>(fileName: string): T[] {
   const filePath = path.join(CONTENT_DIR, fileName);
   if (!fs.existsSync(filePath)) return [];
   return JSON.parse(fs.readFileSync(filePath, "utf8")) as T[];
+}
+
+export function getAllInstruments(locale: "en" | "ms" = "en"): Instrument[] {
+  return getJson<Instrument>(locale === "ms" ? "instruments.ms.json" : "instruments.json");
+}
+
+export function getInstrument(slug: string, locale: "en" | "ms" = "en"): Instrument | null {
+  return getAllInstruments(locale).find((instrument) => instrument.slug === slug) ?? null;
 }

@@ -11,7 +11,7 @@ const NOTES = [
   { label: "8", frequency: 784 },
 ];
 
-const RHYTHMS = ["Tabawan", "Tarirai", "Limbayan", "Lellang", "Senai-senai"];
+const RHYTHMS = ["Tabawan", "Tarirai", "Limbayan", "Lellang", "Luvak-luvak"];
 
 function playTone(frequency: number) {
   const AudioContextClass = window.AudioContext || window.webkitAudioContext;

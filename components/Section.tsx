@@ -1,7 +1,7 @@
 type SectionProps = {
-  eyebrow?: string;
-  title?: string;
-  intro?: string;
+  eyebrow?: React.ReactNode;
+  title?: React.ReactNode;
+  intro?: React.ReactNode;
   children: React.ReactNode;
   className?: string;
 };
