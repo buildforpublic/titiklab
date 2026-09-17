@@ -46,6 +46,16 @@ export default function AboutPage() {
                   {person.email}
                 </a>
               )}
+              {person.website && (
+                <a
+                  href={person.website}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-block break-all text-sm font-semibold text-[var(--color-ocean-deep)] underline decoration-[var(--color-brass)] underline-offset-4"
+                >
+                  {person.website}
+                </a>
+              )}
             </article>
           ))}
         </div>

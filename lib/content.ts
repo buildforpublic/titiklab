@@ -80,6 +80,7 @@ export type Person = {
   roleMs: string;
   initials: string;
   email?: string;
+  website?: string;
   image?: string;
   imageVariant?: "portrait" | "logo";
 };
