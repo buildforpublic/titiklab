@@ -146,6 +146,15 @@ h4 {
   background: linear-gradient(135deg, var(--color-ocean-deep), #a84414);
 }
 
+.btn-pill-maroon {
+  background: var(--color-ocean-deep);
+  color: #fff;
+}
+
+.btn-pill-maroon:hover {
+  background: var(--color-ocean);
+}
+
 .btn-pill-outline {
   background: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.55);
