@@ -40,7 +40,16 @@ export default function MediaGallery({ items }: { items: GalleryItem[] }) {
             {item.caption}
             {item.credit && (
               <span className="mt-1 block text-xs text-[var(--color-ink-faint)]">
-                📷 {item.credit}
+                📷 {item.sourceUrl ? (
+                  <a
+                    href={item.sourceUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline decoration-dotted underline-offset-2 hover:text-[var(--color-ocean-deep)]"
+                  >
+                    {item.credit}
+                  </a>
+                ) : item.credit}
               </span>
             )}
           </figcaption>

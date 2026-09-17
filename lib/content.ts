@@ -63,6 +63,7 @@ export type GalleryItem = {
   src: string;
   caption: string;
   credit?: string;
+  sourceUrl?: string;
 };
 
 export type Partner = {
