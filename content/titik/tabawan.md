@@ -2,7 +2,7 @@
 name: Tabawan
 slug: tabawan
 order: 1
-meaning: "Named after a place in the Philippines"
+meaning: "Igal Tabawan"
 tempo: "Fast"
 difficulty: "Community guidance recommended"
 audio: "/media/audio/tabawan.m4a"
@@ -11,14 +11,10 @@ rhythmCode: "KIV — notation pending"
 
 ## Overview
 
-Tabawan takes its name from a place in the Philippines associated with the community that originally played and carried this titik. Its rhythm is faster and its tonal character differs from the other titik.
+Tabawan refers to a small island located between the districts of Semporna and Kunak.
 
 ## Dance and cultural context
 
-Tabawan accompanies *igal* and may be danced by both women and men. As the music becomes faster, the dancer’s movements become more measured and controlled. Women’s movement is described as especially restrained, with an emphasis on grace and maintaining dignity. The form was compared broadly with named Malay performance forms such as zapin and inang, while remaining its own tradition.
-
-## What still needs confirmation
-
-The precise playing occasion, fuller origin account, associated stories, and rhythm notation were not supplied in this interview and remain to be documented.
+Tabawan accompanies *igal* and may be performed by both women and men. *Igal* means to dance or move with gentle, graceful rhythms. In the context of Titik Tabawan, *Igal Tabawan* is commonly performed at official ceremonies and wedding celebrations. Its movements focus on the wrists, shoulders, elbows, neck, and footwork. As the music becomes faster, the dancers’ movements become more measured and controlled. Women’s movements are especially restrained, with an emphasis on grace and maintaining dignity.
 
 > **Source:** Interview by Ayunee with Mahammod Bongsu, founder of Sulimbag Jawtee.

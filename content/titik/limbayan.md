@@ -15,10 +15,10 @@ Limbayan is a slow, gentle titik. Its name refers to softly swaying or waving th
 
 ## Dance and cultural context
 
-The accompanying *igal* uses relatively few elaborate turns. Its focus is the relaxed, flowing movement of the hands, described in the interview as comparable in broad visual character to Sumazau hand movements.
+The accompanying dance, or *igal*, does not involve many complex flourishes. It focuses primarily on gentle, calm swaying movements of the hands. **Igal Titik Limbayan is considered suitable only for women**, in keeping with the rhythm’s soft and graceful character. The dance movements reflect the gentleness and refinement of women dancers as they respond to the rhythm of Titik Limbayan.
 
 ## What still needs confirmation
 
-Who traditionally performs the dance, the precise occasions, fuller origin history, associated stories and rhythm notation remain to be documented.
+The precise occasions, fuller origin history, associated stories and rhythm notation remain to be documented.
 
 > **Source:** Interview by Ayunee with Mahammod Bongsu, founder of Sulimbag Jawtee.

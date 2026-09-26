@@ -15,6 +15,6 @@ Limbayan ialah titik yang perlahan dan lembut. Namanya merujuk kepada gerakan ta
 
 ## Tarian dan konteks budaya
 
-*Igal* yang mengiringinya tidak mempunyai banyak lenggok rumit. Tumpuannya ialah gerakan tangan yang mengalir dan lembut.
+Tarian atau *igal* yang mengiringinya tidak mempunyai banyak lenggok yang rumit. Tumpuannya lebih kepada gerakan tangan yang menghayun dengan lembut dan tenang. **Igal Titik Limbayan juga hanya sesuai ditarikan oleh kaum wanita**, selaras dengan sifat titiknya yang lembut dan gemalai. Gerakan tarian ini mencerminkan kelembutan serta kehalusan gerak penari wanita ketika menghayati irama Titik Limbayan.
 
 > ***Sumber:*** *Temu bual Pengasas TitikLab bersama Mahammod Bongsu, pengasas Sulimbag Jawtee.*

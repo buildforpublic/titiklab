@@ -1146,6 +1146,40 @@ body:has(.launch-experience) {
   cursor: pointer;
 }
 
+.launch-confirmation {
+  display: grid;
+  justify-items: center;
+  gap: 0.75rem;
+  margin: 1.4rem auto 0;
+  animation: title-rise 0.8s ease-out both;
+}
+
+.launch-confirmation p {
+  color: rgba(255, 245, 220, 0.82);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.launch-confirmation button {
+  border: 1px solid #ffe1a3;
+  border-radius: 999px;
+  padding: 0.95rem 2.4rem;
+  background: linear-gradient(135deg, #f2c25f, #bd7025);
+  color: #3b100b;
+  box-shadow: 0 0 1.5rem rgba(239, 178, 67, 0.5), inset 0 1px rgba(255, 255, 255, 0.55);
+  font-size: 0.85rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  animation: touch-breathe 1.2s ease-in-out infinite alternate;
+}
+
+.launch-confirmation button:hover,
+.launch-confirmation button:focus-visible {
+  filter: brightness(1.12);
+  transform: scale(1.04);
+}
+
 .five-touch.is-charging .five-touch-pad {
   border-color: #ffe0a1;
   background: radial-gradient(circle, rgba(255, 222, 142, 0.58), rgba(190, 112, 24, 0.28) 40%, rgba(255, 250, 241, 0.08));
@@ -1182,6 +1216,7 @@ body:has(.launch-experience) {
   pointer-events: none;
 }
 
+.five-touch.phase-3 .ceremony-fireworks,
 .five-touch.phase-5 .ceremony-fireworks,
 .launch-experience:has(.launch-finale) .ceremony-fireworks {
   opacity: 1;
